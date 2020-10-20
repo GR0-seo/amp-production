@@ -1,0 +1,7 @@
+[[redirects]]
+    from = "/senreve-com/*"
+    to = "https://senreve.com/:splat"
+
+[[redirects]]
+    from = "/doelashes-com/*"
+    to = "https://doelashes.com/:splat"
