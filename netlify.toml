@@ -1,11 +1,3 @@
 [[redirects]]
-    from = "/blogs-deer-blog*"
-    to = "https://doelashes.com/blogs/deer-blog/:splat"
-
-[[redirects]]
-    from = "/blogs*
-    to = "https://doelashes.com/blogs/:splat"
-
-[[redirects]]
     from = "/*"
     to="https://doelashes.com/:splat"
