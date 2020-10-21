@@ -1,0 +1,2684 @@
+<!DOCTYPE html>
+<html amp i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1">
+
+<head>
+    <meta charset="utf-8">
+    <style amp-runtime i-amphtml-version="012009112034002">
+        html {
+            overflow-x: hidden !important
+        }
+
+        html.i-amphtml-fie {
+            height: 100% !important;
+            width: 100% !important
+        }
+
+        html:not([amp4ads]),
+        html:not([amp4ads]) body {
+            height: auto !important
+        }
+
+        html:not([amp4ads]) body {
+            margin: 0 !important
+        }
+
+        body {
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%
+        }
+
+        html.i-amphtml-singledoc.i-amphtml-embedded {
+            -ms-touch-action: pan-y;
+            touch-action: pan-y
+        }
+
+        html.i-amphtml-fie>body,
+        html.i-amphtml-singledoc>body {
+            overflow: visible !important
+        }
+
+        html.i-amphtml-fie:not(.i-amphtml-inabox)>body,
+        html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body {
+            position: relative !important
+        }
+
+        html.i-amphtml-webview>body {
+            overflow-x: hidden !important;
+            overflow-y: visible !important;
+            min-height: 100vh !important
+        }
+
+        html.i-amphtml-ios-embed-legacy>body {
+            overflow-x: hidden !important;
+            overflow-y: auto !important;
+            position: absolute !important
+        }
+
+        html.i-amphtml-ios-embed {
+            overflow-y: auto !important;
+            position: static
+        }
+
+        #i-amphtml-wrapper {
+            overflow-x: hidden !important;
+            overflow-y: auto !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            margin: 0 !important;
+            display: block !important
+        }
+
+        html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,
+        html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper {
+            -webkit-overflow-scrolling: touch !important
+        }
+
+        #i-amphtml-wrapper>body {
+            position: relative !important;
+            border-top: 1px solid transparent !important
+        }
+
+        #i-amphtml-wrapper+body {
+            visibility: visible
+        }
+
+        #i-amphtml-wrapper+body .i-amphtml-lightbox-element,
+        #i-amphtml-wrapper+body[i-amphtml-lightbox] {
+            visibility: hidden
+        }
+
+        #i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element {
+            visibility: visible
+        }
+
+        #i-amphtml-wrapper.i-amphtml-scroll-disabled,
+        .i-amphtml-scroll-disabled {
+            overflow-x: hidden !important;
+            overflow-y: hidden !important
+        }
+
+        amp-instagram {
+            padding: 54px 0px 0px !important;
+            background-color: #fff
+        }
+
+        amp-iframe iframe {
+            box-sizing: border-box !important
+        }
+
+        [amp-access][amp-access-hide] {
+            display: none
+        }
+
+        [subscriptions-dialog],
+        body:not(.i-amphtml-subs-ready) [subscriptions-action],
+        body:not(.i-amphtml-subs-ready) [subscriptions-section] {
+            display: none !important
+        }
+
+        amp-experiment,
+        amp-live-list>[update] {
+            display: none
+        }
+
+        .i-amphtml-jank-meter {
+            position: fixed;
+            background-color: rgba(232, 72, 95, 0.5);
+            bottom: 0;
+            right: 0;
+            color: #fff;
+            font-size: 16px;
+            z-index: 1000;
+            padding: 5px
+        }
+
+        amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden {
+            display: none !important
+        }
+
+        amp-list [fetch-error],
+        amp-list[load-more] [load-more-button],
+        amp-list[load-more] [load-more-end],
+        amp-list[load-more] [load-more-failed],
+        amp-list[load-more] [load-more-loading] {
+            display: none
+        }
+
+        amp-list[diffable] div[role=list] {
+            display: block
+        }
+
+        amp-story-page,
+        amp-story[standalone] {
+            min-height: 1px !important;
+            display: block !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            width: 100% !important
+        }
+
+        amp-story[standalone] {
+            background-color: #202125 !important;
+            position: relative !important
+        }
+
+        amp-story-page {
+            background-color: #757575
+        }
+
+        amp-story .amp-active>div,
+        amp-story .i-amphtml-loader-background {
+            display: none !important
+        }
+
+        amp-story-page:not(:first-of-type):not([distance]):not([active]) {
+            transform: translateY(1000vh) !important
+        }
+
+        amp-autocomplete {
+            position: relative !important;
+            display: inline-block !important
+        }
+
+        amp-autocomplete>input,
+        amp-autocomplete>textarea {
+            padding: 0.5rem;
+            border: 1px solid rgba(0, 0, 0, 0.33)
+        }
+
+        .i-amphtml-autocomplete-results,
+        amp-autocomplete>input,
+        amp-autocomplete>textarea {
+            font-size: 1rem;
+            line-height: 1.5rem
+        }
+
+        [amp-fx^=fly-in] {
+            visibility: hidden
+        }
+
+        amp-script[nodom] {
+            position: fixed !important;
+            top: 0 !important;
+            width: 1px !important;
+            height: 1px !important;
+            overflow: hidden !important;
+            visibility: hidden
+        }
+
+        /*# sourceURL=/css/ampdoc.css*/
+        [hidden] {
+            display: none !important
+        }
+
+        .i-amphtml-element {
+            display: inline-block
+        }
+
+        .i-amphtml-blurry-placeholder {
+            transition: opacity 0.3s cubic-bezier(0.0, 0.0, 0.2, 1) !important;
+            pointer-events: none
+        }
+
+        [layout=nodisplay]:not(.i-amphtml-element) {
+            display: none !important
+        }
+
+        .i-amphtml-layout-fixed,
+        [layout=fixed][width][height]:not(.i-amphtml-layout-fixed) {
+            display: inline-block;
+            position: relative
+        }
+
+        .i-amphtml-layout-responsive,
+        [layout=responsive][width][height]:not(.i-amphtml-layout-responsive),
+        [width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive),
+        [width][height][sizes]:not([layout]):not(.i-amphtml-layout-responsive) {
+            display: block;
+            position: relative
+        }
+
+        .i-amphtml-layout-intrinsic,
+        [layout=intrinsic][width][height]:not(.i-amphtml-layout-intrinsic) {
+            display: inline-block;
+            position: relative;
+            max-width: 100%
+        }
+
+        .i-amphtml-layout-intrinsic .i-amphtml-sizer {
+            max-width: 100%
+        }
+
+        .i-amphtml-intrinsic-sizer {
+            max-width: 100%;
+            display: block !important
+        }
+
+        .i-amphtml-layout-container,
+        .i-amphtml-layout-fixed-height,
+        [layout=container],
+        [layout=fixed-height][height]:not(.i-amphtml-layout-fixed-height) {
+            display: block;
+            position: relative
+        }
+
+        .i-amphtml-layout-fill,
+        .i-amphtml-layout-fill.i-amphtml-notbuilt,
+        [layout=fill]:not(.i-amphtml-layout-fill) {
+            display: block;
+            overflow: hidden !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0
+        }
+
+        .i-amphtml-layout-flex-item,
+        [layout=flex-item]:not(.i-amphtml-layout-flex-item) {
+            display: block;
+            position: relative;
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto
+        }
+
+        .i-amphtml-layout-fluid {
+            position: relative
+        }
+
+        .i-amphtml-layout-size-defined {
+            overflow: hidden !important
+        }
+
+        .i-amphtml-layout-awaiting-size {
+            position: absolute !important;
+            top: auto !important;
+            bottom: auto !important
+        }
+
+        i-amphtml-sizer {
+            display: block !important
+        }
+
+        .i-amphtml-blurry-placeholder,
+        .i-amphtml-fill-content {
+            display: block;
+            height: 0;
+            max-height: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            min-width: 100%;
+            width: 0;
+            margin: auto
+        }
+
+        .i-amphtml-layout-size-defined .i-amphtml-fill-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0
+        }
+
+        .i-amphtml-replaced-content,
+        .i-amphtml-screen-reader {
+            padding: 0 !important;
+            border: none !important
+        }
+
+        .i-amphtml-screen-reader {
+            position: fixed !important;
+            top: 0px !important;
+            left: 0px !important;
+            width: 4px !important;
+            height: 4px !important;
+            opacity: 0 !important;
+            overflow: hidden !important;
+            margin: 0 !important;
+            display: block !important;
+            visibility: visible !important
+        }
+
+        .i-amphtml-screen-reader~.i-amphtml-screen-reader {
+            left: 8px !important
+        }
+
+        .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
+            left: 12px !important
+        }
+
+        .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
+            left: 16px !important
+        }
+
+        .i-amphtml-unresolved {
+            position: relative;
+            overflow: hidden !important
+        }
+
+        .i-amphtml-select-disabled {
+            -webkit-user-select: none !important;
+            -moz-user-select: none !important;
+            -ms-user-select: none !important;
+            user-select: none !important
+        }
+
+        .i-amphtml-notbuilt,
+        [layout]:not(.i-amphtml-element),
+        [width][height][heights]:not([layout]):not(.i-amphtml-element),
+        [width][height][sizes]:not([layout]):not(.i-amphtml-element) {
+            position: relative;
+            overflow: hidden !important;
+            color: transparent !important
+        }
+
+        .i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,
+        [layout]:not([layout=container]):not(.i-amphtml-element)>*,
+        [width][height][heights]:not([layout]):not(.i-amphtml-element)>*,
+        [width][height][sizes]:not([layout]):not(.i-amphtml-element)>* {
+            display: none
+        }
+
+        amp-img:not(.i-amphtml-element)[i-amphtml-ssr]>img.i-amphtml-fill-content {
+            display: block
+        }
+
+        .i-amphtml-notbuilt:not(.i-amphtml-layout-container),
+        [layout]:not([layout=container]):not(.i-amphtml-element),
+        [width][height][heights]:not([layout]):not(.i-amphtml-element),
+        [width][height][sizes]:not([layout]):not(.i-amphtml-element) {
+            color: transparent !important;
+            line-height: 0 !important
+        }
+
+        .i-amphtml-ghost {
+            visibility: hidden !important
+        }
+
+        .i-amphtml-element>[placeholder],
+        [layout]:not(.i-amphtml-element)>[placeholder],
+        [width][height][heights]:not([layout]):not(.i-amphtml-element)>[placeholder],
+        [width][height][sizes]:not([layout]):not(.i-amphtml-element)>[placeholder] {
+            display: block
+        }
+
+        .i-amphtml-element>[placeholder].amp-hidden,
+        .i-amphtml-element>[placeholder].hidden {
+            visibility: hidden
+        }
+
+        .i-amphtml-element:not(.amp-notsupported)>[fallback],
+        .i-amphtml-layout-container>[placeholder].amp-hidden,
+        .i-amphtml-layout-container>[placeholder].hidden {
+            display: none
+        }
+
+        .i-amphtml-layout-size-defined>[fallback],
+        .i-amphtml-layout-size-defined>[placeholder] {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            z-index: 1
+        }
+
+        .i-amphtml-notbuilt>[placeholder] {
+            display: block !important
+        }
+
+        .i-amphtml-hidden-by-media-query {
+            display: none !important
+        }
+
+        .i-amphtml-element-error {
+            background: red !important;
+            color: #fff !important;
+            position: relative !important
+        }
+
+        .i-amphtml-element-error:before {
+            content: attr(error-message)
+        }
+
+        i-amp-scroll-container,
+        i-amphtml-scroll-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block
+        }
+
+        i-amp-scroll-container.amp-active,
+        i-amphtml-scroll-container.amp-active {
+            overflow: auto;
+            -webkit-overflow-scrolling: touch
+        }
+
+        .i-amphtml-loading-container {
+            display: block !important;
+            pointer-events: none;
+            z-index: 1
+        }
+
+        .i-amphtml-notbuilt>.i-amphtml-loading-container {
+            display: block !important
+        }
+
+        .i-amphtml-loading-container.amp-hidden {
+            visibility: hidden
+        }
+
+        .i-amphtml-element>[overflow] {
+            cursor: pointer;
+            position: relative;
+            z-index: 2;
+            visibility: hidden;
+            display: initial;
+            line-height: normal
+        }
+
+        .i-amphtml-element>[overflow].amp-visible {
+            visibility: visible
+        }
+
+        template {
+            display: none !important
+        }
+
+        .amp-border-box,
+        .amp-border-box *,
+        .amp-border-box :after,
+        .amp-border-box :before {
+            box-sizing: border-box
+        }
+
+        amp-pixel {
+            display: none !important
+        }
+
+        amp-analytics,
+        amp-auto-ads,
+        amp-story-auto-ads {
+            position: fixed !important;
+            top: 0 !important;
+            width: 1px !important;
+            height: 1px !important;
+            overflow: hidden !important;
+            visibility: hidden
+        }
+
+        html.i-amphtml-fie>amp-analytics {
+            position: initial !important
+        }
+
+        [visible-when-invalid]:not(.visible),
+        form [submit-error],
+        form [submit-success],
+        form [submitting] {
+            display: none
+        }
+
+        amp-accordion {
+            display: block !important
+        }
+
+        amp-accordion>section {
+            float: none !important
+        }
+
+        amp-accordion>section>* {
+            float: none !important;
+            display: block !important;
+            overflow: hidden !important;
+            position: relative !important
+        }
+
+        amp-accordion,
+        amp-accordion>section {
+            margin: 0
+        }
+
+        amp-accordion>section>:last-child {
+            display: none !important
+        }
+
+        amp-accordion>section[expanded]>:last-child {
+            display: block !important
+        }
+
+        /*# sourceURL=/css/ampshared.css*/
+    </style>
+    <meta content="googleanalytics" name="amp-google-client-id-api">
+    <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport">
+    <link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
+    <meta content="Coding for Kids, $49.00 Membership | UCode" name="description">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <link rel="preload" href="https://ucode.com/images/ucode/start-here-homepage.png" as="image" data-hero>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100italic|Lato:300italic|Lato:400italic|Lato:700italic|Lato:900italic|Lato:100|Lato:300|Lato:400|Lato:700|Lato:900&amp;amp;display=swap"
+        rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <title>Coding for Kids, $49.00 Membership | UCode</title>
+    <link href="https://ucode.com/" rel="canonical">
+    <style amp-custom>
+        html {
+            font-family: sans-serif;
+            -webkit-text-size-adjust: 100%
+        }
+
+        footer {
+            display: block;
+            padding: 70px 0
+        }
+
+        a {
+            background-color: transparent;
+            color: #337ab7;
+            text-decoration: none
+        }
+
+        a:active,
+        a:hover {
+            outline: 0
+        }
+
+        b,
+        strong {
+            font-weight: 700
+        }
+
+        h1 {
+            margin: .67em 0
+        }
+
+        amp-img {
+            border: 0;
+            vertical-align: middle
+        }
+
+        button,
+        input,
+        textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0
+        }
+
+        button {
+            overflow: visible;
+            text-transform: none;
+            -webkit-appearance: button;
+            cursor: pointer
+        }
+
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0
+        }
+
+        input {
+            line-height: normal
+        }
+
+        textarea {
+            overflow: auto
+        }
+
+        *,
+        :after,
+        :before {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        html {
+            font-size: 10px;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        body {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333
+        }
+
+        button,
+        input,
+        textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit
+        }
+
+        a:focus,
+        a:hover {
+            color: #23527c;
+            text-decoration: underline
+        }
+
+        a:focus {
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px
+        }
+
+        h1,
+        h3,
+        h4,
+        h5 {
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.1;
+            color: inherit
+        }
+
+        h1,
+        h3 {
+            margin-top: 20px
+        }
+
+        h1,
+        h3,
+        h4,
+        h5 {
+            margin-bottom: 10px
+        }
+
+        h4,
+        h5 {
+            margin-top: 10px
+        }
+
+        h1 {
+            font-size: 36px
+        }
+
+        h3 {
+            font-size: 24px
+        }
+
+        h4 {
+            font-size: 18px
+        }
+
+        h5 {
+            font-size: 14px
+        }
+
+        p {
+            margin: 0 0 10px
+        }
+
+        .t {
+            text-align: left
+        }
+
+        .n {
+            text-align: center
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 10px
+        }
+
+        .r {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto
+        }
+
+        .i {
+            margin-right: -15px;
+            margin-left: -15px
+        }
+
+        .a,
+        .c,
+        .d,
+        .f,
+        .g,
+        .h,
+        .l,
+        .m,
+        .o,
+        .p,
+        .s,
+        .u,
+        .v,
+        .y {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px
+        }
+
+        .g,
+        .y {
+            float: left
+        }
+
+        .y {
+            width: 100%
+        }
+
+        .g {
+            width: 50%
+        }
+
+        label {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700
+        }
+
+        .b {
+            margin-bottom: 15px
+        }
+
+        .w {
+            opacity: 0
+        }
+
+        .x {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+        }
+
+        .k {
+            padding: 10px 15px;
+            border-bottom: 1px solid transparent;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px
+        }
+
+        ._ {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 16px
+        }
+
+        ._,
+        ._>a {
+            color: inherit
+        }
+
+        .j {
+            margin-bottom: 20px
+        }
+
+        .j .x {
+            margin-bottom: 0;
+            border-radius: 4px
+        }
+
+        .j .k {
+            border-bottom: 0
+        }
+
+        .q,
+        .q>.k {
+            border-color: #ddd
+        }
+
+        .q>.k {
+            color: #333;
+            background-color: #f5f5f5
+        }
+
+        .z {
+            float: right;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 1;
+            color: #000;
+            text-shadow: 0 1px 0 #fff;
+            opacity: .2
+        }
+
+        .z:focus,
+        .z:hover {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: .5
+        }
+
+        button.z {
+            padding: 0;
+            cursor: pointer;
+            background: 0 0;
+            border: 0;
+            -webkit-appearance: none;
+            appearance: none
+        }
+
+        .te {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1050;
+            display: none;
+            overflow: hidden;
+            -webkit-overflow-scrolling: touch;
+            outline: 0
+        }
+
+        .te.w .tt {
+            -webkit-transform: translateY(-25%);
+            transform: translateY(-25%)
+        }
+
+        .tt {
+            width: auto;
+            margin: 10px
+        }
+
+        .tn,
+        .tt {
+            position: relative
+        }
+
+        .tn {
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: 6px;
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+            outline: 0
+        }
+
+        .tr {
+            padding: 15px;
+            border-bottom: 1px solid #e5e5e5
+        }
+
+        .ti {
+            margin: 0;
+            line-height: 1.42857143
+        }
+
+        .i:after,
+        .i:before,
+        .r:after,
+        .r:before,
+        .tr:after,
+        .tr:before {
+            display: table;
+            content: " "
+        }
+
+        .i:after,
+        .r:after,
+        .tr:after {
+            clear: both
+        }
+
+        .ts {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent
+        }
+
+        .ts .to {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+
+        .ts:active .to,
+        .ts:focus .to,
+        .ts:hover .to {
+            -webkit-transform: translateX(4px);
+            transform: translateX(4px)
+        }
+
+        #__next {
+            height: 100px
+        }
+
+        .tu,
+        body {
+            height: auto;
+            background: url(https://online.ucode.com/images/img/white-bg.png)
+        }
+
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        :focus {
+            outline: 0
+        }
+
+        body {
+            font-family: Lato, sans-serif
+        }
+
+        .ta amp-img {
+            width: 160px
+        }
+
+        .tf,
+        a {
+            cursor: pointer
+        }
+
+        .tl {
+            position: relative;
+            padding: 35px 20px
+        }
+
+        .tr .z {
+            margin-top: -2px;
+            color: #f76800;
+            opacity: 1;
+            font-size: 54px;
+            font-weight: 300
+        }
+
+        .tt .b input {
+            padding: 15px 10px;
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #d2d2d2
+        }
+
+        .tc {
+            text-align: center
+        }
+
+        .tc button {
+            background: #f76800;
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            padding: 9px 45px;
+            border-radius: 10px
+        }
+
+        .tc button:disabled {
+            background: #f79045;
+            cursor: not-allowed
+        }
+
+        .b textarea {
+            width: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            border: 1px solid #d2d2d2;
+            padding: 5px 10px
+        }
+
+        .tt .b label {
+            width: 100%;
+            font-size: 12px;
+            line-height: 15px;
+            color: #626262
+        }
+
+        .th {
+            float: left;
+            margin: 0 20px 0 0
+        }
+
+        .tp h4 {
+            font-weight: 700;
+            font-size: 21px
+        }
+
+        .tp label {
+            font-weight: 400;
+            font-size: 15px
+        }
+
+        .td {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0
+        }
+
+        .tv {
+            position: relative
+        }
+
+        .tv .tm {
+            position: absolute;
+            margin-top: 40px;
+            z-index: 2;
+            width: 380px
+        }
+
+        .tg .ty h3 {
+            margin-top: 0
+        }
+
+        .tv .tm amp-img {
+            width: 160px
+        }
+
+        .tv .tm .ta {
+            margin-bottom: 40px
+        }
+
+        .tv .tm.tb {
+            right: 0
+        }
+
+        .tv span {
+            font-size: 16px;
+            color: #fff
+        }
+
+        .tw span {
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            width: 100%;
+            display: inline-block
+        }
+
+        .tw {
+            background-color: #181f6d;
+            padding: 30px 0 190px;
+            margin-top: 20%
+        }
+
+        .tw h3 {
+            color: #fff;
+            font-size: 28px;
+            font-weight: 300;
+            line-height: 40px
+        }
+
+        .tw label {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff
+        }
+
+        .tg .tx amp-img {
+            margin: 0 5px 0 0
+        }
+
+        .tg .tx {
+            background: url(https://online.ucode.com/images/img/white-bg.png);
+            margin: -165px 0 0
+        }
+
+        .tg .tx,
+        .tg .ty {
+            border-radius: 10px
+        }
+
+        .tg .ty {
+            background: #eee;
+            width: 85%;
+            margin: 0 auto;
+            padding: 0 0 40px
+        }
+
+        .tg h5 {
+            color: #f76800;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 20px 0
+        }
+
+        .tg h5 amp-img {
+            width: 260px
+        }
+
+        .tg label {
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            color: #f76800;
+            margin: 0
+        }
+
+        .tg h3,
+        .tg span,
+        .tk h1 {
+            text-align: center;
+            color: #4a4a4a
+        }
+
+        .tg span {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            padding: 0 10px 5px
+        }
+
+        .tg button {
+            background: #f76800;
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            padding: 9px 20px;
+            border-radius: 10px
+        }
+
+        .tg h3 {
+            font-weight: 700;
+            font-size: 28px;
+            margin: 0
+        }
+
+        .tk {
+            margin-top: 30px
+        }
+
+        .tk h1 {
+            font-size: 32px;
+            margin-bottom: 40px
+        }
+
+        .tk amp-img {
+            width: 100%;
+            max-width: 100%
+        }
+
+        .tk .t_ {
+            max-height: 230px;
+            overflow: hidden
+        }
+
+        .tk .tj {
+            background-color: #fff;
+            min-height: 480px;
+            position: relative;
+            padding-bottom: 15px;
+            border: 1px solid #eee;
+            box-shadow: 0 5px 0 rgba(0, 0, 0, .04);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden
+        }
+
+        .tk h4,
+        .tk h5 {
+            color: #4a4a4a;
+            padding: 0 10px
+        }
+
+        .tk ::-webkit-scrollbar {
+            width: 3px
+        }
+
+        .tk ::-webkit-scrollbar-button {
+            display: none
+        }
+
+        .tk ::-webkit-scrollbar-thumb {
+            background-color: #c7c6c6;
+            border-radius: 10px
+        }
+
+        .tk ::-webkit-scrollbar-thumb:hover {
+            background-color: #9b9b9b
+        }
+
+        .tk ::-webkit-resizer {
+            display: none
+        }
+
+        .tk h4 {
+            font-weight: 700;
+            margin-bottom: 0;
+            font-size: 20px;
+            line-height: 24px
+        }
+
+        .tk h5 {
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 3px
+        }
+
+        .tk a.tq {
+            background: #f76800;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 5px;
+            margin-top: 15px;
+            bottom: 10px;
+            right: 10px;
+            font-size: 14px;
+            left: inherit;
+            border-radius: 10px;
+            border: none;
+            padding: 6px 12px;
+            position: absolute;
+            line-height: 17px
+        }
+
+        .tk .tz {
+            max-height: 150px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #9b9b9b;
+            padding: 0 10px 5px;
+            display: inline-block;
+            overflow-y: scroll
+        }
+
+        .ne {
+            margin-bottom: 40px
+        }
+
+        .ne h1 {
+            margin-bottom: 0
+        }
+
+        .ne h4 {
+            color: #f76800
+        }
+
+        .tg.nt .tx label,
+        .tg.nt .tx span {
+            color: #fff
+        }
+
+        .tg.nt .tx {
+            margin: 40px 0 0;
+            background: #181f6d
+        }
+
+        .tg.nt .tx h3 {
+            color: #fff
+        }
+
+        .tg.nt .tx .ty {
+            background: #181f6d;
+            width: 100%
+        }
+
+        .tg.nt .tx button {
+            background: #ff6b01;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 10px
+        }
+
+        .nn.nr h4._ a {
+            background: 0 0;
+            height: auto;
+            font-weight: 700;
+            font-size: 16px;
+            display: inline-flex
+        }
+
+        a.tq:hover {
+            background: #ff5722;
+            box-shadow: 0 0 4px 3px #e6e6e6
+        }
+
+        .nn h4._ a i {
+            margin: 0 0 0 5px;
+            vertical-align: middle
+        }
+
+        .nn h4._ a {
+            height: auto;
+            font-weight: 700;
+            font-size: 16px;
+            width: 100%;
+            display: inline-block;
+            padding: 20px 15px;
+            cursor: pointer
+        }
+
+        .nn h1 {
+            margin-bottom: 35px;
+            font-size: 28px;
+            font-weight: 600
+        }
+
+        .nn .q>.k {
+            color: #333;
+            background-color: #fff;
+            border-color: #ddd;
+            padding: 0;
+            border-radius: 10px
+        }
+
+        .nn .x.q {
+            margin-bottom: 15px
+        }
+
+        .nn h4 {
+            margin-bottom: 0;
+            color: #f76800;
+            font-size: 14px;
+            text-align: left;
+            font-weight: 400
+        }
+
+        footer li amp-img {
+            width: 20px
+        }
+
+        footer a {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+            color: #4a4a4a
+        }
+
+        footer li {
+            list-style: none;
+            line-height: 35px
+        }
+
+        footer amp-img {
+            width: 150px
+        }
+
+        footer strong {
+            font-size: 16px;
+            font-weight: 700
+        }
+
+        .ni li,
+        .ni p {
+            font-weight: 500;
+            font-size: 12px
+        }
+
+        .ni {
+            background: #1a1616;
+            padding: 40px 0
+        }
+
+        .ni ul {
+            margin: 0 0 0 90px
+        }
+
+        .ni p {
+            margin: 0;
+            width: 100%;
+            display: inline-block;
+            padding-top: 20px;
+            line-height: 40px;
+            color: #9b9b9b
+        }
+
+        .ni li a {
+            color: #9b9b9b;
+            text-decoration: none
+        }
+
+        .ni li:last-child {
+            border: none
+        }
+
+        .ni li {
+            text-align: center;
+            list-style: none;
+            float: left;
+            border-right: 1px solid #9b9b9b;
+            padding: 0 20px
+        }
+
+        .ns {
+            color: red
+        }
+
+        .no {
+            float: right;
+            margin-top: 10px;
+            font-weight: 400;
+            color: #181f6d
+        }
+
+        .no a,
+        .no i,
+        .no p {
+            color: #181f6d;
+            text-align: right;
+            margin: 0
+        }
+
+        .nu {
+            padding: 20px 0
+        }
+
+        .na {
+            padding-top: 20px
+        }
+
+        .nf h1 {
+            margin-bottom: 35px;
+            font-size: 28px;
+            font-weight: 600
+        }
+
+        .nf .nl {
+            height: 60px
+        }
+
+        .nf .nc {
+            height: 115px
+        }
+
+        .nf .nh {
+            background: #181f6d;
+            color: #fff;
+            height: 250px;
+            position: relative;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 15px
+        }
+
+        .nf p {
+            font-weight: 300;
+            font-size: 16px
+        }
+
+        @media only screen and (width:768px) {
+            .np {
+                margin-top: 0
+            }
+
+            .tv .tm {
+                margin-top: 20px;
+                width: 315px
+            }
+
+            .tv .tm .ta {
+                margin-bottom: 15px
+            }
+
+            :root:not(#nd):not(#nd) .tv .tm amp-img {
+                width: 128px
+            }
+        }
+
+        @media only screen and (max-width:320px) {
+            :root:not(#nd):not(#nd) .tj .tz {
+                max-height: 140px
+            }
+
+            :root:not(#nd):not(#nd) footer amp-img {
+                width: 120px
+            }
+
+            :root:not(#nd):not(#nd) footer ul li amp-img {
+                width: 19px
+            }
+        }
+
+        @media only screen and (min-width:320px) and (max-width:360px) {
+            :root:not(#nd):not(#nd) .ta amp-img {
+                width: 60px
+            }
+
+            :root:not(#nd):not(#nd) .no {
+                width: 100%
+            }
+
+            :root:not(#nd):not(#nd) .no p {
+                padding: 0;
+                font-size: 10px
+            }
+
+            :root:not(#nd):not(#nd) .tv .tm.tb {
+                right: -10px
+            }
+
+            :root:not(#nd):not(#nd) .tj {
+                min-height: 438px
+            }
+
+            :root:not(#nd):not(#nd) .tj .tz {
+                max-height: 130px
+            }
+        }
+
+        @media only screen and (min-width:280px) and (max-width:320px) {
+            :root:not(#nd):not(#nd) .ta amp-img {
+                width: 60px
+            }
+
+            :root:not(#nd):not(#nd) .no {
+                width: 100%
+            }
+
+            :root:not(#nd):not(#nd) .no p {
+                padding: 0;
+                font-size: 9px
+            }
+        }
+
+        @media only screen and (min-width:360px) and (max-width:425px) {
+            :root:not(#nd):not(#nd) .ta amp-img {
+                width: 72px
+            }
+
+            :root:not(#nd):not(#nd) .no {
+                width: 100%
+            }
+
+            :root:not(#nd):not(#nd) .no p {
+                text-align: right;
+                font-size: 11px;
+                padding: 0
+            }
+
+            :root:not(#nd):not(#nd) .no .nv.nm {
+                margin: 0
+            }
+
+            :root:not(#nd):not(#nd) .tv .tm.tb {
+                right: -10px
+            }
+
+            :root:not(#nd):not(#nd) .tj {
+                min-height: 460px
+            }
+
+            :root:not(#nd):not(#nd) .tj .tz {
+                max-height: 130px
+            }
+        }
+
+        @media only screen and (max-width:319px) {
+            :root:not(#nd):not(#nd) .tv .tm.tb {
+                right: -10px
+            }
+
+            :root:not(#nd):not(#nd) .tj {
+                min-height: 420px
+            }
+
+            :root:not(#nd):not(#nd) .tj .tz {
+                max-height: 135px
+            }
+        }
+
+        @media only screen and (min-width:426px) and (max-width:500px) {
+            :root:not(#nd):not(#nd) .ta amp-img {
+                width: 85px
+            }
+
+            :root:not(#nd):not(#nd) .no {
+                width: 100%
+            }
+
+            :root:not(#nd):not(#nd) .no p {
+                padding: 0;
+                font-size: 12px
+            }
+
+            :root:not(#nd):not(#nd) .tv .tm.tb {
+                right: -10px
+            }
+
+            :root:not(#nd):not(#nd) .tj {
+                min-height: 430px
+            }
+
+            :root:not(#nd):not(#nd) .tj .tz {
+                max-height: 100px
+            }
+        }
+
+        @media only screen and (min-width:280px) and (max-width:767px) {
+            .no p {
+                font-size: 12px
+            }
+
+            :root:not(#nd):not(#nd) .tv .tm {
+                width: 200px;
+                margin-top: 10px
+            }
+
+            :root:not(#nd):not(#nd) .no p {
+                text-align: right
+            }
+
+            :root:not(#nd):not(#nd) .no .nv.nm {
+                margin: 0
+            }
+        }
+
+        @media only screen and (min-width:280px) and (max-width:768px) {
+            :root:not(#nd):not(#nd) .no {
+                margin-top: 0
+            }
+        }
+
+        @media only screen and (max-width:1024px) {
+            .ni li {
+                padding: 0 15px
+            }
+        }
+
+        @media only screen and (max-width:991px) {
+            .nn h4._ a {
+                line-height: 18px
+            }
+
+            .ta amp-img {
+                padding-bottom: 10px
+            }
+
+            .tg button {
+                margin-top: 30px
+            }
+
+            footer ul li amp-img {
+                margin: 0;
+                width: 19px
+            }
+
+            footer amp-img {
+                margin-bottom: 25px;
+                width: 126px
+            }
+        }
+
+        @media only screen and (max-width:767px) {
+            .tv .tm {
+                width: 130px;
+                margin-top: 20px
+            }
+
+            .tv .tm .ta {
+                margin-top: 5px;
+                margin-bottom: 15px
+            }
+
+            .no {
+                float: left;
+                padding: 0 10px
+            }
+
+            .no p {
+                text-align: left;
+                margin: 0;
+                font-size: 14px;
+                padding-right: 10px
+            }
+
+            .tk h1 {
+                font-size: 22px
+            }
+
+            .tk h4 {
+                font-size: 14px;
+                line-height: 20px
+            }
+
+            .tk a {
+                font-size: 10px
+            }
+
+            .tk .tj {
+                min-height: 410px
+            }
+
+            .tk .tj .tz {
+                max-height: 100px
+            }
+
+            .tk h5 {
+                margin: 0 0 5px
+            }
+
+            .th {
+                float: left;
+                margin: 0 10px 0 0;
+                width: 14%
+            }
+
+            .tp {
+                float: right;
+                width: 58%
+            }
+
+            .tp label {
+                font-size: 10px
+            }
+
+            .tp h4 {
+                font-size: 12px
+            }
+
+            .ta amp-img {
+                width: 85px
+            }
+
+            .tv span {
+                font-size: 10px
+            }
+
+            .tw h3 {
+                line-height: 24px
+            }
+
+            .tg h3,
+            .tw h3 {
+                font-size: 16px
+            }
+
+            .tg .ty {
+                width: 95%
+            }
+
+            .tg button {
+                padding: 9px 18px;
+                margin-top: 5px
+            }
+
+            .nn h1 {
+                font-size: 24px
+            }
+
+            footer li {
+                line-height: 20px
+            }
+
+            .ni ul {
+                margin: 0;
+                display: inline-block
+            }
+
+            footer amp-img {
+                width: 140px
+            }
+
+            .ni p {
+                padding: 0
+            }
+
+            .ni li {
+                padding: 0 8px;
+                font-size: 10px
+            }
+
+            .ni {
+                background: #1a1616;
+                padding: 20px 0
+            }
+
+            footer a {
+                font-size: 11px
+            }
+
+            footer {
+                padding: 40px 0
+            }
+
+            .na {
+                text-align: left
+            }
+
+            :root:not(#nd):not(#nd) .tk h5 {
+                font-size: 14px
+            }
+        }
+
+        .ng,
+        .nv {
+            -webkit-font-smoothing: antialiased;
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            line-height: 1;
+            font-family: Font Awesome\ 5 Free;
+            font-weight: 900
+        }
+
+        .ny:before {
+            content: "\f105"
+        }
+
+        .nm:before {
+            content: "\f0e0"
+        }
+
+        .nb {
+            box-sizing: border-box;
+            max-height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 8px;
+            pointer-events: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            right: 0
+        }
+
+        @font-face {
+            font-family: Font Awesome\ 5 Free;
+            font-style: normal;
+            font-weight: 400;
+            font-display: auto;
+            src: url(https://fonts.webfast.co/fonts/ucode-com/10);
+            src: url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"), url(https://fonts.webfast.co/fonts/ucode-com/11) format("woff2"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+        }
+
+        @font-face {
+            font-family: Font Awesome\ 5 Free;
+            font-style: normal;
+            font-weight: 900;
+            font-display: auto;
+            src: url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.eot);
+            src: url(https://fonts.webfast.co/fonts/ucode-com/12) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+        }
+
+        :root:not(#nw):not(#nw) .nx {
+            width: 100%
+        }
+
+        :root:not(#nd):not(#nd) a {
+            text-decoration: none
+        }
+
+        :root:not(#nd):not(#nd) .nk {
+            margin-bottom: 5px
+        }
+
+        :root:not(#nd):not(#nd) iframe#n_ {
+            display: none;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+            pointer-events: none
+        }
+
+        :root amp-img>img {
+            object-fit: cover
+        }
+
+        :root:not(#nd):not(#nd) amp-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        #logo>img {
+            object-fit: contain
+        }
+    </style>
+</head>
+
+<body>
+    <div id="__next"><button id="myToast" style="display:none">Add Toast</button>
+        <div class="tu"><span>
+                <div class="te w" id="shareWithFriends" role="dialog">
+                    <div class="tt">
+                        <div class="tn">
+                            <div class="tr"><button class="z" data-dismiss="modal" id="modal-dismiss"
+                                    type="button">×</button>
+                                <div class="modalheader">
+                                    <div class="th"></div>
+                                    <div class="tp">
+                                        <h4 class="ti">Share With Friends</h4><label>Share with friends to earn credits
+                                            towards your membership fee.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tl">
+                                <form action="/" id="myForm" method="get" target="_top">
+                                    <div class="b"><label>YOUR EMAIL</label><input name="from"
+                                            placeholder="Enter your email here" required type="email"></div>
+                                    <div class="b"><label>SHARE WITH</label><input name="toArr"
+                                            placeholder="Enter multiple emails separated by comma" required
+                                            type="text"><span class="ns"></span></div>
+                                    <div class="b"><label>MESSAGE</label><textarea name="content"
+                                            placeholder="Enter message here" required rows="8">Hi,
+
+UCode.com is democratizing education with high quality
+live online coding instruction for a incredible price.
+
+I thought you might be interested.
+
+You can visit www.ucode.com to view courses.</textarea></div>
+                                    <div class="tc"><button id="share-btn" type="submit">SHARE</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r">
+                    <div class="i">
+                        <div class="a t">
+                            <div class="tv">
+                                <div class="tm">
+                                    <div class="ta">
+                                        <amp-img id="logo" alt="Header Logo"
+                                            class="lazyload i-amphtml-layout-fixed i-amphtml-layout-size-defined"
+                                            data-src="/images/ucode/ucode-blue-logo.svg" data-wf_display="inline"
+                                            data-wf_height="45" data-wf_index_counter="1" data-wf_layout="intrinsic"
+                                            data-wf_object_fit="fill" data-wf_style="padding-bottom: 0;"
+                                            data-wf_width="72" height="45" layout="fixed"
+                                            src="https://ucode.com/images/ucode/ucode-blue-logo.svg"
+                                            style="width:72px;height:45px;padding-bottom: 0;display:inline-block"
+                                            width="72" i-amphtml-layout="fixed"></amp-img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="a">
+                            <div class="tv button-contact-block">
+                                <div class="tm tb"><span class="no">
+                                        <p><a href="mailto:learn@ucode.com"><i class="nv nm"></i> learn@ucode.com</a>
+                                        </p>
+                                        <p>10:00 - 16:00 PST</p>
+                                        <p>Mon to Sat</p>
+                                    </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <!--<amp-img alt="UCode-Online Coding Classes for Kids"
+                        class="slide lazyload nx i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                        data-src="images/ucode/start-here-homepage.png" data-wf_display="inline" data-wf_height="197"
+                        data-wf_index_counter="2" data-wf_layout="intrinsic" data-wf_object_fit="fill"
+                        data-wf_width="414" height="197" layout="intrinsic"
+                        src="https://ucode.com/images/ucode/start-here-homepage.png" style="display:inline-block"
+                        width="414" i-amphtml-ssr data-hero i-amphtml-layout="intrinsic">
+                        <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                class="i-amphtml-intrinsic-sizer" role="presentation"
+                                src="data:image/svg+xml;charset=utf-8,<svg height=&quot;197&quot; width=&quot;414&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                        </i-amphtml-sizer><img class="i-amphtml-fill-content i-amphtml-replaced-content"
+                            decoding="async" alt="UCode-Online Coding Classes for Kids"
+                            src="https://ucode.com/images/ucode/start-here-homepage.png">
+                    </amp-img>-->
+                </div>
+            </span>
+            <div>
+                <div class="tw">
+                    <div class="r">
+                        <div class="i">
+                            <div class="f n">
+                                <h3>
+                                    <div><b>Kids Learn To Code By Coding. </b><br>No Games. No Templates. Live Classes
+                                        With Seasoned Instructors.</div>
+                                </h3>
+                                <amp-img alt="[object Object]"
+                                    class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                    data-src="images/leaves-icon.svg" data-wf_display="inline" data-wf_height="44"
+                                    data-wf_index_counter="3" data-wf_layout="intrinsic" data-wf_object_fit="fill"
+                                    data-wf_width="44" height="44" layout="intrinsic"
+                                    src="https://ucode.com/images/leaves-icon.svg" style="display:inline-block"
+                                    width="44" i-amphtml-layout="intrinsic">
+                                    <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                            class="i-amphtml-intrinsic-sizer" role="presentation"
+                                            src="data:image/svg+xml;charset=utf-8,<svg height=&quot;44&quot; width=&quot;44&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                    </i-amphtml-sizer>
+                                </amp-img><span>
+                                    <div>Education Every Family Can Afford</div>
+                                </span><label>Are you with us?</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tg">
+                    <div class="r">
+                        <div class="tx">
+                            <div class="i">
+                                <div class="f n">
+                                    <h5>
+                                        <amp-img alt="“Live” Online Coding Courses"
+                                            class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="images/ucode/ribbon-icon-gold.png" data-wf_display="inline"
+                                            data-wf_height="28" data-wf_index_counter="4" data-wf_layout="intrinsic"
+                                            data-wf_object_fit="fill" data-wf_width="260" height="28" layout="intrinsic"
+                                            src="https://ucode.com/images/ucode/ribbon-icon-gold.png"
+                                            style="display:inline-block" width="260" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;28&quot; width=&quot;260&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="ty">
+                                <div class="i">
+                                    <div class="f n"><span class="nu">
+                                            <h3 class="nk">“Live” Online Coding Courses</h3>
+                                            <h3 class="nk">For Beginners</h3>
+                                        </span>
+                                        <div class="ctr_details_block">
+                                            <div class="o p"><label class><strong>$49.95</strong> a
+                                                    Month</label><span><strong>Any</strong> Entry Level Course</span>
+                                            </div>
+                                            <div class="o p"><label class><strong>Four 60 Minutes</strong>
+                                                    Classes</label><span><strong>6 Students</strong> to a class</span>
+                                            </div>
+                                            <div class="o p"><label class><strong>Cancel</strong>
+                                                    Anytime</label><span><strong>No</strong> Contract</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tk">
+                <div class="r">
+                    <div class="i n ">
+                        <div class="ne">
+                            <h1>Entry Level Coding Courses For Kids</h1>
+                            <h4>Only $49.95 Per Month</h4>
+                        </div>
+                        <div class="u d y t introduction-to-coding courseId-136">
+                            <div class="tj"><a href="kids-coding" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Introduction To Coding For Kids "
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/Introcoding-squashed.jpg-1600943183475.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="6"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/Introcoding-squashed.jpg-1600943183475.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Introduction to Coding</h4>
+                                </a>
+                                <h5>Ages 6 to 8</h5>
+                                <div class="tz">This course introduces students 6 to 8 to the foundations of computer
+                                    programming using animated videos, exercises, and actual programming using a simple
+                                    color coded block interface. The course builds strong problem solving skills and
+                                    fosters creativity in young learners. </div><a class="tq" href="kids-coding">View
+                                    Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t learn-python-for-kids courseId-137">
+                            <div class="tj"><a href="python-coding-classes-for-kids" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Python Coding For Kids"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/Python_1-squashed.jpg-1600943227338.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="7"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/Python_1-squashed.jpg-1600943227338.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Learn Python for Kids</h4>
+                                </a>
+                                <h5>Ages 8 to 10</h5>
+                                <div class="tz">Python instruction developed with faculty from Cornell University using
+                                    virtual robots as a learning platform. Introduces the core concepts of Python and
+                                    builds strong Computational Thinking skills as well as introduce students to the
+                                    fundamentals of coding in Python.</div><a class="tq"
+                                    href="python-coding-classes-for-kids">View Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t intermediate-python-python-coding-for-kids- courseId-142">
+                            <div class="tj"><a href="coding-classes-for-kids" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Python Coding For Kids Intermediate"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/Python2-squashed.jpg-1600943257653.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="8"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/Python2-squashed.jpg-1600943257653.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Intermediate Python - Python Coding for Kids </h4>
+                                </a>
+                                <h5>Ages 9 to 11</h5>
+                                <div class="tz">Python Coding For Kids is a intermediate course where students develop
+                                    advanced computational thinking skills and transition from a Block Python coding
+                                    interface to coding in Native Python. This course is for kids ages 9 to 11.</div><a
+                                    class="tq" href="coding-classes-for-kids">View Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t kids-coding-languages-html-css- courseId-128">
+                            <div class="tj"><a href="html-css-coding-classes-for-kids" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="HTML/CSS Coding For Kids"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/HTML_CSS.jpg-1600943293391.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="9"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/HTML_CSS.jpg-1600943293391.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Kids Coding Languages - HTML/CSS </h4>
+                                </a>
+                                <h5>Ages 12 to 17</h5>
+                                <div class="tz">UCode students master HTML/CSS to create truly impressive websites from
+                                    first principles. This isn't simply drag and drop web development using templates.
+                                    We teach kids coding using pure code, without any assistance from tools or pre-made
+                                    components. </div><a class="tq" href="html-css-coding-classes-for-kids">View
+                                    Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t coding-classes-for-kids-html-css-2 courseId-251">
+                            <div class="tj"><a href="html-css-coding-classes-for-kids-2" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="HTML/CSS 2"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/Animation_JSS.jpg-1600943348951.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="10"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/Animation_JSS.jpg-1600943348951.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Coding Classes for Kids - HTML/CSS 2</h4>
+                                </a>
+                                <h5>Ages 12 to 17</h5>
+                                <div class="tz">We teach kids coding using pure code, without any assistance from tools
+                                    or pre-made components. In Part 2 of HTML/CSS JavaScript is introduced to add a
+                                    dynamic component and make elements on a web page interactive.</div><a class="tq"
+                                    href="html-css-coding-classes-for-kids-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="tg nt">
+                    <div class="r">
+                        <div class="tx">
+                            <div class="i">
+                                <div class="f n"><span class="nu">
+                                        <h3 class="nk">“Live” Online Coding Courses</h3>
+                                        <h3 class="nk">Advanced Courses</h3>
+                                    </span></div>
+                            </div>
+                            <div class="ty">
+                                <div class="i">
+                                    <div class="f n">
+                                        <div class="ctr_details_block">
+                                            <div class="o p"><label class><strong>$99.00</strong> a
+                                                    Month</label><span><strong>Any Advanced</strong> Course</span></div>
+                                            <div class="o p"><label class><strong>Four 60 Minutes</strong>
+                                                    Classes</label><span><strong>6 Students</strong> to a class</span>
+                                            </div>
+                                            <div class="o p"><label class><strong>Cancel</strong>
+                                                    Anytime</label><span><strong>No</strong> Contract</span></div>
+                                            <div class="o m np"><a href="/start-here-course"><button>Claim Your Free
+                                                        Class</button></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tk">
+                <div class="r">
+                    <div class="i n ">
+                        <div class="ne">
+                            <h1>Advanced Coding Courses For Kids</h1>
+                            <h4>Only $99.00 Per Month</h4>
+                        </div>
+                        <div class="u d y t javascript-for-kids courseId-130">
+                            <div class="tj"><a href="/" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Javascript Coding Classes For Kids"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/cyber.jpg-1600943390471.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="11"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/cyber.jpg-1600943390471.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Javascript for Kids</h4>
+                                </a>
+                                <h5>Ages 12 to 17</h5>
+                                <div class="tz">Students add dynamic elements to web pages and are introduced to the
+                                    basics of 2D animation using JavaScript as they continue the work they began in
+                                    HTML/CSS.</div><a class="tq" href="/">View Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t python-for-kids-python-fundamentals courseId-140">
+                            <div class="tj"><a href="online-coding-classes-for-teens-high-school-students"
+                                    id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Native Python Coding For Teens"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/Python_Fundamentals.jpg-1600943459356.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="12"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/Python_Fundamentals.jpg-1600943459356.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Python for Kids - Python Fundamentals</h4>
+                                </a>
+                                <h5>Ages 15 to 17</h5>
+                                <div class="tz">Python is a powerful coding language that is perfect for teaching
+                                    individuals who are new to coding. Importantly, it has become a standard in industry
+                                    and all of the nation’s top universities. If you are looking to enhance your college
+                                    resume start here.</div><a class="tq"
+                                    href="online-coding-classes-for-teens-high-school-students">View Details</a>
+                            </div>
+                        </div>
+                        <div class="u d y t java-for-kids-java-fundamentals courseId-141">
+                            <div class="tj"><a href="native-java-coding-for-teens-kids" id="course-page-anchor">
+                                    <div class="t_">
+                                        <amp-img alt="Native Java Coding For Teens"
+                                            class="tf lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                            data-src="https://online.ucode.com/api//assets/courses/images/java_fundamentals-squashed.jpg-1597669102689.jpg-1600942643150.jpg"
+                                            data-wf_display="inline" data-wf_height="244" data-wf_index_counter="13"
+                                            data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="382"
+                                            height="244" layout="intrinsic"
+                                            src="https://online.ucode.com/api//assets/courses/images/java_fundamentals-squashed.jpg-1597669102689.jpg-1600942643150.jpg"
+                                            style="display:inline-block" width="382" i-amphtml-layout="intrinsic">
+                                            <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                    class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                    src="data:image/svg+xml;charset=utf-8,<svg height=&quot;244&quot; width=&quot;382&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                            </i-amphtml-sizer>
+                                        </amp-img>
+                                    </div>
+                                    <h4 class="tf">Java for Kids - Java Fundamentals</h4>
+                                </a>
+                                <h5>Ages 15 to 17</h5>
+                                <div class="tz">Java is a object oriented programming language that is widely used for
+                                    cross platform applications. This course introduces programming in Native Java using
+                                    an IDE. It is for students with no prior coding experience. </div><a class="tq"
+                                    href="native-java-coding-for-teens-kids">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nf">
+                <div class="r">
+                    <h1 class="n">Parent Testimonials</h1>
+                    <div class="i">
+                        <div class="u d y n ">
+                            <div class="nh">
+                                <div class="i nl">
+                                    <h4>"Answers questions faster and smarter"</h4>
+                                </div>
+                                <div class="i nc">
+                                    <p>The instructors at UCode have inspired my child. He's more active in learning. He
+                                        asks and answers questions - faster and smarter!</p>
+                                </div>
+                                <div class="i"><span>— Mother of a UCode Member aged 12</span></div>
+                            </div>
+                        </div>
+                        <div class="u d y n ">
+                            <div class="nh">
+                                <div class="i nl">
+                                    <h4>"The curriculum is rigorous"</h4>
+                                </div>
+                                <div class="i nc">
+                                    <p>The curriculum is rigorous, my kids love the coaches. The coaches are not only
+                                        knowledgeable, they are also patient with the students. They teach what schools
+                                        don't teach!</p>
+                                </div>
+                                <div class="i"><span>— April Faieta</span></div>
+                            </div>
+                        </div>
+                        <div class="u d y n ">
+                            <div class="nh">
+                                <div class="i nl">
+                                    <h4>"Confident and comfortable in math class now"</h4>
+                                </div>
+                                <div class="i nc">
+                                    <p>My daughter is, amazingly, confident and comfortable in math class now. It's the
+                                        way UCode has been teaching her to solve problems.</p>
+                                </div>
+                                <div class="i"><span>— Mother of a UCode Member aged 10</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nn nr">
+                <div class="r">
+                    <div class="i n">
+                        <h1>Need To Know</h1>
+                        <div class="r demo">
+                            <div class="j">
+                                <div class="i">
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/kids-coding/kids-coding-membership-faq.pdf"
+                                                        target="_blank">Membership FAQ <i class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/coding-classes-for-kids-intermediate/teaching-kids-coding.pdf"
+                                                        target="_blank">The Coding Learning Progression <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts" href="/kids-coding/kids-coding.pdf"
+                                                        target="_blank">What Is Coding? Why Is It Important <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts" href="/kids-coding/ucode-mission.pdf"
+                                                        target="_blank">UCode's Mission <i class="ng ny to"></i></a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/coding-classes-for-kids/computational-thinking.pdf"
+                                                        target="_blank">Computational Thinking &amp; Your Student's
+                                                        Future <i class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts" href="/purchase-membership"
+                                                        target="_blank">Purchase a Membership <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nn second">
+                <div class="r">
+                    <div class="i n">
+                        <h1>Nice To Know</h1>
+                        <div class="r demo">
+                            <div class="j">
+                                <div class="i">
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts" href="/coding-for-kids/what-is-coding.pdf"
+                                                        target="_blank">What is Coding and Why Should Kids Learn to Code
+                                                        <i class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/coding-classes-for-kids-intermediate/minecraft-doesnot-teach-kids-to-code.pdf"
+                                                        target="_blank">Sorry, Games Won't Teach Your Kid to Code <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/coding-for-kids/high-achieving-students-who-code.pdf"
+                                                        target="_blank">High Achieving Students <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="a d">
+                                        <div class="x q">
+                                            <div class="k" role="tab">
+                                                <h4 class="_"><a class="ts"
+                                                        href="/coding-classes-for-kids/python-for-kids.pdf"
+                                                        target="_blank">A World Built on Python <i
+                                                            class="ng ny to"></i></a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><span>
+                <footer>
+                    <div class="r">
+                        <div class="i">
+                            <div class="o h g na"><a href="/">
+                                    <amp-img alt="Footer Logo"
+                                        class="footer-img lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                        data-src="/images/ucode/ucode-blue-logo.svg" data-wf_display="inline"
+                                        data-wf_height="68" data-wf_index_counter="14" data-wf_layout="intrinsic"
+                                        data-wf_object_fit="fill" data-wf_width="140" height="68" layout="intrinsic"
+                                        src="https://ucode.com/images/ucode/ucode-blue-logo.svg"
+                                        style="display:inline-block" width="140" i-amphtml-layout="intrinsic">
+                                        <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                src="data:image/svg+xml;charset=utf-8,<svg height=&quot;68&quot; width=&quot;140&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                        </i-amphtml-sizer>
+                                    </amp-img>
+                                </a></div>
+                            <div class="s c g">
+                                <ul>
+                                    <li><strong>Membership</strong></li>
+                                    <li><a href="/purchase-membership" target="_self"> Purchase a Membership</a></li>
+                                    <li><a href="/kids-coding/kids-coding-membership-faq.pdf" target="_blank">
+                                            Membership FAQ</a></li>
+                                    <li><a href="/sigma-coding" target="_self"> Scholarships</a></li>
+                                </ul>
+                            </div>
+                            <div class="s c g">
+                                <ul>
+                                    <li><strong>About Us</strong></li>
+                                    <li><a href="/our-story" target="_self"> Our Story</a></li>
+                                    <li><a href="/advisors" target="_self"> Faculty Advisors</a></li>
+                                    <li><a href="/sigma-coding" target="_self"> SigmaCoding.org</a></li>
+                                </ul>
+                            </div>
+                            <div class="s h g connect-block">
+                                <ul>
+                                    <li><strong>Connect</strong></li>
+                                    <li><a href="mailto:learn@ucode.com" target="_self">
+                                            <amp-img alt="learn@ucode.com"
+                                                class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                                data-src="/images/ucode/email.svg" data-wf_display="inline"
+                                                data-wf_height="20" data-wf_index_counter="15"
+                                                data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="19"
+                                                height="20" layout="intrinsic"
+                                                src="https://ucode.com/images/ucode/email.svg"
+                                                style="display:inline-block" width="19" i-amphtml-layout="intrinsic">
+                                                <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                        class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                        src="data:image/svg+xml;charset=utf-8,<svg height=&quot;20&quot; width=&quot;19&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                                </i-amphtml-sizer>
+                                            </amp-img> learn@ucode.com
+                                        </a></li>
+                                    <li><a href="https://www.facebook.com/UcodeInc/" target="_self">
+                                            <amp-img alt="Facebook"
+                                                class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                                data-src="/images/ucode/FB.svg" data-wf_display="inline"
+                                                data-wf_height="19" data-wf_index_counter="16"
+                                                data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="19"
+                                                height="19" layout="intrinsic"
+                                                src="https://ucode.com/images/ucode/FB.svg" style="display:inline-block"
+                                                width="19" i-amphtml-layout="intrinsic">
+                                                <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                        class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                        src="data:image/svg+xml;charset=utf-8,<svg height=&quot;19&quot; width=&quot;19&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                                </i-amphtml-sizer>
+                                            </amp-img> Facebook
+                                        </a></li>
+                                    <li><a href="https://www.instagram.com/ucode/" target="_self">
+                                            <amp-img alt="Instagram"
+                                                class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                                data-src="/images/ucode/IG-icon.svg" data-wf_display="inline"
+                                                data-wf_height="18" data-wf_index_counter="17"
+                                                data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="19"
+                                                height="18" layout="intrinsic"
+                                                src="https://ucode.com/images/ucode/IG-icon.svg"
+                                                style="display:inline-block" width="19" i-amphtml-layout="intrinsic">
+                                                <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                        class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                        src="data:image/svg+xml;charset=utf-8,<svg height=&quot;18&quot; width=&quot;19&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                                </i-amphtml-sizer>
+                                            </amp-img> Instagram
+                                        </a></li>
+                                    <li><a href="https://twitter.com/UcodeInc/" target="_self">
+                                            <amp-img alt="Twitter"
+                                                class="lazyload i-amphtml-layout-intrinsic i-amphtml-layout-size-defined"
+                                                data-src="/images/ucode/TW.svg" data-wf_display="inline"
+                                                data-wf_height="19" data-wf_index_counter="18"
+                                                data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="19"
+                                                height="19" layout="intrinsic"
+                                                src="https://ucode.com/images/ucode/TW.svg" style="display:inline-block"
+                                                width="19" i-amphtml-layout="intrinsic">
+                                                <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true"
+                                                        class="i-amphtml-intrinsic-sizer" role="presentation"
+                                                        src="data:image/svg+xml;charset=utf-8,<svg height=&quot;19&quot; width=&quot;19&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+                                                </i-amphtml-sizer>
+                                            </amp-img> Twitter
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="s c g">
+                                <ul>
+                                    <li><strong>Legal</strong></li>
+                                    <li><a href="/privacy-policy" target="_self"> Privacy Policy</a></li>
+                                    <li><a href="/terms" target="_self"> Terms and Conditions</a></li>
+                                    <li><a href="/accessibility" target="_self"> Accessibility</a></li>
+                                </ul>
+                            </div>
+                            <div class="l"></div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="ni">
+                    <div class="r">
+                        <div class="i">
+                            <div class="o c"></div>
+                            <div class="a v n">
+                                <ul>
+                                    <li><a href="/privacy-policy" target="_self"> Privacy Policy</a></li>
+                                    <li><a href="/terms" target="_self"> Terms and Conditions</a></li>
+                                    <li><a href="/accessibility" target="_self"> Accessibility</a></li>
+                                </ul>
+                                <p class="col n">© 2020 UCode.com. All Rights Reserved. Version: 0.2.9</p>
+                            </div>
+                            <div class="o c"></div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+    <amp-iframe aria-hidden="true" data-wf_height="150" data-wf_poster="undefined" data-wf_src="undefined"
+        data-wf_width="300" height="150" id="stripeXDM_default428407_provider" layout="intrinsic"
+        sandbox="allow-scripts  allow-same-origin"
+        src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fwww.ucode.com&amp;stripe_xdm_c=default428407&amp;stripe_xdm_p=1#__stripe_transport__"
+        style="position: absolute; top: -2000px; left: 0px;" width="300"
+        class="i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" i-amphtml-layout="intrinsic">
+        <i-amphtml-sizer class="i-amphtml-sizer"><img alt aria-hidden="true" class="i-amphtml-intrinsic-sizer"
+                role="presentation"
+                src="data:image/svg+xml;charset=utf-8,<svg height=&quot;150&quot; width=&quot;300&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;/>">
+        </i-amphtml-sizer>
+    </amp-iframe>
+    <div class="react-toast-notifications__container nb"></div>
+    <div style="display: none; visibility: hidden;"> </div>
+    <div style="display: none; visibility: hidden;">
+    </div>
+    <div id="batBeacon901117892244" style="width:0px; height:0px; display:none; visibility:hidden;"></div>
+    <div id="batBeacon495892491676" style="width:0px; height:0px; display:none; visibility:hidden;"></div>
+</body>
+
+</html>
