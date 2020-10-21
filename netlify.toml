@@ -1,4 +1,8 @@
 [[redirects]]
+    from = "/thenutteryny-com/*"
+    to = "https://thenutteryny.com/:splat"
+
+[[redirects]]
     from = "/eighteenthamendment-com/*"
     to = "https://eighteenthamendment.com/:splat"
 
@@ -13,3 +17,4 @@
 [[redirects]]
     from = "/doelashes-com/*"
     to = "https://doelashes.com/:splat"
+
