@@ -1,4 +1,8 @@
 [[redirects]]
+    from = "/eighteenthamendment-com/*"
+    to = "https://eighteenthamendment.com/:splat"
+
+[[redirects]]
     from = "/ucode-com/*"
     to = "https://ucode.com/:splat"
 
