@@ -1,4 +1,8 @@
 [[redirects]]
+    from = "/ucode-com/*"
+    to = "https://ucode.com/:splat"
+
+[[redirects]]
     from = "/senreve-com/*"
     to = "https://senreve.com/:splat"
 
