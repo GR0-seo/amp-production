@@ -1,4 +1,8 @@
 [[redirects]]
+    from = "/gobiotix-com/*"
+    to = "https://gobiotix.com/:splat"
+
+[[redirects]]
     from = "/thenutteryny-com/*"
     to = "https://thenutteryny.com/:splat"
 
