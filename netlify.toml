@@ -1,4 +1,14 @@
 [[redirects]]
+    from = "/youcanpym-com/*"
+    to = "https://youcanpym.com/:splat"
+
+[[redirects]]
+    from = "https://amp.youcanpym.com/*"
+    to = "https://youcanpym.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/gobiotix-com/*"
     to = "https://gobiotix.com/:splat"
 
@@ -13,17 +23,52 @@
     to = "https://thenutteryny.com/:splat"
 
 [[redirects]]
+    from = "https://amp.thenutteryny.com/*"
+    to = "https://thenutteryny.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/eighteenthamendment-com/*"
     to = "https://eighteenthamendment.com/:splat"
+
+[[redirects]]
+    from = "https://amp.eighteenthamendment.com/*"
+    to = "https://eighteenthamendment.gr0.app/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
     from = "/ucode-com/*"
     to = "https://ucode.com/:splat"
 
 [[redirects]]
+    from = "https://amp.ucode.com/*"
+    to = "https://ucode.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/senreve-com/*"
     to = "https://senreve.com/:splat"
 
 [[redirects]]
+    from = "https://amp.senreve.com/*"
+    to = "https://senreve.gr0.com/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/doelashes-com/*"
     to = "https://doelashes.com/:splat"
+
+[[redirects]]
+    from = "https://go.doelashes.com/*"
+    to = "https://doelashes.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/"
+    to = "https://gr0.com/"
+
