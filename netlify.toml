@@ -3,6 +3,10 @@
     to = "https://gobiotix.com/:splat"
 
 [[redirects]]
+    from = "https://amp.gobiotix.com/*"
+    to = "https://gobiotix.gr0.app/:splat"
+
+[[redirects]]
     from = "/thenutteryny-com/*"
     to = "https://thenutteryny.com/:splat"
 
@@ -21,4 +25,3 @@
 [[redirects]]
     from = "/doelashes-com/*"
     to = "https://doelashes.com/:splat"
-
