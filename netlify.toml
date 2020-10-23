@@ -1,0 +1,3 @@
+[[redirects]]
+    from = "/*"
+    to = "https://gobiotix.com/:splat"
