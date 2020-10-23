@@ -5,6 +5,8 @@
 [[redirects]]
     from = "https://amp.gobiotix.com/*"
     to = "https://gobiotix.gr0.app/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
     from = "/thenutteryny-com/*"
