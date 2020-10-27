@@ -1,4 +1,14 @@
 [[redirects]]
+    from = "/hempvana-com/*"
+    to = "https://hempvana.com/:splat"
+
+[[redirects]]
+    from = "https://amp.hempvana.com/*"
+    to = "https://hempvana.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/funboy-com/*"
     to = "https://funboy.com/:splat"
 
