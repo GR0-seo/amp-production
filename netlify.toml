@@ -108,7 +108,3 @@
     status = 200
     force = true
 
-[[redirects]]
-    from = "/"
-    to = "https://gr0.com/"
-
