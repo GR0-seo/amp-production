@@ -108,6 +108,9 @@ def main():
             os.system('rm ' + os.path.join(dest_folder, f))
             continue
 
+        if f == 'ambassadors.html':
+            print(f)
+            pass
         html = open(os.path.join(dest_folder, f), 'r')
         soup = BeautifulSoup(html, 'html.parser')
         canonical_tag = soup.find('link', {'rel':'canonical'})
@@ -118,19 +121,23 @@ def main():
                 idx = url.find('/', idx + 1)
             
             path = url[idx + 1:]
+            if len(path) > 0 and path[-1] == '/':
+                    path = path[:-1][:path.rindex('/') + 1]
             idx = 1
             while True:
                 idx = path.find('/', idx + 1)
-                if idx == -1:
+                if idx == -1 or idx == len(path):
                     break
                 if not os.path.exists(os.path.join(dest_folder, path[:idx])):
                     cmd = 'mkdir ' + os.path.join(dest_folder, path[:idx])
                     os.system(cmd)
+            
             if '/' in path:
                 to_remove = path[:path.rindex('/') + 1].replace('/','-')
             else:
-                to_remove = ''
-            mv_cmd = 'mv ' + os.path.join(dest_folder, f) + ' ' + os.path.join(dest_folder, (path[:path.rindex('/') + 1] if '/' in path else path) + f.replace(to_remove, ''))
+                to_remove = path
+            dest = (path[:path.rindex('/') + 1] if '/' in path else path) + f.replace(to_remove,'')
+            mv_cmd = 'mv ' + os.path.join(dest_folder, f) + ' ' + os.path.join(dest_folder, dest)
             os.system(mv_cmd)
 
 if __name__ == '__main__':
