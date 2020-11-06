@@ -8,6 +8,8 @@ exports.handler = async function(event, context) {
     
     const data = await parser.parse(event);
 
+    console.log(data);
+
     const { apiKey, listId } = clientData[data.client];
 
     const res = await axios.post(`https://a.klaviyo.com/api/v2/list/${listId}/subscribe`, {
