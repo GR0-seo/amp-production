@@ -3,7 +3,7 @@ exports.handler = async function(event, context) {
     const parser = require('lambda-multipart-parser');
 
     const clientData = {
-        "rellery": { apiKey: "PsYYrt", listId: "JTZTmW" },
+        "rellery": { apiKey: "pk_7ae913cf07d68ffe6c3ffdd71d78452a56", listId: "JTZTmW" },
     };
     
     const data = await parser.parse(event);
@@ -12,13 +12,10 @@ exports.handler = async function(event, context) {
 
     const { apiKey, listId } = clientData[data.client];
 
-    const res = await axios.post(`https://a.klaviyo.com/api/v2/list/${listId}/subscribe`, {
+     return (await axios.post(`https://a.klaviyo.com/api/v2/list/${listId}/subscribe`, {
         api_key: apiKey,
         profiles: [{
             email: data.email
         }]
-    }, { headers: { 'Content-Type': 'application/json' }});
-
-    console.log(res);
-    return { statusCode: res.status, body: JSON.stringify({ message: res.statusText })};
+    }, { headers: { 'Content-Type': 'application/json' }}));
 }
