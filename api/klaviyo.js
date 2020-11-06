@@ -12,10 +12,10 @@ exports.handler = async function(event, context) {
 
     const res = await axios.post(`https://a.klaviyo.com/api/v2/list/${listId}/subscribe`, {
         api_key: apiKey,
-        profiles: [
+        profiles: [{
             email: data.email
-        ]
-    }, { headers: { 'Content-Type': 'application/json' });
+        }]
+    }, { headers: { 'Content-Type': 'application/json' }});
 
     console.log(res);
     return { statusCode: res.status, body: JSON.stringify({ message: res.statusText })};
