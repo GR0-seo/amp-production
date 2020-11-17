@@ -1,4 +1,24 @@
 [[redirects]]
+    from = "/imperiacaviar-com/*"
+    to = "https://imperiacaviar.com/:splat"
+
+[[redirects]]
+    from = "https://amp.imperiacaviar.com/*"
+    to = "https://imperiacaviar.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/aquis-com/*"
+    to = "https://aquis.com/:splat"
+
+[[redirects]]
+    from = "https://amp.aquis.com/*"
+    to = "https://aquis.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/valentinobeautypure-com/*"
     to = "https://shop.valentinobeautypure.com/:splat"
 
