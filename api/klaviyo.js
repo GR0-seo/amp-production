@@ -8,6 +8,7 @@ exports.handler = async function(event, context) {
     };
     
     const { client, ...data } = await parser.parse(event);
+    console.log(data);
 
     const { apiKey, listId, sms_consent } = clientData[client];
 
