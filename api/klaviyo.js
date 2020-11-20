@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
         "ties": { apiKey: "pk_a370d9eb8f1aca15076a85e2063d8e11ee", listId: "JgrX6e", sms_consent: false },
     };
     
-    const { client, ...data } = await parser.parse(event);
+    const { client, _files, ...data } = await parser.parse(event);
     console.log(data);
 
     const { apiKey, listId, sms_consent } = clientData[client];
