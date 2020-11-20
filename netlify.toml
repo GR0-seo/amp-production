@@ -1,4 +1,24 @@
 [[redirects]]
+    from = "/diamondmansion-com/*"
+    to = "https://diamondmansion.com/:splat"
+
+[[redirects]]
+    from = "https://amp.diamondmansion.com/*"
+    to = "https://diamondmansion.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/starbridgerecovery-com/*"
+    to = "https://starbridgerecovery.com/:splat"
+
+[[redirects]]
+    from = "https://amp.starbridgerecovery.com/*"
+    to = "https://starbridgerecovery.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/imperiacaviar-com/*"
     to = "https://imperiacaviar.com/:splat"
 
