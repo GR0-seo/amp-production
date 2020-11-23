@@ -14,6 +14,9 @@ exports.handler = async function(event, context) {
 
     let submission = data;
     if (data.phone_number) {
+        if (!(data.phone_number + "").startsWith("+1")) {
+            data.phone_number = "+1" + data.phone_number
+        }
         submission.sms_consent = sms_consent
     }
 
