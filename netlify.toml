@@ -1,4 +1,14 @@
 [[redirects]]
+    from = "/hammitt-com/*"
+    to = "https://hammitt.com/:splat"
+
+[[redirects]]
+    from = "https://amp.hammitt.com/*"
+    to = "https://hammitt.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/diamondmansion-com/*"
     to = "https://diamondmansion.com/:splat"
 
