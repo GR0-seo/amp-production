@@ -1,4 +1,22 @@
 [[redirects]]
+    from = "https://amp.iheartraves.com/*"
+    to = "https://iheartraves.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.intotheam.com/*"
+    to = "https://intotheam.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.emazinglights.com/*"
+    to = "https://emazinglights.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/bizcounsel-com/*"
     to = "https://bizcounsel.com/:splat"
 
