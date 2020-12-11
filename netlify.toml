@@ -3,7 +3,6 @@
     to = "https://www.intotheam.com/:splat"
     status = 200
     force = true
-
 [[headers]]
   for = "/.well-known/amphtml/apikey.pub"
   [headers.values]
