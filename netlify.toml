@@ -5,4 +5,4 @@
 [[headers]]
   for = "/.well-known/amphtml/apikey.pub"
   [headers.values]
-    Content-Type = "text/html"
+    Content-Type = "text/plain"
