@@ -1,3 +1,8 @@
 [[redirects]]
     from = "/*"
     to = "https://www.intotheam.com/:splat"
+
+[[headers]]
+  for = "/.well-known/amphtml/apikey.pub"
+  [headers.values]
+    Content-Type = "text/html"
