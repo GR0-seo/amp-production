@@ -1,10 +1,10 @@
-[[headers]]
-  for = "/.well-known/amphtml/apikey.pub"
-  [headers.values]
-    Content-Type = "text/plain"
-
 [[redirects]]
     from = "/*"
     to = "https://www.intotheam.com/:splat"
     status = 200
     force = true
+
+[[headers]]
+  for = "/.well-known/amphtml/apikey.pub"
+  [headers.values]
+    Content-Type = "text/plain"
