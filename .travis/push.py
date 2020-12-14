@@ -20,6 +20,10 @@ def main():
         print(cmd)
         os.system(cmd)
 
+        cmd = 'git checkout empty && git checkout master'
+        print(cmd)
+        os.system(cmd)
+
         cmd = 'git checkout ' + client + ' || git checkout -b ' + client + ' empty'
         print(cmd)
         os.system(cmd)
