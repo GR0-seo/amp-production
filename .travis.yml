@@ -13,7 +13,8 @@ git:
 
 before_install:
   - git fetch
-  - git checkout origin/empty
+  - git checkout -b empty
+  - git pull origin empty
   - git checkout origin/master
 
 script: python .travis/push.py
