@@ -12,6 +12,7 @@ git:
   depth: 2
 
 before_install:
+  - git fetch
   - git checkout empty
   - git checkout master
 
