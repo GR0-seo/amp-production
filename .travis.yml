@@ -10,11 +10,11 @@ branches:
   - empty
 
 git:
-  depth: 2
+  depth: false
 
 before_install:
   - git fetch
-  - git pull origin empty || git checkout empty
+  - git checkout origin/empty
   - git checkout origin/master
 
 script: python .travis/push.py
