@@ -7,14 +7,14 @@ language: minimal
 branches:
   only:
   - master
+  - empty
 
 git:
   depth: 2
 
 before_install:
   - git fetch
-  - git checkout -b empty
-  - git pull origin empty
+  - git pull origin empty || git checkout empty
   - git checkout origin/master
 
 script: python .travis/push.py
