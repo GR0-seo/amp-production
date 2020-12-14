@@ -14,7 +14,7 @@ def main():
 
         os.system('mkdir /tmp/' + folder + ' && cp -r ' + folder + '/* /tmp/' + folder + '/')
         os.system('cp .skel/default.toml /tmp && cp .skel/apikey.pub /tmp')
-        os.system('git checkout ' + client + ' || get checkout --orphan ' + client
+        os.system('git checkout ' + client + ' || get checkout --orphan ' + client)
         os.system('cp -r /tmp/' + folder + '/* .')
         os.system('mkdir .well-known && mkdir .well-known/amphtml && cp /tmp/apikey.pub .well-known/amphtml/')
         with open('/tmp/default.toml', 'r') as infile:
