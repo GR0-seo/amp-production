@@ -12,10 +12,10 @@ def main():
         client = folder[:folder.rfind('-')]
         url = folder[:folder.rfind('-')] + '.' + folder[folder.rfind('-') + 1:]
 
-        os.system('mkdir /tmp/%s && cp -r %s/* /tmp/%s/' % (folder, folder, folder))
+        os.system('mkdir /tmp/' + folder + ' && cp -r ' + folder + '/* /tmp/' + folder + '/')
         os.system('cp .skel/default.toml /tmp && cp .skel/apikey.pub /tmp')
-        os.system('git checkout %s || get checkout --orphan %s' % (client, client))
-        os.system('cp -r /tmp/%s/* .')
+        os.system('git checkout ' + client + ' || get checkout --orphan ' + client
+        os.system('cp -r /tmp/' + folder + '/* .')
         os.system('mkdir .well-known && mkdir .well-known/amphtml && cp /tmp/apikey.pub .well-known/amphtml/')
         with open('/tmp/default.toml', 'r') as infile:
             with open('netlify.toml', 'w') as outfile:
@@ -23,8 +23,8 @@ def main():
                     outfile.write(line.replace('###REDIRECT_URL###', url))
         
         os.system('git add *')
-        os.system('git commit -m "Travis build: %s' % (os.getenv('TRAVIS_BUILD_NUMBER')))
-        os.system('git push --set-upstream origin-production %s' % client)
+        os.system('git commit -m "Travis build: ' + os.getenv('TRAVIS_BUILD_NUMBER'))
+        os.system('git push --set-upstream origin-production ' + client)
         
     
 
