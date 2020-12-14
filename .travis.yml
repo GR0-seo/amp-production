@@ -11,6 +11,10 @@ branches:
 git:
   depth: 2
 
+before_install:
+  - git checkout empty
+  - git checkout master
+
 script: python .travis/push.py
 
 env:
