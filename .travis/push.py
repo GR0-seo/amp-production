@@ -12,19 +12,42 @@ def main():
         client = folder[:folder.rfind('-')]
         url = folder[:folder.rfind('-')] + '.' + folder[folder.rfind('-') + 1:]
 
-        os.system('mkdir /tmp/' + folder + ' && cp -r ' + folder + '/* /tmp/' + folder + '/')
-        os.system('cp .skel/default.toml /tmp && cp .skel/apikey.pub /tmp')
-        os.system('git checkout ' + client + ' || get checkout --orphan ' + client)
-        os.system('cp -r /tmp/' + folder + '/* .')
-        os.system('mkdir .well-known && mkdir .well-known/amphtml && cp /tmp/apikey.pub .well-known/amphtml/')
+        cmd = 'mkdir /tmp/' + folder + ' && cp -r ' + folder + '/* /tmp/' + folder + '/'
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'cp .skel/default.toml /tmp && cp .skel/apikey.pub /tmp'
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'git checkout ' + client + ' || get checkout --orphan ' + client
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'cp -r /tmp/' + folder + '/* .'
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'mkdir .well-known && mkdir .well-known/amphtml && cp /tmp/apikey.pub .well-known/amphtml/'
+        print(cmd)
+        os.system(cmd)
+
         with open('/tmp/default.toml', 'r') as infile:
             with open('netlify.toml', 'w') as outfile:
                 for line in infile:
                     outfile.write(line.replace('###REDIRECT_URL###', url))
         
-        os.system('git add *')
-        os.system('git commit -m "Travis build: ' + os.getenv('TRAVIS_BUILD_NUMBER'))
-        os.system('git push --set-upstream origin-production ' + client)
+        cmd = 'git add *'
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'git commit -m "Travis build: ' + os.getenv('TRAVIS_BUILD_NUMBER')
+        print(cmd)
+        os.system(cmd)
+
+        cmd = 'git push --set-upstream origin-production ' + client
+        print(cmd)
+        os.system(cmd)
         
     
 
