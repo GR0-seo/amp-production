@@ -45,6 +45,10 @@ def main():
         print(cmd)
         os.system(cmd)
 
+        cmd = 'git add .well-known'
+        print(cmd)
+        os.system(cmd)
+
         cmd = 'git commit -m "Travis build: ' + os.getenv('TRAVIS_BUILD_NUMBER') + '"'
         print(cmd)
         os.system(cmd)
