@@ -16,7 +16,7 @@ mkdir /tmp/$FOLDER && rsync -av $FOLDER/ /tmp/$FOLDER
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
 # Sync files back to branch
-rsync -avu --delete "/tmp/$FOLDER/" "."
+rsync -avu --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
 if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
@@ -24,9 +24,11 @@ if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
     cp /tmp/apikey.pub .well-known/amphtml/
 fi
 
-# Copy netlify.toml and add redirect URL
-cp /tmp/default.toml ./netlify.toml
-sed -i "s/###REDIRECT_URL###/$URL/g" netlify.toml
+# Copy netlify.toml and add redirect URL if not present
+if [ ! -f "netlify.toml" ]; then
+    cp /tmp/default.toml ./netlify.toml
+    sed -i "s/###REDIRECT_URL###/$URL/g" netlify.toml
+fi
 
 # Add all files to new commit
 git add *
