@@ -3,17 +3,19 @@ FOLDER=$1
 CLIENT=$2
 URL=$3
 
-# Copy relevant files to /tmp/FOLDER
-mkdir /tmp/$FOLDER && cp -r $FOLDER/* /tmp/$FOLDER/
+# rsync flags used:
+# -a: preserve attributes
+# -v: verbose
+# -u: updates only
+# --delete: remove files not present in /tmp/FOLDER
+
+# Sync $FOLDER with /tmp/$FOLDER
+mkdir /tmp/$FOLDER && rsync -av $FOLDER/ /tmp/$FOLDER
 
 # Checkout branch or create if not exists
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
 # Sync files back to branch
-# -a: preserve attributes
-# -v: verbose
-# -u: updates only
-# --delete: remove files not present in /tmp/FOLDER
 rsync -avu --delete "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
