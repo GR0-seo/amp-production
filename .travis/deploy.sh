@@ -16,7 +16,7 @@ mkdir /tmp/$FOLDER && rsync -av $FOLDER/ /tmp/$FOLDER
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
 # Sync files back to branch
-rsync -avu --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" "/tmp/$FOLDER/" "."
+rsync -avu --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
 if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
