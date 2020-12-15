@@ -4,7 +4,7 @@ CLIENT=$2
 URL=$3
 
 # Copy relevant files to /tmp/FOLDER
-cp -rT $FOLDER/* /tmp/$FOLDER/
+cp -rT $FOLDER/* /tmp/$FOLDER
 
 # Checkout branch or create if not exists
 git checkout $CLIENT || git checkout -b $CLIENT empty
