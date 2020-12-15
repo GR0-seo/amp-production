@@ -1,7 +1,7 @@
 # Inputs
-FOLDER = $1
-CLIENT = $2
-URL = $3
+FOLDER=$1
+CLIENT=$2
+URL=$3
 
 # Copy relevant files to /tmp/FOLDER
 mkdir /tmp/$FOLDER && cp -r $FOLDER/* /tmp/$FOLDER/
