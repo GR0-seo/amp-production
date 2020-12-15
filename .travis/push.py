@@ -3,10 +3,6 @@ import os
 def main():
     commit_message = os.getenv('TRAVIS_COMMIT_MESSAGE')
 
-    os.system('git config --global user.email "travis@travis-ci.org"')
-    os.system('git config --global user.name "Travis CI"')
-    os.system('git remote add origin-production https://${GH_TOKEN}@github.com/gr0-autt/amp-production.git > /dev/null 2>&1')
-
     folder_list = commit_message.split(',')
     for folder in folder_list:
         client = folder[:folder.rfind('-')]
