@@ -31,7 +31,7 @@ if [ ! -f "netlify.toml" ]; then
 fi
 
 # Add all files to new commit
-git add *
+git add -A
 git add .well-known
 
 # Commit files to production branch
