@@ -4,13 +4,17 @@ CLIENT=$2
 URL=$3
 
 # Copy relevant files to /tmp/FOLDER
-mkdir /tmp/$FOLDER && cp -r $FOLDER/* /tmp/$FOLDER/
+cp -rT $FOLDER/* /tmp/$FOLDER/
 
 # Checkout branch or create if not exists
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
-# Copy files back to branch
-cp -r /tmp/$FOLDER/* .
+# Sync files back to branch
+# -a: preserve attributes
+# -v: verbose
+# -u: updates only
+# --delete: remove files not present in /tmp/FOLDER
+rsync -avu --delete "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
 if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
