@@ -40,3 +40,6 @@ git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
 # Push commit to repo
 git push production $CLIENT
+
+# Switch back to master branch for
+git checkout origin/master
