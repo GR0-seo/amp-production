@@ -12,13 +12,10 @@ branches:
 git:
   depth: false
 
-before_install:
-  - git fetch
-  - git checkout origin/empty
-  - git checkout origin/master
-
-script: python .travis/push.py
-
 env:
   global:
     secure: M//QqYWgI9e8E0K/5KBKCTWGGpJNgiiWvWqNd6hCNwVrYUOuGIOcLsqtlSO5VmT/AoX4YA5PM/XahseyoKExUCFvlPEg9Ok7DIUnD36e0dpGwL1gELiJ26JmjVnQkZVZoyPSOVuCavTyDzaT2Bw7bMGf853PiooHBCoObChns/T8ky/xK1xCwVfhwJ6YQiMzlASviZS8QeDrB+BMYEPs5tW3z3976jhfZ7fvmnRCvJ6j1WHBpptcVyOYPyMLyJjAp1qIMypG84PdeZqFBBn+/e1fvb37SLms9jLr8yzLa1fhGPqV/e/dm/kMl1JkIvIXwud+ru0Hr5ouv9caIz3KzKJuiV3k4AJ/IUMNdTNJM6Zy2CbPoMLx08MOqKeCvYISyRcCv+5vquT7JVkzGbsQv2C+vBV/fFsUJHO1nqwBrj5jcjaGSI5LvvHvSKN0KzCzXcg+D3zYREFHXgmc+Qr1tVBnwuqLt975mH6Z1o6Uoc7SIr43T6obkgKq0q2LJ/LHaul19h+yx50Jlk3gARxOehgr+G9q32z1GZ6KF93+aCkhrKyhP1VSPyKMica4fXxMjsDtfWTNq5arFRbwp1ahJsCtPKFta/dubKbqiX9BvDll3IkDzEscSPEGNwyXpsvAhb99drwjOr5vKVxkREce13oFvudRBHkPMXjQdoburzQ=
+
+before_install: .travis/before_install.sh
+
+script: python .travis/build.py
