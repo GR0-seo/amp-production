@@ -6,7 +6,6 @@ URL=$3
 # rsync flags used:
 # -a: preserve attributes
 # -v: verbose
-# -u: updates only
 # -r: recursive
 # --delete: remove files not present in /tmp/FOLDER
 
@@ -17,7 +16,7 @@ mkdir /tmp/$FOLDER && rsync -arv ./$FOLDER/ /tmp/$FOLDER
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
 # Sync files back to branch
-rsync -aruv --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
+rsync -arv --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
 if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
