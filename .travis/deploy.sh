@@ -6,17 +6,17 @@ URL=$3
 # rsync flags used:
 # -a: preserve attributes
 # -v: verbose
-# -u: updates only
+# -r: recursive
 # --delete: remove files not present in /tmp/FOLDER
 
 # Sync $FOLDER with /tmp/$FOLDER
-mkdir /tmp/$FOLDER && rsync -av $FOLDER/ /tmp/$FOLDER
+mkdir /tmp/$FOLDER && rsync -arv ./$FOLDER/ /tmp/$FOLDER
 
 # Checkout branch or create if not exists
 git checkout $CLIENT || git checkout -b $CLIENT empty
 
 # Sync files back to branch
-rsync -avu --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
+rsync -arv --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
 
 # Copy public key if not present
 if [ ! -f "./.well-known/amphtml/apikey.pub" ]; then
@@ -39,3 +39,6 @@ git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
 # Push commit to repo
 git push production $CLIENT
+
+# Switch back to master branch for
+git checkout origin/master
