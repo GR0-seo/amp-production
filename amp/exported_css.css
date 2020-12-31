@@ -1,0 +1,499 @@
+body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+html{box-sizing:border-box;}
+*,*::after,*::before{box-sizing:inherit;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:1em;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,form,body,html,p,fieldset,input,dl,dt,dd{margin:0;padding:0;}
+a img,:link img,:visited img,fieldset{border:none;}
+header,section,article,nav,footer,main{display:block;}
+.owl-carousel{display:none;width:100%;-webkit-tap-highlight-color:transparent;position:relative;z-index:1;}
+.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden;}
+.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0px, 0px, 0px);}
+.owl-carousel .owl-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);}
+.owl-carousel .owl-item{position:relative;min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;}
+.owl-carousel .owl-nav.disabled{display:none;}
+.owl-carousel .owl-nav .owl-prev,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-dot{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next,.owl-carousel button.owl-dot{background:none;color:inherit;border:none;padding:0;font:inherit;}
+.owl-carousel.owl-loaded{display:block;}
+.owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.owl-carousel .owl-dots{position:absolute;right:0;bottom:10px;left:0;text-align:center;}
+.owl-carousel .owl-dots button.owl-dot{outline:none;margin:0 2px;}
+.owl-carousel .owl-dots button.owl-dot span{display:inline-block;width:10px;height:10px;border-radius:100%;background:transparent;border:1px solid #6f7575;}
+.owl-carousel .owl-dots button.owl-dot.active span{background:#6f7575;}
+.owl-carousel .owl-nav{display:none;}
+.tablet,.mobile{display:none!important;}
+.tablet{display:block!important;}
+.tablet.inline_block{display:inline-block!important;}
+.mobile{display:block!important;}
+.wrap{max-width:1440px;margin-left:auto;margin-right:auto;padding:0 2.5em;}
+.wrap::after{clear:both;content:"";display:table;}
+.wrap{padding:0 1.25em;}
+.column{padding:0 40px;margin:0 auto;}
+.column{padding:0 15px;}
+.half{display:inline-block;width:50%;vertical-align:top;box-sizing:border-box;}
+a,button{text-decoration:none;color:#2B2823;}
+a.button{display:inline-block;padding:16px 50px;font:16px "Apercu Bold", sans-serif;color:#6f7575;border:none;border-radius:0;background:#60edb3;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;}
+a.button{padding:17px 20px;}
+.h2{font:60px "Apercu Bold", sans-serif;}
+.h2{font-size:32px;}
+.h2{font-size:24px;}h4.display{font:24px/28px "Tiempos Headline Bold", sans-serif;}
+#mattress_details{max-width:550px;margin:0 auto;}
+#notifications{color:#797f83;background:#000000;}
+body{font:16px "Apercu Regular", sans-serif;color:#2B2823;line-height:140%;border-top:80px solid #ffffff;background:#2B2823;}
+body{border-top-width:42px;}
+body > header{position:fixed;top:0;right:0;left:0;z-index:10;}
+body > header .column{padding:20px 40px;}
+body > header .column nav.tablet{top:0;padding-top:68px;}
+body > header > .column{position:relative;z-index:2;min-height:25px;background:#ffffff;-webkit-transition:padding 150ms ease, background 150ms ease;-moz-transition:padding 150ms ease, background 150ms ease;-o-transition:padding 150ms ease, background 150ms ease;}
+body > header .logo{position:absolute;top:21px;left:40px;z-index:1;font-size:1em;-webkit-transition:top 150ms ease;-moz-transition:top 150ms ease;-o-transition:top 150ms ease;}
+body > header .logo .logo_tn_footer{display:none;}
+body > header .logo{left:50%;transform:translateX(-50%);}
+body > header .logo{top:13px;}
+body > header .logo .logo_horizontal{display:none;}
+body > header .logo .logo_tn_footer{display:block;}
+body > header .logo svg{width:160px;height:20px;fill:#2B2823;}
+body > header .hamburger{display:none;width:25px;height:18px;text-indent:-8685px;background-image:url("https://www.tuftandneedle.com/images/icon_hamburger.svg");}
+body > header .close_menu{display:none;margin:5px 0 0 5px;width:14px;height:14px;text-indent:-8685px;background-image:url("https://www.tuftandneedle.com/images/icon_close.svg");}
+body > header a.cart svg{display:inline-block;width:19px;height:16px;vertical-align:middle;fill:#2B2823;}body > header nav.tablet{display:none;}
+body > header nav.tablet{display:block!important;}
+body > header .hamburger{display:inline-block;}
+body > header .tablet.inline_block{display:inline-block!important;}
+body > header a.cart{float:right;font-size:12px;line-height:100%;}
+body > header nav.desktop{position:relative;}
+body > header nav.desktop:after{display:block;clear:both;content:"";}
+body > header nav.desktop > ul{display:inline-block;font-size:16px;font-family:"Apercu Bold", sans-serif;}
+body > header nav.desktop > ul + ul{float:right;}
+body > header nav.desktop > ul{display:none;}
+body > header nav.desktop > ul:first-of-type{position:absolute;left:50%;transform:translateX(-50%);}body > header nav.tablet{display:block;position:absolute;overflow-y:auto;top:68px;left:-330px;z-index:1;width:320px;height:100vh;padding:14px 40px 40px;background:#FFF;box-sizing:border-box;-webkit-transition:left 200ms linear, top 150ms ease;-moz-transition:left 200ms linear, top 150ms ease;-o-transition:left 200ms linear, top 150ms ease;}
+body > header nav.tablet{top:52px;}
+body > header nav.tablet > ul{line-height:1rem;}
+body > header nav.tablet > ul:first-of-type{margin-bottom:56px;}
+body > header nav.tablet li + li{padding-top:16px;}
+body > header nav.tablet li > span{font-family:"Apercu Bold", sans-serif;}
+body > header nav.tablet li.new a:after{content:"New";font-family:"Apercu Bold", sans-serif;font-size:14px;background:#60edb3;margin-left:5px;padding:2px 3px;}
+body > header nav.tablet li ul{margin-top:16px;padding-left:16px;border-left:5px #EEE solid;}
+body > header nav.tablet ul.social_media_nav{padding:28px 0 0 0;}
+body > header nav.tablet ul.social_media_nav li{display:inline;}
+body > header nav.tablet ul.social_media_nav li:not(:first-child){margin-left:0.6875rem;}
+body > header nav.tablet ul.social_media_nav li svg{fill:#9e9f9e;}
+body > header nav.tablet ul.careers_nav li a{color:#6f7575;}
+body > header nav.tablet > ul:last-of-type{margin-top:28px;}
+body > header nav.tablet > ul:last-of-type li{display:inline;}
+body > header nav.tablet > ul:last-of-type li + li{margin-left:1.75rem;}
+body > header nav.tablet > ul:last-of-type li a{font:1rem/1.5rem "Apercu Bold", sans-serif;color:#6f7575;}
+body > header nav.tablet{width:320px;padding:20px;}
+body > header > .column{padding:14px 20px;}
+body > footer{padding:48px 48px 102px;background-color:#52565A;font:14px/20px "Apercu Regular", sans-serif;color:#F6F6F6;}
+body > footer{padding:48px 24px 102px;}
+body > footer{padding:48px 20px 96px;}
+body > footer .column{display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:space-between;padding:0;width:100%;}
+body > footer .column::after{clear:both;content:"";display:table;}
+body > footer .column{display:block;}
+body > footer .column svg{fill:#F6F6F6;}
+body > footer .column p{margin-bottom:0;}
+body > footer .column a{color:#F6F6F6;}
+body > footer .column .logo{display:inline-block;float:left;margin-bottom:87px;margin:0 10px 87px 0;}
+body > footer .column .logo a svg{width:65px;height:24px;margin-bottom:12px;}
+body > footer .column .logo{display:block;float:none;text-align:center;margin:0 0 65px 0;}
+body > footer .column .logo p{color:#ffffff;white-space:nowrap;font:12px/20px "Apercu Medium", sans-serif;}
+body > footer .column nav{float:left;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;margin:0 10px;transition:all 200ms ease;}
+body > footer .column nav{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+body > footer .column nav ul{display:block;margin-bottom:8px;}
+body > footer .column nav ul{width:35%;padding-bottom:35px;}
+body > footer .column nav ul{width:127px;}
+body > footer .column nav ul li{display:block;width:140px;padding-bottom:10px;padding-left:8px;padding-right:8px;}
+body > footer .column nav ul .nav-header{font:16px/24px "Apercu Bold", sans-serif;padding-bottom:15px;}
+body > footer .column nav{float:none;margin:0 10px 28px;}
+body > footer .column nav ul{display:table;margin:0 auto;}
+body > footer .column nav{flex-wrap:wrap;}
+body > footer .column .logo-and-menu{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;}
+body > footer .column .logo-and-menu{display:block;}
+body > footer .column .actions-and-contact{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-width:400px;}
+body > footer .column .actions-and-contact{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;max-width:100%;-ms-flex-pack:distribute;justify-content:space-around;}
+body > footer .column .actions-and-contact{display:block;margin:0 auto;text-align:center;}
+body > footer .column .social_links{padding-top:10px;}
+body > footer .column .social_links li{display:inline;margin-right:14px;}
+body > footer .column .social_links li:last-of-type{margin-right:0;}
+body > footer .column .social_links li a svg{vertical-align:middle;transition:fill 200ms ease;}
+body > footer .column .social_links{float:none;text-align:center;margin-top:0;margin-bottom:52px;}
+body > footer .column .actions{clear:both;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-bottom:40px;}
+body > footer .column .actions{display:block;}
+body > footer .column .actions br{display:none;}
+body > footer .column .actions br ~ br{display:none;}
+body > footer .column .actions .button{border-radius:48px;background:transparent;padding:16px 0;color:#ffffff;width:200px;border:2px solid #ffffff;font:16px "Apercu Bold", sans-serif;}
+body > footer .column .actions .button:first-of-type{margin-right:24px;}
+body > footer .column .actions .button:first-of-type{display:block;margin:0 auto 24px auto;}
+body > footer .column .actions{float:none;text-align:center;margin-bottom:28px;}
+body > footer .column .contact{width:100%;}
+body > footer .column .contact{width:330px;}
+body > footer .column .contact{width:360px;margin:0 auto;}
+body > footer .column .contact{float:none;}
+body > footer .column .contact{width:280px;}
+main{position:relative;z-index:1;background:#ffffff;}.modal{display:none;position:fixed;z-index:100;top:50%;left:50%;padding:40px;-ms-transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);background:#ffffff;}
+.overlay{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:99;background:rgba(0, 0, 0, 0.2);}
+.overlay{background:rgba(0, 0, 0, 0.6);}
+#international_shipping_modal,#notifications_modal{text-align:center;margin:0 auto;position:relative;}
+#international_shipping_modal .modal,#notifications_modal .modal{padding:40px;width:75%;max-width:600px;box-sizing:border-box;}
+#international_shipping_modal .modal,#notifications_modal .modal{padding:40px;}
+#international_shipping_modal .modal,#notifications_modal .modal{width:90%;padding:30px;}
+#notifications_modal .overlay{top:0;height:100vh;}
+#notifications_modal .modal{position:fixed;top:5%;left:50%;transform:translate(-50%, 0);background:#ffffff;}
+.exit_pop{display:none;}
+#product_buy #slides{position:absolute;top:0;left:0;z-index:1;width:66%;height:100%;overflow:hidden;}
+#product_buy #slides .owl-stage-outer,#product_buy #slides .owl-stage{height:100%;}
+#product_buy #slides .slides-nav-prev,#product_buy #slides .slides-nav-next{position:absolute;top:0;width:40px;height:100%;z-index:2;}
+#product_buy #slides .slides-nav-prev,#product_buy #slides .slides-nav-next{display:none;}
+#product_buy #slides .slides-nav-prev{left:0;}#product_buy #slides .slides-nav-next{right:0;}#product_buy #slides .slide{width:100%;height:100%;background-position:50% 0;background-repeat:no-repeat;background-size:auto 100%;}
+#product_buy #slides .slide.slide_1{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/img_slide_1.jpg");}#product_buy #slides .slide.slide_2{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/img_slide_2.jpg");}#product_buy #slides .slide.slide_3{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/img_slide_3.jpg");}#product_buy #slides .slide.slide_4{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/img_slide_4.jpg");}#product_buy #slides .owl-item{height:100%;}
+#product_buy #slides .owl-dots{position:absolute;right:0;bottom:10px;left:0;z-index:2;}
+#product_buy #slides .owl-dots button.owl-dot span{width:6px;height:6px;margin:0 2px;border:1px solid #6f7575;background:transparent;opacity:1;}
+#product_buy #slides .owl-dots button.owl-dot.active span{background:#6f7575;}
+#product_buy #slides{position:relative;}
+#product_buy .product_buy_wrapper{position:relative;min-height:460px;padding-left:66%;margin-bottom:40px;background-color:#f6f6f6;}
+#product_buy .product_buy_wrapper{padding-left:0;height:auto;}
+#product_buy .product_buy_wrapper{height:auto;}
+#product_buy #details{overflow:hidden;padding:32px;font-size:14px;}
+#product_buy #details{padding:1.5rem 26.5217% 2rem;}
+#product_buy #details{padding:1rem 4.3636% 2rem;}
+#product_buy #details fieldset{display:none;}
+#product_buy #details fieldset.visible{display:block;padding:20px;}
+#product_buy #details div.exp_shipping_one h4{font:24px/28px "Tiempos Headline Bold", sans-serif;text-align:center;}
+#product_buy #details div.exp_shipping_one p{color:#6F7575;text-align:center;}
+#product_buy #details h4{padding:0 0 20px 0;font-size:24px;}
+#product_buy #details p{margin:0;overflow:hidden;padding:0 0 5px 0;text-align:left;font-size:16px;line-height:24px;}
+#product_buy #details ul{padding:0 0 8px 1rem;line-height:150%;list-style:disc;text-align:left;}
+#product_buy #details .unavailable{display:none;font-size:18px;text-align:center;}
+#product_buy #details .unavailable{padding-top:30px;}
+#product_buy #details .products{padding-left:0;margin:0 -7px 8px;overflow:hidden;list-style:none;}
+#product_buy #details .products li{float:left;width:50%;padding:0 7px 10px 7px;box-sizing:border-box;}
+#product_buy #details .products label{display:block;overflow:hidden;padding:8px;font-size:14px;background:#fff;cursor:pointer;}
+#product_buy #details .products label span{float:right;}
+#product_buy #details .products label.active{font-family:"Apercu Bold", sans-serif;background:#e4e4e3;}
+#product_buy #details .selected_product{overflow:hidden;padding-bottom:4px;}
+#product_buy #details .selected_product h4{float:left;color:#2B2823;}
+#product_buy #details .selected_product strong{float:right;font:14px/20px "Apercu Regular", sans-serif;padding-top:4px;color:#2B2823;}
+#product_buy #details .selected_product_alt{display:none;overflow:hidden;padding-bottom:4px;}
+#product_buy #slides{float:none;width:100%;height:378px;margin:0;}
+#product_buy #slides .slide{height:378px;}
+#product_buy #details{margin:0 auto;}
+#product_buy #slides{height:157px;}
+#product_buy #slides .slide{height:157px;}
+#product_buy #details{max-width:100%;padding:20px;}
+html{box-sizing:border-box;}
+*,*::after,*::before{box-sizing:inherit;}
+body{color:#2B2823;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+body h1,body h2,body h3,body h4,body h5,body h4.display,body p{margin:0;color:#2B2823;}
+body h1,body h4.display{font-family:"Tiempos Headline Bold", sans-serif;}
+body h2,body h3,body h4,body h5{font-family:"Apercu Medium", sans-serif;font-weight:normal;}
+body h1{font-size:2em;line-height:2.25em;}
+body h1{font-size:1.75em;line-height:2em;}
+body h1{font-size:1.5em;line-height:1.75em;}
+body h2{font-size:2em;line-height:2.5em;}
+body h2{font-size:1.75em;line-height:2.25em;}
+body h2{font-size:1.5em;line-height:2em;}
+body h4{font-size:1.5em;line-height:2em;}
+body h4{font-size:1.25em;line-height:1.75em;}
+body h4{font-size:1.125em;line-height:1.75em;}
+body h5{font-size:1em;line-height:1.5em;}
+body h4.display{font-size:1.5em;line-height:1.75em;}
+body h4.display{font-size:1.25em;line-height:1.5em;}
+body h4.display{font-size:1.125em;line-height:1.5em;}
+body p{color:#2B2823;font-family:"Apercu Regular", sans-serif;margin:0 auto;}
+body p{font-size:1em;line-height:1.5em;max-width:600px;}
+body .button{padding:16px 24px;color:#2B2823;border:none;background:none;outline:none;font-size:16px;font-family:"Apercu Bold", sans-serif;text-decoration:none;display:inline-block;-webkit-appearance:none;transition:all 200ms ease;line-height:1;border-radius:48px;cursor:pointer;text-align:center;min-width:200px;}body .button.alt_secondary{border:2px solid #ffffff;color:#ffffff;}body > header nav.tablet > ul a{font-family:"Apercu Bold", sans-serif;}p{font:1rem/1.5rem "Apercu Regular", sans-serif, Helvetica, Arial, sans-serif;}
+.product_shop{border-top:none;}
+.product_shop .product_title h2{font:32px/40px "Apercu Medium", sans-serif;padding-bottom:.8em;text-align:center;}
+.product_shop .product_title h2{font-size:28px;line-height:36px;}
+.product_shop .product_title h2{font-size:24px;line-height:32px;}
+.product_shop .product_title p{font-size:1.3em;max-width:675px;text-align:center;margin:0 auto;}
+.product_shop img{max-width:100%;}
+.product_shop .alternate{background:#F6F7F6;}
+.product_shop .product_hero{padding:9rem 6.25% 0;position:relative;z-index:2;background-size:cover;height:95vh;max-height:850px;}
+.product_shop .product_hero .product_hero_content{margin:0 auto;max-width:550px;color:#fff;}
+.product_shop .product_hero .product_hero_content h1{font-size:48px;max-width:450px;margin-bottom:0;line-height:52px;}
+.product_shop .product_hero .product_hero_content h1{max-width:100%;text-align:center;}
+.product_shop .product_hero .product_hero_content h1{font-size:42px;line-height:48px;}
+.product_shop .product_hero .product_hero_content h1{font-size:32px;line-height:36px;margin:0 auto;}
+.product_shop .product_module_large{display:block;padding:120px 20px;}
+.product_shop .product_module_large::after{clear:both;content:"";display:table;}
+.product_shop .product_module_large{padding:60px 20px;}
+.product_shop .product_module{display:block;padding:48px 20px;}
+.product_shop .product_module::after{clear:both;content:"";display:table;}
+.product_shop .product_module .product_title{margin-bottom:96px;text-align:center;}
+.product_shop .product_module .product_title h2{margin:0 auto 16px auto;max-width:550px;font:32px/40px "Apercu Medium", sans-serif;}
+.product_shop .product_module .product_title h2{font-size:28px;line-height:36px;}
+.product_shop .product_module .product_title h2{font-size:24px;line-height:32px;}
+.product_shop .product_module .product_title{margin-bottom:48px;}
+.product_shop .product_selector{display:block;}
+.product_shop .product_selector::after{clear:both;content:"";display:table;}
+.product_shop .product_features .features_segments{display:block;}
+.product_shop .product_features .features_segments::after{clear:both;content:"";display:table;}
+.product_shop main .column{max-width:1080px;padding:72px 20px;margin:0 auto;box-sizing:border-box;}
+.product_shop main .column{padding:72px 20px;}
+.product_shop main .column{padding:72px 20px;}
+.product_shop main .column{padding:48px 20px;}
+.product_shop #pricing_details{padding:0;}
+.product_shop #pricing_details article{max-width:880px;margin:0 auto;}
+.product_shop #pricing_details h2{margin-bottom:1rem;text-align:center;font:32px/40px "Apercu Medium", sans-serif;}
+.product_shop #pricing_details h2{font-size:28px;line-height:36px;}
+.product_shop #pricing_details h2{font-size:24px;line-height:32px;}
+.product_shop #pricing_details section{margin-top:60px;}
+.product_shop #pricing_details .details_menu ul{position:relative;width:100%;border-bottom:2px solid #6f7575;}
+.product_shop #pricing_details .details_menu li{display:inline-block;padding:0 0 8px 0;text-align:center;width:25%;cursor:pointer;}
+.product_shop #pricing_details .details_menu li{width:100%;}
+.product_shop #pricing_details .details_menu li{width:100%;}
+.product_shop #pricing_details .details_menu li a{line-height:24px;font-family:"Apercu Bold", sans-serif;}
+.product_shop #pricing_details .details_menu li.active{position:relative;}
+.product_shop #pricing_details .details_menu li.active a{color:#2B2823;}
+.product_shop #pricing_details .details_menu li.active:before{position:absolute;right:0;bottom:-2px;left:0;height:2px;content:"";background:#60edb3;}
+.product_shop #pricing_details dl{font:"Apercu Regular", sans-serif;margin-top:40px;padding-right:20px;}
+.product_shop #pricing_details dl{padding-right:0;}
+.product_shop #pricing_details dt{font:16px "Apercu Regular", sans-serif;margin-bottom:8px;}
+.product_shop #pricing_details dt strong{margin-right:8px;font:16px "Apercu Bold", sans-serif;}
+.product_shop #pricing_details dd{text-transform:capitalize;font-size:14px;line-height:20px;}.product_shop #pricing_details .details_section + .details_section{display:none;}
+.product_shop #pricing_details .details_menu{position:relative;height:44px;margin-bottom:15px;}
+.product_shop #pricing_details .details_menu ul{position:absolute;top:44px;right:0;left:0;border:none;background:#52575a;}
+.product_shop #pricing_details .details_menu li{display:none;padding:0 0 20px 18px;text-align:left;border:none;}
+.product_shop #pricing_details .details_menu li.active{display:block;position:absolute;top:-44px;right:0;left:0;padding:10px 0;border-bottom:2px solid #60edb3;background:#ffffff;}
+.product_shop #pricing_details .details_menu li.active:before,.product_shop #pricing_details .details_menu li.active:after{display:none;}
+.product_shop #pricing_details .details_menu li.active a:after{float:right;width:10px;height:10px;content:"";border:2px solid #a7a9ac;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.product_shop #pricing_details dl{display:grid;justify-content:center;width:100%;}
+.product_shop .hero_reviews{display:block;padding-top:1em;}
+.product_shop .hero_reviews::after{clear:both;content:"";display:table;}
+.product_shop .hero-rating{padding:1em 3% .5em;display:inline-block;vertical-align:middle;}
+.product_shop .hero-rating img{display:block;margin:0 auto 12px auto;width:150px;}
+.product_shop .hero-rating{padding:1em 1.25em 1em 1.25em;}
+.product_shop .hero--ratings{display:block;margin:0 0 3em 0;padding:0;text-align:center;}
+.product_shop .hero--ratings::after{clear:both;content:"";display:table;}
+.product_shop .hero--ratings h6{font-family:"Apercu Bold", sans-serif;font-size:16px;}
+.product_shop .hero--ratings .plus{display:inline-block;font-size:35px;font-weight:bold;color:#9D9D9D;}
+.product_shop .hero--ratings > div{display:block;}
+.product_shop header .column{background:transparent;}
+.product_shop header svg,.product_shop header .icon-shopping-cart{fill:#2B2823;}
+.product_shop header .close_menu{z-index:2;position:absolute;}
+.product_shop header nav.tablet{top:0;padding-top:68px;}
+.product_shop .product_order_form,.product_shop .product_availability_form{max-width:500px;}
+.product_shop .product_order_form .dropdown_toggle{padding:14px;}
+.product_shop .product_order_form p,.product_shop .product_availability_form p{font-size:14px!important;padding-left:4px;padding-top:10px;}
+.product_shop .product_order_form [data-id="postal_code_reset"]{display:none;}
+.product_shop .product_order_form fieldset,.product_shop .product_availability_form fieldset{display:none;}
+.product_shop .product_order_form fieldset.visible{display:block;}
+.product_shop .product_order_form,.product_shop .product_availability_form{margin:0 auto;}
+.product_shop .product_order_form,.product_shop .product_availability_form{max-width:250px;}
+.product_shop .product_order_form .products{z-index:10;box-sizing:border-box;border:1px solid #e9e9e9;background:#F7F7F7;}
+.product_shop .product_order_form .products{margin-left:4px;}
+.product_shop .product_order_form .products{margin:-15px 0 0 0;text-align:left;}
+.product_shop .product_order_form p,.product_shop .product_availability_form p{margin-bottom:4px;font-size:13px;text-align:left;}
+.product_shop .product_order_form p,.product_shop .product_availability_form p{text-align:left!important;}
+.product_shop .product_order_form .dropdown_toggle{appearance:none;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;border:none;background:#fff;text-align:left;padding:14px;font-size:16px;line-height:1;vertical-align:top;margin-right:3%;}
+.product_shop .product_order_form .dropdown_toggle span{font:16px/24px "Apercu Regular", sans-serif;}
+.product_shop .product_order_form .dropdown_toggle::after{content:"";border-right:2px solid #6f7575;border-bottom:2px solid #6f7575;padding:3px;transform:rotate(45deg);float:right;margin:6px 0;}
+.product_shop .product_order_form .dropdown_toggle,.product_shop .product_order_form input[type="submit"],.product_shop .product_availability_form input[type="submit"],.product_shop .product_availability_form input[type="text"]{width:50%;}
+.product_shop .product_order_form .dropdown_toggle,.product_shop .product_order_form input[type="submit"],.product_shop .product_availability_form input[type="submit"],.product_shop .product_availability_form input[type="text"]{width:100%;}
+.product_shop .product_order_form ul{display:none;}
+.product_shop .faqs{max-width:100%;}
+.product_shop #faq_footer{padding:0;background-color:#efefee;}.product_shop .unavailable,.product_shop .out_of_stock{display:none;}
+.product_shop .out_of_stock{max-width:410px;width:100%;margin:20px 0 0 5px;padding:20px;background:rgba(0, 0, 0, 0.4);}
+.product_shop .out_of_stock{margin:20px auto 0;}
+.product_shop .out_of_stock{background:rgba(0, 0, 0, 0.6);}
+#mattress_show .product_hero{background:#F6F7F6 url("https://www.tuftandneedle.com/images/mattress/bg_hero@2x.jpg") center center no-repeat;background-size:cover;}
+#mattress_show .product_hero{background-image:url("https://www.tuftandneedle.com/images/mattress/bg_hero.jpg");background-position:53% bottom;}
+#mattress_show .product_hero .product_hero_content{text-align:center;}
+#mattress_show #mattress_faq #faqs > .product_title > p{max-width:unset;}
+#mattress_show #mattress_faq #faqs{padding-top:0;}
+#mattress_show .product_selector{display:block;padding-bottom:120px;text-align:center;}
+#mattress_show .product_selector::after{clear:both;content:"";display:table;}
+#mattress_show .product_selector .product_order_form{margin:0 auto;position:relative;}
+#mattress_show .product_selector .product_order_form .dropdown_toggle{background:#F7F7F7;border:1px solid #E9E9E9;border-radius:0;}
+#mattress_show .product_selector .product_order_form fieldset.visible ul.products{width:auto;}
+#mattress_show .product_selector .product_order_form fieldset.visible ul.products{left:0;}
+#mattress_show .product_selector .product_order_form fieldset.visible ul.products{top:calc(100% - 45px);width:100%;left:-1px;top:88px;}
+#mattress_show .product_selector .product_icons{display:block;margin-top:24px;margin-left:auto;margin-right:auto;max-width:420px;}
+#mattress_show .product_selector .product_icons::after{clear:both;content:"";display:table;}
+#mattress_show .product_selector .product_icons .product_icon{box-sizing:border-box;font-size:14px;display:inline-block;width:30%;vertical-align:top;}
+#mattress_show .product_selector .product_icons .product_icon span{height:48px;display:block;margin-bottom:10px;}#mattress_show .product_features .features_segments{background:url("https://www.tuftandneedle.com/images/mattress/diagram_mattress2.jpg") center top no-repeat;text-align:center;}
+#mattress_show .product_features .features_segments{padding-top:200px;background-image:url("https://www.tuftandneedle.com/images/mattress/diagram_mattress_mobile2.jpg");background-size:100%;text-align:left;}
+#mattress_show .product_features .features_segments{padding-top:125px;}
+#mattress_show .product_features .features_segments li{margin-top:-110px;margin-left:30px;margin-right:30px;padding-top:370px;display:inline-block;width:200px;text-align:left;background-repeat:no-repeat;background-position:left bottom;vertical-align:bottom;}
+#mattress_show .product_features .features_segments li{margin-left:10px;margin-right:10px;}
+#mattress_show .product_features .features_segments li h6{margin-bottom:12px;}
+#mattress_show .product_features .features_segments li p{margin-bottom:0;}
+#mattress_show .product_features .features_segments li#segment_1{padding-right:16px;background-image:url("https://www.tuftandneedle.com/images/mattress/bg_diagram_pointer.svg");background-position:right bottom;text-align:right;}
+#mattress_show .product_features .features_segments li#segment_1{text-align:left;}
+#mattress_show .product_features .features_segments li#segment_2{padding-left:16px;width:240px;background-image:url("https://www.tuftandneedle.com/images/mattress/bg_diagram_pointer_2.svg");}
+#mattress_show .product_features .features_segments li#segment_3{margin-bottom:0;padding-left:16px;background-image:url("https://www.tuftandneedle.com/images/mattress/bg_diagram_pointer_3.svg");}
+#mattress_show .product_features .features_segments li{margin:0 0 48px 0;padding:0!important;width:auto!important;position:relative;background-image:none!important;counter-increment:features;}
+#mattress_show .product_features .features_segments li:before{position:static;float:left;top:0;left:0;z-index:2;width:24px;height:24px;font:normal 14px/24px "", sans-serif;text-align:center;content:counter(features);border-radius:100%;background:#60edb3;}
+#mattress_show .product_features .features_segments li .copy{margin-left:36px;}
+#mattress_show .product_buy_wrapper{margin-bottom:0;}
+#mattress_show .video_faqs{padding:0;position:relative;}
+#mattress_show .video_faqs{padding:3.75em 0;}
+#mattress_show .video_faqs .product_title{margin-bottom:60px;}
+#mattress_show .video_faqs .viewer{display:inline-block;position:relative;width:59%;margin-left:1%;vertical-align:top;background:transparent url("https://www.tuftandneedle.com/images/lp/answers.png") center center no-repeat;background-size:300px;}
+#mattress_show .video_faqs .viewer{width:49%;}
+#mattress_show .video_faqs .viewer{width:100%;margin-left:0;}#mattress_show .video_faqs .list{display:inline-block;width:39%;vertical-align:top;overflow:hidden;}
+#mattress_show .video_faqs .list{width:49%;}
+#mattress_show .video_faqs .list{width:100%;}
+#mattress_show .video_faqs .list ul{padding:0;margin:0;}
+#mattress_show .video_faqs .list li{display:block;width:100%;border-bottom:1px solid #E9E9E9;}
+#mattress_show .video_faqs .list li.active{background-color:#F6F6F6;}
+#mattress_show .video_faqs .list li.active i{padding:2px;height:12px;border-width:0 4px;border-right-color:#60edb3;margin-right:24px;}
+#mattress_show .video_faqs .list li.active i{margin-right:9px;}
+#mattress_show .video_faqs .list li a{display:block;min-height:114px;padding:42px 30px;box-sizing:border-box;}
+#mattress_show .video_faqs .list li a{padding-top:20px;}
+#mattress_show .video_faqs .list h5{float:left;font-family:"Apercu Bold", sans-serif;font-size:16px;line-height:24px;}
+#mattress_show .video_faqs .list h5{max-width:220px;}
+#mattress_show .video_faqs .list time{font-size:14px;line-height:20px;float:right;padding-top:5px;}
+#mattress_show .video_faqs .list i{float:right;margin:8px 20px 0 0;border:6px solid transparent;border-width:6px 8px;border-left-color:#60edb3;}
+#mattress_show .video_faqs .list i{margin:8px 5px 0 0;}
+#mattress_show .two-layers{display:block;padding:0 1em;position:relative;}
+#mattress_show .two-layers::after{clear:both;content:"";display:table;}
+#mattress_show .two-layers{padding:5em 0 0 0;}
+#mattress_show .two-layers{padding:2.875em 0 0 0;}
+#mattress_show .two-layers--summary{margin:64px auto 0 auto;max-width:43.75em;text-align:left;}
+#mattress_show .two-layers--summary p{margin:0 auto;}
+#mattress_show .two-layers--summary{margin-top:24px;}
+#mattress_show .two-layers--summary{max-width:480px;}
+#mattress_show #mattress_cost .wrap{padding:0;}
+#mattress_show #mattress_cost .product_title{margin-bottom:96px;}
+#mattress_show #mattress_cost .product_title sup{font-size:16px;}
+#mattress_show #mattress_cost .price-table{display:block;padding:0;position:relative;}
+#mattress_show #mattress_cost .price-table::after{clear:both;content:"";display:table;}
+#mattress_show #mattress_cost .price-table .wrap p{margin-top:10px;text-align:center;font-size:.75em;margin:0 auto;}
+#mattress_show #mattress_cost .price-table{padding:3em 0;}
+#mattress_show #mattress_cost .price-table{padding:3em 0 1em 0;}
+#mattress_show #mattress_cost .price-table .wrap{padding:0 0.5em;}
+#mattress_show #mattress_cost .price-table .company{display:block;margin:1.25em 0;padding:1em 1em 10px 1em;border:1px solid #cccccc;}
+#mattress_show #mattress_cost .price-table .company::after{clear:both;content:"";display:table;}
+#mattress_show #mattress_cost .price-table .company h4{font:0.8em "Apercu Bold", sans-serif;padding-bottom:6px;font-weight:500;}
+#mattress_show #mattress_cost .price-table .company dt,#mattress_show #mattress_cost .price-table .company dd{width:50%;padding:6px 0;box-sizing:border-box;float:left;}
+#mattress_show #mattress_cost .price-table .company.tn{border-color:#60edb3;}
+#mattress_show #mattress_cost .price-table table{width:100%;max-width:800px;margin:2em auto;border-spacing:0;border-collapse:collapse;}
+#mattress_show #mattress_cost .price-table .mobile{display:block!important;}
+#mattress_show #mattress_cost .price-table table{display:none;}
+#mattress_show .what-matters--diagrams{display:block;margin-top:4em;margin-bottom:24px;text-align:center;}
+#mattress_show .what-matters--diagrams::after{clear:both;content:"";display:table;}
+#mattress_show .what-matters--diagrams{margin:2.875em 0 0.5em;}
+#mattress_show .what-matters--diagram{font:0.8rem "Apercu Bold", sans-serif;margin:0 60px;width:290px;display:inline-block;text-align:center;}
+#mattress_show .what-matters--diagram{margin:0 20px 24px 20px;}
+#mattress_show .what-matters--diagram{margin:0 20px 48px 20px;}
+#mattress_show .what-matters--diagram{margin:0 0 2em;}
+#mattress_show .what-matters--diagram .picture{margin-top:24px;display:block;}
+#mattress_show .what-matters--diagram .picture{margin-bottom:1.5625em;}
+#mattress_show .what-matters--diagram span{margin-top:0.5em;display:block;text-align:center;font-family:"Apercu Regular", sans-serif;}
+#mattress_show #made_for_tn .column{padding-top:0;padding-bottom:0;}
+#mattress_show #made_for_tn .product_title{margin-bottom:96px;}
+#mattress_show #made_for_tn .half{margin-bottom:60px;width:100%;}
+#mattress_show #made_for_tn .half.points{padding:0 60px;}
+#mattress_show #made_for_tn .half.points{padding:0;}
+#mattress_show #made_for_tn .half.points{margin-bottom:0;}
+#mattress_show #made_for_tn .half.points h6{margin-top:60px;margin-bottom:12px;}
+#mattress_show #made_for_tn .half.points h6:first-child{margin-top:0;}
+#mattress_show #compatibility .product_title{margin-bottom:96px;}
+#mattress_show #compatibility .frame_options{display:block;text-align:center;}
+#mattress_show #compatibility .frame_options::after{clear:both;content:"";display:table;}
+#mattress_show #compatibility .frame_options .option{margin:0 -4px;display:inline-block;width:320px;text-align:center;}
+#mattress_show #compatibility .frame_options .option{margin-bottom:2em;width:50%;}
+#mattress_show #compatibility .frame_options .option{width:100%;}
+#mattress_show #compatibility .frame_options .option.box-springs .diagram{background-image:url("https://www.tuftandneedle.com/images/icon_frame_springs.svg");}
+#mattress_show #compatibility .frame_options .option.slatted .diagram{background-image:url("https://www.tuftandneedle.com/images/icon_slatted.svg");}
+#mattress_show #compatibility .frame_options .option.adjustable .diagram{background-image:url("https://www.tuftandneedle.com/images/icon_adjustable.svg");}
+#mattress_show #compatibility .frame_options .diagram{margin:0 auto 1.5em auto;width:150px;height:115px;max-width:100%;background-repeat:no-repeat;background-position:50% center;}
+#mattress_show #mattress_specs{padding-top:0;}
+#mattress_show #mattress_safe{margin-top:120px;text-align:center;padding-bottom:18px;}
+#mattress_show #mattress_safe{margin-top:60px;}
+#mattress_show #mattress_safe .explainer_body p{margin-left:auto;margin-right:auto;margin-bottom:24px;max-width:680px;}
+#mattress_show #mattress_safe .explainer_body p a{text-decoration:underline;}
+#mattress_show #mattress_safe .fig-table{margin:96px auto;max-width:800px;}
+#mattress_show #mattress_safe .fig-table{overflow-x:scroll;}
+#mattress_show #mattress_safe .fig-table table{width:100%;border-spacing:0;border-collapse:collapse;}
+#mattress_show #mattress_safe .fig-table table th{white-space:nowrap;}
+#mattress_show #mattress_safe .fig-table table th,#mattress_show #mattress_safe .fig-table table td{padding:20px;vertical-align:middle;text-align:center;}
+#mattress_show #mattress_safe .fig-table table th,#mattress_show #mattress_safe .fig-table table td{padding:10px;}
+#mattress_show #mattress_safe .fig-table table .green-bg{border:1px solid #60edb3;background-color:#60edb3;}
+#mattress_show #mattress_safe .fig-table table tbody td{border-top:1px solid #D3D3D3;border-bottom:1px solid #D3D3D3;}
+#mattress_show #mattress_safe .fig-table table tbody tr td:first-child{border-left:1px solid #d3d3d3;}
+#mattress_show #mattress_safe .fig-table table tbody tr td:last-child{border-right:1px solid #d3d3d3;}
+#mattress_show #mattress_safe .fig-table table tbody .label{text-align:left;}
+#mattress_show #mattress_safe .product_title{margin-top:12px;margin-bottom:24px;}
+#mattress_show #mattress_safe .product_explainer .explainer_body{height:0px;overflow:hidden;max-width:800px;text-align:left;margin:0 auto;}
+#mattress_show #mattress_safe .product_explainer .explainer_body p a{padding:6px;margin:0 -6px;transition-property:background, color;transition-duration:200ms;transition-timing-function:ease;}#mattress_show #mattress_safe .product_explainer .explainer_toggle label{appearance:none;-moz-appearance:none;-webkit-appearance:none;border:0;cursor:pointer;}#mattress_show #mattress_last{text-align:center;}
+#mattress_show #mattress_last .column{padding-top:0;padding-bottom:0;}
+#mattress_show #mattress_last .product_title{margin-bottom:24px;}
+#mattress_show #mattress_last .product_explainer .explainer_body{height:0px;overflow:hidden;max-width:1040px;text-align:left;margin:0 auto;}
+#mattress_show #mattress_last .product_explainer .explainer_body p{margin-left:auto;margin-right:auto;max-width:680px;}
+#mattress_show #mattress_last .product_explainer .explainer_body p a{padding:6px;margin:0 -6px;transition-property:background, color;transition-duration:200ms;transition-timing-function:ease;text-decoration:underline;}#mattress_show #mattress_last .product_explainer .explainer_toggle label{appearance:none;-moz-appearance:none;-webkit-appearance:none;cursor:pointer;}#mattress_show #mattress_warranty{border-bottom:1px solid #E9E9E9;}
+#mattress_show #mattress_warranty .product_title h2 span{padding-bottom:2px;border-bottom:2px solid;}
+#mattress_show #mattress_warranty .wrap{display:grid;margin-top:48px;margin:64px auto 0;grid-template-columns:repeat(3, 28%);grid-column-gap:8%;}
+#mattress_show #mattress_warranty .wrap{margin-left:4%;margin-right:4%;}
+#mattress_show #mattress_warranty .wrap{display:block;padding:0 20px;}
+#mattress_show #mattress_warranty .wrap .point h6{margin-bottom:24px;text-align:center;}
+#mattress_show #mattress_warranty .wrap .point{display:block;margin:0 auto 48px;width:70%;max-width:300px;}
+#mattress_show #mattress_warranty .wrap .point{width:100%;}
+#mattress_show #mattress_love .diagram{margin-top:96px;margin-bottom:48px;text-align:center;}
+#mattress_show #mattress_love .diagram{margin-top:48px;}
+#mattress_show #mattress_love .explainer p{margin:0 auto 24px auto;max-width:680px;}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide{background-color:#FFF;background-size:contain;}
+#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_1{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/product_slide_1.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_2{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/product_slide_2.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_3{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/product_slide_3.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_4{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/product_slide_4.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_5{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/product_slide_5.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_3{background-size:cover;}
+#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_4{background-size:cover;}
+#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_5{background-size:cover;}
+.column{padding:0 20px;}
+#minicart{display:none;}#minicart .overlay{display:block;position:absolute;top:0;left:0;z-index:4;width:100vw;height:100vh;}.faqs{max-width:640px;padding:72px 24px;margin:0 auto;}
+.faqs{padding:48px 24px;}
+#faq_footer{display:none;text-align:center;}html{box-sizing:border-box;}
+*,*::after,*::before{box-sizing:inherit;}
+body{color:#2B2823;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+body h1,body h2,body h3,body h4,body h5,body h4.display,body p{margin:0;color:#2B2823;}
+body h1,body h4.display{font-family:"Tiempos Headline Bold", sans-serif;}
+body h2,body h3,body h4,body h5{font-family:"Apercu Medium", sans-serif;font-weight:normal;}
+body h1{font-size:2em;line-height:2.25em;}
+body h1{font-size:1.75em;line-height:2em;}
+body h1{font-size:1.5em;line-height:1.75em;}
+body h2{font-size:2em;line-height:2.5em;}
+body h2{font-size:1.75em;line-height:2.25em;}
+body h2{font-size:1.5em;line-height:2em;}
+body h4{font-size:1.5em;line-height:2em;}
+body h4{font-size:1.25em;line-height:1.75em;}
+body h4{font-size:1.125em;line-height:1.75em;}
+body h5{font-size:1em;line-height:1.5em;}
+body h4.display{font-size:1.5em;line-height:1.75em;}
+body h4.display{font-size:1.25em;line-height:1.5em;}
+body h4.display{font-size:1.125em;line-height:1.5em;}
+body p{color:#2B2823;font-family:"Apercu Regular", sans-serif;margin:0 auto;}
+body p{font-size:1em;line-height:1.5em;max-width:600px;}
+body .button{padding:16px 24px;color:#2B2823;border:none;background:none;outline:none;font-size:16px;font-family:"Apercu Bold", sans-serif;text-decoration:none;display:inline-block;-webkit-appearance:none;transition:all 200ms ease;line-height:1;border-radius:48px;cursor:pointer;text-align:center;min-width:200px;}body .button.alt_secondary{border:2px solid #ffffff;color:#ffffff;}body > header nav.tablet > ul a{font-family:"Apercu Bold", sans-serif;}#mattress_show .product_hero{padding:7rem 0 0;max-height:825px;background:#F6F7F6 url("https://www.tuftandneedle.com/images/mattress/new-cover/bg_hero.jpg") center center no-repeat;background-size:cover;position:relative;min-height:800px;}
+#mattress_show .product_hero{min-height:700px;}
+#mattress_show .product_hero{min-height:600px;max-height:634px;}
+#mattress_show .product_hero{padding-top:5rem;max-height:642px;}
+#mattress_show .product_hero{min-height:550px;}
+#mattress_show .product_hero{max-height:598px;}
+#mattress_show .product_hero{min-height:650px;}
+#mattress_show .product_hero .product_hero_content{max-width:650px;margin:0 auto;}
+#mattress_show .product_hero .product_hero_content h1{max-width:100%;margin:0 auto;text-align:center;color:#000000;font-size:48px;line-height:52px;position:relative;}
+#mattress_show .product_hero .product_hero_content h1 span{font-size:16px;position:relative;bottom:20px;line-height:16px;}
+#mattress_show .product_hero .product_hero_content h4{padding-top:22px;}
+#mattress_show .product_hero .product_hero_content h1{font-size:42px;line-height:48px;}
+#mattress_show .product_hero .product_hero_content h1 span{bottom:16px;}
+#mattress_show .product_hero .product_hero_content h1{font-size:32px;line-height:36px;}
+#mattress_show .product_hero .product_hero_content h1 span{bottom:12px;}
+#mattress_show .product_hero .product_hero_content h4{max-width:60%;margin:0 auto;padding-top:16px;font-size:18px;line-height:24px;}
+#mattress_show .product_hero .product_hero_content{max-width:90%;}
+#mattress_show .product_hero .product_hero_content h1 span{bottom:8px;}
+#mattress_show .product_hero .product_hero_content h4{max-width:264px;}
+#mattress_show .product_hero p.disclaimer{margin:0 auto;position:absolute;bottom:22px;color:#fff;right:0;left:0;max-width:90%;text-align:center;font-size:12px;line-height:20px;font-weight:600;text-shadow:0 0 20px black;}
+#mattress_show .product_features .features_segments{background:url("https://www.tuftandneedle.com/images/mattress/new-cover/diagram_mattress2.jpg") center top no-repeat;}
+#mattress_show .product_features .features_segments{background-image:url("https://www.tuftandneedle.com/images/mattress/new-cover/diagram_mattress_mobile2.jpg");background-size:120%;}
+#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide{background-color:#FFF;background-size:cover;background-position:center center;}
+#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_1{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_1.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_2{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_2.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_3{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_3.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_4{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_4.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_5{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_5.jpg");}#mattress_show #mattress_selector #product_buy .product_buy_wrapper #slides .slide.slide_6{background-image:url("https://www.tuftandneedle.com/images/mattress_modal/new/product_slide_6.jpg");}
+html{overflow-x:hidden!important}body,html{height:auto!important}
+body{margin:0!important;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}
+html.i-amphtml-fie>body,html.i-amphtml-singledoc>body{overflow:visible!important}html.i-amphtml-fie:not(.i-amphtml-inabox)>body,html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body{position:relative!important}
+.i-amphtml-element{display:inline-block}
+.i-amphtml-layout-fixed,[layout=fixed][width][height]:not(.i-amphtml-layout-fixed){display:inline-block;position:relative}.i-amphtml-layout-responsive,[layout=responsive][width][height]:not(.i-amphtml-layout-responsive),[width][height][sizes]:not(.i-amphtml-layout-responsive){display:block;position:relative}
+.i-amphtml-layout-size-defined{overflow:hidden!important}
+i-amphtml-sizer{display:block!important}.i-amphtml-blurry-placeholder,.i-amphtml-fill-content{display:block;height:0;max-height:100%;max-width:100%;min-height:100%;min-width:100%;width:0;margin:auto}.i-amphtml-layout-size-defined .i-amphtml-fill-content{position:absolute;top:0;left:0;bottom:0;right:0}
+.i-amphtml-replaced-content,.i-amphtml-screen-reader{padding:0!important;border:none!important}
+.i-amphtml-notbuilt,[layout]:not(.i-amphtml-element){position:relative;overflow:hidden!important;color:transparent!important}.i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,[layout]:not([layout=container]):not(.i-amphtml-element)>*{display:none}
+.i-amphtml-loading-container{display:block!important;z-index:1}
+.i-amphtml-loading-container.amp-hidden{visibility:hidden}
+.i-amphtml-loader{position:absolute;display:block;height:10px;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;white-space:nowrap}.i-amphtml-loader.amp-active .i-amphtml-loader-dot{-webkit-animation:i-amphtml-loader-dots 2s infinite;animation:i-amphtml-loader-dots 2s infinite}.i-amphtml-loader-dot{position:relative;display:inline-block;height:10px;width:10px;margin:2px;border-radius:100%;background-color:rgba(0,0,0,0.3);box-shadow:2px 2px 2px 1px rgba(0,0,0,0.2);will-change:transform}.i-amphtml-loader .i-amphtml-loader-dot:first-child{-webkit-animation-delay:0s;animation-delay:0s}.i-amphtml-loader .i-amphtml-loader-dot:nth-child(2){-webkit-animation-delay:.1s;animation-delay:.1s}.i-amphtml-loader .i-amphtml-loader-dot:nth-child(3){-webkit-animation-delay:.2s;animation-delay:.2s}
