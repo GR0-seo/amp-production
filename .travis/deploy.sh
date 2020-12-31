@@ -13,7 +13,7 @@ URL=$3
 mkdir /tmp/$FOLDER && rsync -arv ./$FOLDER/ /tmp/$FOLDER
 
 # Checkout branch or create if not exists
-git checkout $CLIENT || git checkout -b $CLIENT empty
+git checkout $CLIENT || git checkout -b $CLIENT origin/empty
 
 # Sync files back to branch
 rsync -arv --delete --exclude ".git" --exclude ".well-known" --exclude "netlify.toml" --exclude "amp-sitemap.json" "/tmp/$FOLDER/" "."
