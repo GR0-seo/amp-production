@@ -5,6 +5,12 @@
     force = true
 
 [[redirects]]
+    from = "https://amp.boundery.com/*"
+    to = "https://boundery.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "https://amp.intotheam.com/*"
     to = "https://intotheam.gr0.app/:splat"
     status = 200
