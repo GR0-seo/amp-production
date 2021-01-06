@@ -4,12 +4,5 @@
         Content-Type = "text/plain"
 
 [[redirects]]
-    from = "/.well-known/amphtml/apikey.pub"
-    to = "/.well-known/amphtml/apikey.pub"
-    status = 200
-    force = true
-
-[[redirects]]
     from = "/*"
     to = "https://iheartraves.com/:splat"
-    force = true
