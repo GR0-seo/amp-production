@@ -5,7 +5,7 @@ exports.handler = async function(event, context) {
     const clientData = {
         "rellery": { apiKey: "pk_7ae913cf07d68ffe6c3ffdd71d78452a56", listId: "JTZTmW", sms_consent: false },
         "ties": { apiKey: "pk_a370d9eb8f1aca15076a85e2063d8e11ee", listId: "JgrX6e", sms_consent: false },
-        "miracle": { apiKey: "pk_1a0b8b0ae39014ca7b596dc78b6ec71473", listId: "tbd", sms_consent: false },
+        "miracle": { apiKey: "pk_1a0b8b0ae39014ca7b596dc78b6ec71473", listId: "XjAexq", sms_consent: false },
     };
     
     const { client, files, ...data } = await parser.parse(event);
