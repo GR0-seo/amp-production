@@ -1,4 +1,14 @@
 [[redirects]]
+    from = "/milanicosmetics-com/*"
+    to = "https://milanicosmetics.com/:splat"
+
+[[redirects]]
+    from = "https://amp.milanicosmetics.com/*"
+    to = "https://milanicosmetics.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "https://amp.pumpkin.care/*"
     to = "https://pumpkin.gr0.app/:splat"
     status = 200
