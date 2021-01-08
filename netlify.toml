@@ -1,4 +1,10 @@
 [[redirects]]
+    from = "https://amp.pumpkin.care/*"
+    to = "https://pumpkin.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "https://amp.boundery.com/*"
     to = "https://boundery.gr0.app/:splat"
     status = 200
