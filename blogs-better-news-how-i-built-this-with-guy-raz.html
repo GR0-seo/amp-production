@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html amp="" class="no-js supports-no-cookies s--loaded nl s--scrolling-up nh"><head><title>How I Built This with Guy Raz</title><meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=&amp;amp;display=swap" rel="stylesheet"/><meta content="How I Built This with Guy Raz" property="og:title"/>
+<meta content="https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz" property="og:url"/>
+<meta content="ASYSTEM" property="og:site_name"/>
+<meta content="http://cdn.shopify.com/s/files/1/0085/4061/8815/articles/headspace_600x.png?v=1570470823" property="og:image"/>
+<meta content="https://cdn.shopify.com/s/files/1/0085/4061/8815/articles/headspace_600x.png?v=1570470823" property="og:image:secure_url"/>
+<meta content="article" property="og:type"/>
+<meta data-currency="USD" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-shop-id="8540618815" data-venmo-supported="true" id="in-context-paypal-metadata"/>
+<meta content="googleanalytics" name="amp-google-client-id-api"/><meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
+<link as="script" href="https://cdn.ampproject.org/v0.js" rel="preload"/>
+<script async="" custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz" rel="canonical"/><meta content="How I Built This with Guy Raz" name="description"/><meta charset="utf-8"/><script async="" src="https://cdn.ampproject.org/v0.js"></script>
+<script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async="" custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async="" custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async="" custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async="" custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<style amp-custom="">html{line-height:1.15;-webkit-text-size-adjust:100%;overflow-y:scroll;min-height:100%;-webkit-overflow-scrolling:touch;min-width:320px;height:auto;box-sizing:border-box;font-size:100%;background-color:#e8e6df}header,main,nav,section{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects;display:inline-block;text-decoration:none;color:#111}svg:not(:root){overflow:hidden}button,input{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0;overflow:visible}button{text-transform:none;cursor:pointer;padding:0;border:none;background:0 0}[type=submit],button{-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}body{margin:0;height:100%;overflow-x:hidden;font-size:16px;line-height:1.5;font-weight:400;background-color:#fff;color:#000}*,:after,:before{box-sizing:inherit}p{margin:0;font-weight:400;line-height:1.5}body,button,input{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;text-size-adjust:100%}a:focus{color:inherit}i{font-style:normal;line-height:1;font-size:16px}ul{padding:0;margin:0}li{list-style-type:none}input:focus{outline:0}input::-webkit-input-placeholder{color:#b5b5b5;font-size:inherit}amp-img{border-style:none;max-width:100%;font-style:italic;vertical-align:middle}.t{display:none}.n{visibility:hidden;opacity:0;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1000;background-color:rgba(0,0,0,.3)}h1,h3,h4,h5{color:inherit;margin:0;line-height:1.1875;font-weight:700}a,body,h1,h3,h4,h5,li,p,span{font-family:Zurich,sans-serif;letter-spacing:-.6px}h1{font-size:60px;line-height:.833333333}@media (max-width:736px){h1{font-size:30px}}h3,h4,h5{font-size:24px}@media (max-width:736px){h3,h4,h5{font-size:20px}}li,p{font-size:16px}.r{display:flex}.i{align-items:center}.s{justify-content:center}.o{justify-content:flex-end}.u{justify-content:space-between}.a{display:none}@media (max-width:768px){.a{display:block}.f{display:none}}.l{position:relative}.c{max-width:1294px;width:100%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.h{display:flex;flex-wrap:wrap;margin-left:-3px;margin-right:-3px}.p{padding-left:3px;padding-right:3px}.d{position:fixed;width:100%;top:0;left:0;background-color:transparent;color:#fff;z-index:50}[data-alt-header] .d{color:#000}.d a{color:currentColor}.v.v{padding:15px 25px;width:auto;height:auto;display:flex;background:0 0}@media (max-width:1024px){.v.v{padding:15px 10px}}@media (max-width:768px){.v.v{justify-content:space-between;padding:18px 30px}}.m{position:absolute;left:0;right:0;margin:auto;width:133px;padding-top:10px;padding-bottom:10px}@media (max-width:736px){.v.v{padding-left:25px;padding-right:25px}.m{width:121px}.g{position:relative;z-index:20}}.m svg{display:block;width:100%;height:100%}.y{display:none;width:20px;height:12px;border-top:1px solid;border-bottom:1px solid;cursor:pointer}.b.b{width:50%;height:auto;background:0 0;display:flex}@media (max-width:768px){.y{display:block}.b.b{display:none}}.b.b li{padding:10px 0;margin:0 25px;cursor:pointer;font-size:16px;line-height:1;text-transform:uppercase;position:relative;font-family:Zurich,sans-serif;pointer-events:all}@media (max-width:1024px){.b.b li{margin:0 10px}}.b.b li:before{content:"";position:absolute;bottom:2px;left:0;width:100%;height:1px;background-color:currentColor;transform:scaleX(0);transform-origin:left}.b.b li:hover:before{transform:scaleX(1)}.b.b a{display:block}.w{display:none;align-items:center;position:relative}@media (max-width:768px){.w{display:flex}}.w a,.w span{margin-left:17px}.w svg{display:block}.w .x{position:absolute;top:-2px;right:-5px;z-index:1}.x{width:12px;height:12px;line-height:12px;background-color:#000;color:#fff;font-size:6px;border-radius:50%;display:none;vertical-align:top}.x,.k{text-align:center}.k h4{margin-bottom:15px;text-transform:uppercase}.k p{margin-bottom:25px}.k form{position:relative;width:100%}.k input{display:block;padding:21px 120px 21px 18px;border:1px solid #000;line-height:1;width:100%;border-radius:2px}.k button{line-height:1;text-transform:uppercase;position:absolute;top:0;right:0;padding:21px 18px}.g{background-color:#000;color:#fff;padding-top:43px;padding-bottom:28px}.g a{color:currentColor;font-size:18px;letter-spacing:-.6px;line-height:1.14;font-family:Zurich,sans-serif}.g a:hover{color:#a4b79d}._{margin-left:-10px;margin-right:-10px;display:flex}.j,.q{margin-left:10px;margin-right:10px;flex:1;max-width:250px}.j{margin-left:auto}.q li{line-height:1.25}.q a{display:inline-block;font-weight:900}.z{margin-top:10px}.z a{font-weight:400}.te{display:none}@media (max-width:736px){._{display:none}.j,.q{width:100%;max-width:100%;text-align:center;margin-bottom:40px;flex:none}.te{display:block}}.te li{border-bottom:1px solid #fff}.te span{font-size:24px;letter-spacing:1px;display:flex;justify-content:space-between;align-items:center;padding-top:18px;padding-bottom:18px;line-height:1}.tt svg{transform:rotate(90deg)}.tn{height:0;overflow:hidden}.tn li{border-bottom:0}.tn li:last-child{padding-bottom:14px}.tn a{font-size:14px;letter-spacing:.58px;line-height:2.428571429}.tr{padding-top:23px;display:flex;align-items:flex-end}.tr p{margin-left:13px;font-family:Zurich Extended Condensed;font-size:10px;line-height:1}.ti{position:fixed;top:0;left:0;width:100%;height:100vh;max-width:410px;background-color:#f1f1f1;font-family:Zurich,sans-serif;z-index:49;display:flex;flex-direction:column;align-items:stretch;transform:translateX(-100%)}.ti:before{content:"";position:absolute;top:0;left:0;width:100%;height:64px;background-color:inherit;z-index:2}@media (max-width:736px){.ti{max-width:100%;z-index:51}.ti:before,.ts{display:none}}.ts{position:fixed;top:0;left:0;width:100%;height:100vh;background-color:rgba(0,0,0,.6);pointer-events:none;opacity:0;z-index:48}.to{position:absolute;top:0;left:100%;display:flex;align-items:center;justify-content:center;background-color:#000;color:#fff;width:40px;height:40px;cursor:pointer;transform:translateX(-100%);z-index:-1}.to:hover{background-color:#a4b79d}.to:hover svg{transform:scale(1.2)}.to svg{width:20px;height:20px}@media (max-width:736px){.to{left:auto;right:0;z-index:3;transform:none}.to svg{width:18px;height:18px}}.tu{display:none;align-items:flex-end;padding:30px 54px 0 0;justify-content:stretch;position:relative;z-index:2;background-color:#f1f1f1}.tu li{cursor:pointer;font-size:14px;line-height:1;letter-spacing:1.75px;text-transform:uppercase;position:relative;flex:1;padding-left:26px;padding-right:26px;padding-bottom:26px;border-bottom:1px solid rgba(0,0,0,.15)}@media (max-width:736px){.tu{display:flex;padding-top:13px}.tu li{letter-spacing:0;padding-left:20px;padding-right:20px;padding-bottom:13px;flex:0}}.tu li:hover,.tu li[data-active]{border-bottom-color:#000}.ta{padding-top:64px;flex:1;overflow-y:auto;overflow-x:hidden}.ta::-webkit-scrollbar-button{display:none}.ta::-webkit-scrollbar-thumb{background-color:#333936;border-radius:2px}.ta::-webkit-scrollbar-thumb:hover{background-color:#000}.ta::-webkit-scrollbar-track{background-color:#e8e6df}.ta::-webkit-scrollbar{width:8px}@media (max-width:736px){.ta{padding-top:0}}.tf{padding:50px;display:none}@media (max-width:736px){.tf{padding:33px 37px}}.tf[data-active-nav]{display:block}.tf span{display:block;transform:translateX(-20px);opacity:0}.tl h3{font-size:24px;line-height:1;letter-spacing:-.6px;margin-bottom:20px;font-family:Zurich,sans-serif;text-transform:uppercase}.tl>a{font-size:18px;letter-spacing:-.6px;display:inline-block;margin-bottom:21px;border-bottom:1px solid transparent}.tl>a:hover{font-weight:700}.tf.tc li{margin-bottom:30px}.tf.tc span{font-weight:400}.th>li{font-size:24px;line-height:1;letter-spacing:-.6px;margin-bottom:60px;font-family:Zurich,sans-serif}.th>li:last-child{margin-bottom:0}.th span{font-weight:700}.th span>a{border-bottom:1px solid transparent}.th span>a:hover{font-weight:700}.tp{padding-top:15px}.tp li{font-size:24px}.tp a{display:block;padding-top:10px;padding-bottom:10px}.tp span{font-weight:400}.tp a:hover{font-weight:800}.td{border-top:2px solid #000;padding-top:23px}.td li{margin-bottom:23px}.td li:last-child{margin-bottom:0}.tv{display:block}.tv amp-img{display:block;width:100%;margin-bottom:17px}.tv span{font-size:14px;letter-spacing:-.6px;line-height:1;display:inline-block;margin-bottom:8px;font-weight:700;text-transform:uppercase}.tv h5{font-weight:400;font-size:14px;line-height:1.428;letter-spacing:-.6px}.tm{background-color:#fff;padding:22px 50px}.tm li{font-size:24px;font-family:Zurich,sans-serif}.tm a{display:block;color:#000}.tm a:hover{color:#a4b79d}.tg{display:flex;align-items:center;margin-left:-9px;margin-right:-9px;color:#c3cad1}.tg a{margin-left:9px;margin-right:9px;color:currentColor;display:block;position:relative}.tg a:hover{color:#000}.tg :first-child{margin-left:2px}.tg svg{width:23px;height:20px;display:block}@media (max-width:736px){.tm{padding-left:37px;padding-right:37px;padding-bottom:122px}.tg svg{width:20px;height:16px}}.ty{pointer-events:none;display:none;position:fixed;top:0;left:0;width:100vw;height:100%;z-index:200;background-color:rgba(0,0,0,.6)}.ty,.tb{opacity:0;justify-content:center;align-items:center}.tb{display:flex;flex-direction:column;width:500px;max-width:95%;max-height:calc(100% - 2rem);transform:scale(.95);position:relative;background-color:#fff;padding:50px 68px}@media (max-width:736px){.tb{padding:50px 37px;width:352px}}.tb svg{width:14px;height:14px;position:absolute;top:20px;right:20px;cursor:pointer}.tb svg:hover{color:#a4b79d}.tw{opacity:0;pointer-events:none;position:fixed;transform:translateY(100%);bottom:0;right:100px;width:500px;max-width:95%;z-index:200;padding:50px 68px;background-color:#fff;color:#000}@media (max-width:736px){.tw{display:none;padding:50px 37px;width:352px}}.tw i{width:14px;height:14px;position:absolute;top:20px;right:20px;cursor:pointer}.tw i:hover{color:#a4b79d}.tw svg{display:block;width:100%;height:100%}.tx{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;text-align:center;min-height:100px}.tx form,.tx h4,.tx p{opacity:0;transform:translateY(10px)}.tx h4{margin-bottom:15px;text-transform:uppercase}.tx p{color:#333936}.tx form{position:relative;width:100%}.tx input{display:block;padding:21px 120px 21px 18px;border:1px solid #000;line-height:1;width:100%}.tx button{line-height:1;text-transform:uppercase;position:absolute;top:0;right:0;padding:21px 18px}.tx .t p{font-size:15px;margin-bottom:0}.tx a{text-decoration:underline}.tx a:hover{text-decoration:none}.tk{position:fixed;top:0;right:0;width:100vw;max-width:491px;height:100%;z-index:200;transform:translateX(100%)}.t_{position:fixed;top:0;right:0;width:200vw;height:100vh;background-color:rgba(0,0,0,.3);pointer-events:none;opacity:0;z-index:-1}.tj{background-color:#fff;height:100%;display:flex;flex-direction:column}.tq{padding:25px 45px}@media (max-width:736px){.tq{padding:20px}}.tq span{cursor:pointer}.tq span:hover{color:#a4b79d}.tq span [stroke]{stroke:currentColor}.tz{display:flex;align-items:center;font-size:12px}.tz svg{transform:rotate(-180deg);display:block;margin-right:15px}.ne{padding:45px 0}.ne p{text-align:center;font-size:12px}.nt{margin-top:23px}.nt li{margin-left:15px;margin-right:15px}.nt a{text-transform:uppercase;font-size:12px;letter-spacing:1.5px;border-bottom:1px solid transparent;color:#333936}@media (max-width:736px){.nt{margin-top:31px;flex-direction:column;border-top:1px solid #000;border-bottom:1px solid #000;text-align:left;justify-content:flex-start;padding-top:9px;padding-bottom:9px;position:relative;z-index:2}.nt li{margin:0;display:flex;justify-content:space-between;align-items:center;height:0;overflow:hidden}.nt a{font-size:14px;letter-spacing:1.75px;border:none;padding-top:9px;padding-bottom:9px;opacity:0}.nt [data-active]{order:-1;height:auto}}.nt a:hover{border-bottom-color:currentColor}.nt [data-active] a{font-weight:800;opacity:1}.nt [data-active] a:hover{border-bottom-color:transparent}.nt svg{display:none;transform:rotate(90deg);margin-right:5px}.nn{padding-top:102px;text-align:center}@media (max-width:768px){.nn{padding-top:92px}}.nn span{font-size:16px;line-height:2;font-weight:800;letter-spacing:-.31px;margin-bottom:20px}.nn em{font-weight:400}.nn h1{max-width:700px;margin:0 auto 26px;font-size:40px}@media (max-width:736px){.nt [data-active] a{font-weight:400}.nt svg{display:block}.nn h1{margin-bottom:10px;font-size:24px}}.nn p{max-width:700px;margin:0 auto 22px}@media (max-width:736px){.nn p{margin-bottom:16px}}.nn amp-img{display:block;margin:0 auto 40px}.nr{border-top:1px solid #979797;border-bottom:1px solid #979797;padding:29px 0 23px;margin-bottom:37px}.nr .nt{margin-top:0;margin-left:auto;margin-right:auto}@media (max-width:736px){.nn amp-img{margin-bottom:0}.nr{border:0;padding:0;margin-bottom:36px}.nr .nt{width:100%}}.nr>a{font-size:12px;letter-spacing:1.5px;text-decoration:underline}.nr>a:hover{text-decoration:none}.ni{border-bottom:0;margin-bottom:0}.ns .p{flex:1}.ns .p:first-child{max-width:230px}.no{padding-top:32px;font-size:12px}.no a{text-transform:uppercase;letter-spacing:1.33px;display:inline-block;margin-bottom:25px;border-bottom:1px solid transparent;line-height:1}@media (max-width:736px){.ns .p{flex:none;width:100%}.ns .p:first-child{max-width:none}.ns .tg{padding-top:17px;padding-bottom:17px;margin-left:-20px;width:100vw;background-color:#e8e6df;color:#000;justify-content:space-around;position:fixed;bottom:0;z-index:1}.no{text-align:center;padding-top:7px}.no a{display:none}}.no a:hover{border-bottom-color:currentColor}.no span{display:block}.no p{line-height:1.67}.nu,.no p{font-family:Zurich,sans-serif}.nu{max-width:700px;font-size:18px;padding-bottom:54px;border-bottom:1px solid #979797}@media (max-width:736px){.no span{display:none}.nu{padding-top:21px;padding-bottom:32px}}.na{padding-top:25px;margin-bottom:41px;max-width:700px}.na .tg{flex-shrink:0;margin-left:30px;margin-bottom:10px}@media (max-width:736px){.na{padding-top:0;margin-bottom:20px}.na .tg{display:none}}.nf{z-index:999999;border:none;position:fixed;width:80px;height:90px}.nl .nf{right:0;bottom:0}@font-face{font-family:Zurich Extended;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-Light.woff) format("woff");font-weight:300;font-style:normal}@font-face{font-family:Zurich Extended;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-RomanExtended.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Zurich Extended;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-BoldExtended.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Zurich Extended;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-BlackExtended.woff) format("woff");font-weight:800;font-style:normal}@font-face{font-family:Zurich;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-Roman.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Zurich;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-Bold.woff) format("woff");font-weight:800;font-style:normal}@font-face{font-family:Zurich;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-Bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:Zurich Extended Condensed;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-LightCondensed.woff) format("woff");font-weight:300;font-style:normal}@font-face{font-family:Zurich Extended Condensed;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-RomanCondensed.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:Zurich Extended Condensed;src:url(https://p.webfast.co/https://cdn.shopify.com/s/files/1/0085/4061/8815/t/25/assets/ZurichBT-BoldCondensed.woff) format("woff");font-weight:700;font-style:normal}:root:not(#nc):not(#nc) .nh{background-color:#e8e6df}:root:not(#nc):not(#nc) .np{width:80px;height:90px}:root:not(#nd):not(#nd) #nv{margin-bottom:40px;max-height:calc(100% - 40px);z-index:100}:root:not(#nd):not(#nd) .tx p{margin-bottom:15px}:root:not(#nd):not(#nd) .nf{top:auto}ul.tn{height:auto}.ti{transform:unset}.nm{padding:35px}.v.v{background-color:#fff}</style>
+</head><body data-alt-header="" data-template="article" data-top-bar-status="false">
+<header class="d" data-header=""><div class="v r i">
+<a class="m" href="/">
+<svg data-wf_height="0" data-wf_width="121" height="0" version="1.1" viewbox="0 0 176 28" width="121" xmlns="http://www.w3.org/2000/svg">
+<g fill="currentColor" fill-rule="nonzero" stroke="none" stroke-width="1">
+<path d="M172.37 4l-.11.13h-1.99l-7.77 9.47-7.77-9.47h-1.99l-.11-.13v.13H151V24h3.45V9.12l6.78 8.32h2.54l6.78-8.32V24H174V4.13h-1.63V4M126 5v19h18v-3.2h-14.57v-4.76h9.71v-3.2h-9.71V8.2H144V5h-18M100 5v3.2h9.23V24h3.54V8.2H122V5h-22M81.81 8.2h7.14c1.92 0 2.14.76 2.22 1.04l.19.65H95l-.22-1.08C94.2 6.46 92.04 5 89.15 5h-7.51c-3.74 0-5.96 2.06-5.96 5.5v.1c0 3.42 2.22 5.46 5.96 5.46h7.2c1.92 0 2.7.69 2.7 2.36 0 1.7-.78 2.39-2.7 2.39h-7.79c-1.92 0-2.14-.77-2.22-1.05l-.19-.65H75l.22 1.08c.59 2.35 2.74 3.81 5.63 3.81h8.17c3.74 0 5.96-2.07 5.96-5.53v-.1c0-3.45-2.22-5.5-5.96-5.5h-7.2c-2.25 0-2.7-.93-2.7-2.31 0-1.68.78-2.36 2.7-2.36M63.19 24v-6.92h2.83L72 5h-3.57l-4.47 8.89h-4.92L54.57 5H51l5.98 12.08h2.83V24h3.38M33.81 8.2h7.14c1.92 0 2.14.76 2.22 1.04l.19.65H47l-.22-1.08C46.2 6.46 44.04 5 41.15 5h-7.51c-3.74 0-5.96 2.06-5.96 5.5v.1c0 3.42 2.22 5.46 5.96 5.46h7.2c1.92 0 2.7.69 2.7 2.36 0 1.7-.78 2.39-2.7 2.39h-7.79c-1.92 0-2.14-.77-2.22-1.05l-.19-.65H27l.22 1.08c.59 2.35 2.74 3.81 5.63 3.81h8.17c3.74 0 5.96-2.07 5.96-5.53v-.1c0-3.45-2.22-5.5-5.96-5.5h-7.2c-2.25 0-2.7-.93-2.7-2.31 0-1.68.78-2.36 2.7-2.36M13.2 8.18l3.88 5.73H5.88L9.8 8.18h3.4zm-7.76 8.9h12.12V24H21V13.87L14.89 5H8.11L2 13.87V24h3.44v-6.91z"></path>
+</g>
+</svg>
+</a>
+<i class="y" data-addclass="html:s--nav-open" on="tap:sidebar.toggleVisibility" role="" tabindex=""></i>
+<ul class="b header__nav--first r i">
+<li data-active="" data-addclass="html:s--nav-open" data-toggle-nav="0">Shop</li>
+<li data-addclass="html:s--nav-open" data-toggle-nav="1">Journal</li>
+<li data-addclass="html:s--nav-open" data-toggle-nav="2">About</li>
+</ul>
+<ul class="b header__nav--last r i o">
+<li data-popup="#header__popup">Newsletter</li>
+<li><a href="/account">Login</a></li>
+<li>
+<span data-toggleclass="html:s--cart-open">
+          Cart
+          <i class="x"></i>
+</span>
+</li>
+</ul>
+<div class="w">
+<a href="/account">
+<svg data-wf_height="20" data-wf_width="19" height="20" viewbox="0 0 19 20" width="19" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.5 11.2c2.6 0 4.8-2.1 4.8-4.8a4.8 4.8 0 10-9.5 0c0 2.7 2 4.8 4.7 4.8zM16.6 19.2c0-4.4-3.2-8-7.1-8-4 0-7.1 3.6-7.1 8" fill="none" stroke="currentColor"></path>
+</svg>
+</a>
+<span data-toggleclass="html:s--cart-open">
+<svg data-wf_height="22" data-wf_width="20" height="22" viewbox="0 0 20 22" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 6.3c0-2.6-2.3-4.7-5-4.7-2.8 0-5 2-5 4.7M2.5 20.4h15V6.3h-15z" fill="none" stroke="currentColor"></path>
+</svg>
+<i class="x"></i>
+</span>
+</div>
+</div>
+</header>
+<amp-analytics id="facebookpixel" type="facebookpixel"><script type="application/json">{"vars": {"pixelId": "657931624713986"},"triggers": {"trackPageview": {"on": "visible","request": "pageview"}}}</script></amp-analytics><amp-analytics type="googleanalytics"><script type="application/json">{"vars": {"account": "UA-144474725-1"},"triggers": {"trackPageview": {"on": "visible","request": "pageview"}}}</script></amp-analytics><div class="shopify-section" id="shopify-section-minicart">
+<div class="tk" id="cart"><div class="t_" data-removeclass="html:s--cart-open"></div> <div class="tj"><div class="tq r u"><span class="tz" data-removeclass="html:s--cart-open"><svg data-wf_height="22" data-wf_width="13" height="22" viewbox="0 0 13 22" width="13" xmlns="http://www.w3.org/2000/svg"><path d="M1 20.9l9.9-9.9L1 1.1" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></path></svg>
+
+        Back
+      </span> <span data-removeclass="html:s--cart-open"><svg data-wf_height="28" data-wf_width="28" height="28" version="1.1" viewbox="0 0 28 28" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" id="cart-black" stroke="none" stroke-width="1"><path d="M19.75,8.5 C19.75,5.46257981 17.2878739,3 14.25,3 C11.2130202,3 8.75,5.46257981 8.75,8.5" id="handle" stroke="#231F20"></path> <polygon id="bag" points="6 25 22.5 25 22.5 8.5 6 8.5" stroke="#231F20"></polygon></g></svg></span></div> <div class="ne"><p>Your cart is currently empty.</p></div></div></div>
+</div>
+<div class="k ty" id="k">
+<div class="tb">
+<i data-popup-close="">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 96 120" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 13.1L82.9 8 48 42.9 13.1 8 8 13.1 42.9 48 8 82.9l5.1 5.1L48 53.1 82.9 88l5.1-5.1L53.1 48z" fill="currentColor"></path>
+</svg>
+</i>
+<h4>You miss 100% of the emails you don’t get.</h4>
+<p>Get product exclusives, event invites, and ideas for your mind + body</p>
+<form action-xhr="https://webfast-proxy.ngrok.io/api" data-newsletter-subscribe="" method="POST" target="_top"><input id="wf_submit_url" type="hidden" value="https://asystem.com/https://manage.kmail-lists.com/subscriptions/subscribe?a=KYCVnf&amp;g=K3vQbK"/>
+<input name="g" type="hidden" value="K3vQbK"/>
+<input name="email" placeholder="Enter email address" required="" type="email"/>
+<button type="submit">Sign up</button>
+</form>
+<div class="t">
+        Thanks for signing up!
+      </div>
+</div>
+</div>
+<i class="ts" data-removeclass="html:s--nav-open"></i>
+<nav class="ti" hidden="" id="sidebar" role="navigation">
+<i class="to" data-removeclass="html:s--nav-open" on="tap:sidebar.toggleVisibility" role="" tabindex="">
+<svg data-wf_height="18" data-wf_width="18" height="18" viewbox="0 0 96 120" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 13.1L82.9 8 48 42.9 13.1 8 8 13.1 42.9 48 8 82.9l5.1 5.1L48 53.1 82.9 88l5.1-5.1L53.1 48z" fill="currentColor"></path>
+</svg>
+</i>
+<ul class="tu">
+<li data-active="" data-toggle-nav="0">
+      Shop
+    </li>
+<li data-toggle-nav="1">
+<a href="/blogs/betterment-project">
+        Journal
+      </a>
+</li>
+<li data-toggle-nav="2">
+<a href="/pages/about-us" title="">About</a>
+</li>
+</ul>
+<div class="ta">
+<div class="nm" data-active-nav="">
+<ul class="th">
+<li>
+<span style="transition-delay: 0.55s">
+<a href="/collections" title="">SHOP ALL</a>
+</span>
+<ul class="tp">
+<li>
+<span style="transition-delay: 0.65s">
+<a href="/collections/supplements" title="">SUPPLEMENTS</a>
+</span>
+</li>
+<li>
+<span style="transition-delay: 0.75s">
+<a href="/collections/skincare" title="">SKINCARE</a>
+</span>
+</li>
+<li>
+<span style="transition-delay: 0.85s">
+<a href="/collections/pain-relief" title="">PAIN RELIEF</a>
+</span>
+</li>
+<li>
+<span style="transition-delay: 0.95s">
+<a href="/collections/systems" title="">SYSTEMS</a>
+</span>
+</li>
+<li>
+<span style="transition-delay: 1.05s">
+<a href="/collections/apparel" title="">APPAREL</a>
+</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<ul class="tm">
+<li>
+<a href="https://www.instagram.com/asystem" rel="noopener">
+        INSTAGRAM
+      </a>
+</li>
+</ul>
+</nav>
+<main class="main article-template" id="MainContent" role="main">
+<div class="nn">
+<div class="c">
+<span class="a">
+<em>The</em> Betterment Project
+    </span>
+<div class="nr r i u">
+<a class="f" href="/blogs/better-news/you-can-use-these-brain-hacks-to-stop-mind-wandering-but-should-you">Prev Article</a>
+<ul class="nt r s" data-blog-filters="">
+<li style="height: 0">
+<a href="/blogs/betterment-project" title="All">
+        All
+      </a>
+</li>
+<li data-active="">
+<a href="/blogs/better-news" title="Better News">
+        Better News
+      </a>
+<svg data-wf_height="15.82684326171875" data-wf_width="23.5416259765625" height="15.82684326171875" viewbox="0 0 13 22" width="23.5416259765625" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 20.9l9.9-9.9L1 1.1" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></path>
+</svg>
+</li>
+<li style="height: 0">
+<a href="/blogs/mind" title="Better Mind">
+        Better Mind
+      </a>
+</li>
+<li style="height: 0">
+<a href="/blogs/body" title="Better Body">
+        Better Body
+      </a>
+</li>
+<li style="height: 0">
+<a href="/blogs/asysteam" title="#asysTEAM">
+        #asysTEAM
+      </a>
+</li>
+<li style="height: 0">
+<a href="/blogs/events" title="Events">
+        Events
+      </a>
+</li>
+</ul>
+<a class="f" href="/blogs/better-news/getting-your-protein-from-plants-may-help-you-live-longer">Next Article</a>
+</div>
+<h1>How I Built This with Guy Raz</h1>
+<p>1hr 14mins (Podcast)
+
+Headspace: Andy Puddicombe and Rich Pierson</p>
+<amp-img alt="How I Built This with Guy Raz" data-wf_display="block" data-wf_height="216" data-wf_index_counter="4" data-wf_layout="intrinsic" data-wf_object_fit="fill" data-wf_width="381" height="216" layout="fixed" src="https://cdn.shopify.com/s/files/1/0085/4061/8815/articles/headspace_1200x680_crop_center.png?v=1570470823" srcset="//cdn.shopify.com/s/files/1/0085/4061/8815/articles/headspace_1200x680_crop_center.png?v=1570470823 600w" style="" width="381"></amp-img>
+</div>
+</div>
+<div class="c">
+<div class="ns">
+<div class="h">
+<div class="p">
+<div class="tg">
+<a class="share__button" data-share="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asystem.com%2Fblogs%2Fbetter-news%2Fhow-i-built-this-with-guy-raz">
+<svg data-wf_height="16" data-wf_width="20" height="16" viewbox="0 0 7 15" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.46 14.093h2.805V6.987h1.96l.21-2.367h-2.17V3.26c0-.562.113-.782.648-.782h1.521V0H4.491C2.4 0 1.459.93 1.459 2.717V4.62H0v2.41h1.46v7.063z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="share__button" data-share="" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.asystem.com%2Fblogs%2Fbetter-news%2Fhow-i-built-this-with-guy-raz">
+<svg data-wf_height="16" data-wf_width="20" height="16" viewbox="0 0 19 16" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 13.4a10.7 10.7 0 0016.5-9.6c.7-.6 1.4-1.2 1.9-2-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.8.4-1.6.8-2.4 1a3.7 3.7 0 00-4.6-.8A3.8 3.8 0 009 4.7c-3-.2-5.8-1.6-7.7-4-1 1.8-.5 4 1.1 5.1-.6 0-1.1-.2-1.7-.5 0 1.9 1.3 3.5 3 3.8-.5.2-1 .2-1.6 0 .5 1.6 1.9 2.7 3.5 2.7A7.5 7.5 0 010 13.4z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="share__button" href="mailto:?subject=How I Built This with Guy Raz&amp;body=https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz">
+<svg data-wf_height="16" data-wf_width="20" height="16" viewbox="0 0 25 16" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M.303.114A.307.307 0 0 0 0 .427v1.56l12.5 9.264L25 1.986V.427a.307.307 0 0 0-.303-.313H.303zM0 3.545v11.941c0 .174.134.314.303.314h24.394c.17 0 .303-.14.303-.314V3.545l-12.129 8.99a.623.623 0 0 1-.742 0L0 3.545z" fill="currentColor" fill-rule="nonzero"></path>
+</svg>
+</a>
+<a class="share__button" data-copy="" href="https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz">
+<svg data-wf_height="16" data-wf_width="20" height="16" viewbox="0 0 17 17" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.2 13.5l-.8.8a2 2 0 01-2.7 0 1.9 1.9 0 010-2.6l3.1-3.2c.7-.6 2-1.6 2.8-.7a1 1 0 101.5-1.5C8.6 4.8 6.3 5.1 4.3 7l-3.1 3.2a4 4 0 000 5.6 4 4 0 005.6 0l1-.8a1 1 0 10-1.6-1.5zm9.6-12.2c-1.6-1.6-4-1.7-5.4-.2L9.3 2a1 1 0 101.5 1.5l1-1c.8-.8 1.9-.5 2.5.2a1.9 1.9 0 010 2.6L11 8.8c-1.6 1.5-2.3.8-2.6.5a1 1 0 00-1.5 1.5c.7.7 1.5 1 2.4 1 1 0 2.1-.5 3.1-1.5l3.4-3.4a4 4 0 000-5.6z" fill="currentColor" fill-rule="nonzero"></path>
+</svg>
+</a>
+</div>
+<div class="no">
+<a href="/blogs/better-news">
+            Better News
+          </a>
+<p>
+<span>07/10/2019</span>
+</p>
+</div>
+</div>
+<div class="p">
+<div class="nu">
+</div>
+<div class="na r i o">
+<div class="tg">
+<a class="share__button" data-share="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asystem.com%2Fblogs%2Fbetter-news%2Fhow-i-built-this-with-guy-raz">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 7 15" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.46 14.093h2.805V6.987h1.96l.21-2.367h-2.17V3.26c0-.562.113-.782.648-.782h1.521V0H4.491C2.4 0 1.459.93 1.459 2.717V4.62H0v2.41h1.46v7.063z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="share__button" data-share="" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.asystem.com%2Fblogs%2Fbetter-news%2Fhow-i-built-this-with-guy-raz">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 19 16" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 13.4a10.7 10.7 0 0016.5-9.6c.7-.6 1.4-1.2 1.9-2-.7.3-1.4.5-2.2.6.8-.5 1.4-1.2 1.7-2.1-.8.4-1.6.8-2.4 1a3.7 3.7 0 00-4.6-.8A3.8 3.8 0 009 4.7c-3-.2-5.8-1.6-7.7-4-1 1.8-.5 4 1.1 5.1-.6 0-1.1-.2-1.7-.5 0 1.9 1.3 3.5 3 3.8-.5.2-1 .2-1.6 0 .5 1.6 1.9 2.7 3.5 2.7A7.5 7.5 0 010 13.4z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="share__button" href="mailto:?subject=How I Built This with Guy Raz&amp;body=https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 25 16" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M.303.114A.307.307 0 0 0 0 .427v1.56l12.5 9.264L25 1.986V.427a.307.307 0 0 0-.303-.313H.303zM0 3.545v11.941c0 .174.134.314.303.314h24.394c.17 0 .303-.14.303-.314V3.545l-12.129 8.99a.623.623 0 0 1-.742 0L0 3.545z" fill="currentColor" fill-rule="nonzero"></path>
+</svg>
+</a>
+<a class="share__button" data-copy="" href="https://www.asystem.com/blogs/better-news/how-i-built-this-with-guy-raz">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 17 17" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.2 13.5l-.8.8a2 2 0 01-2.7 0 1.9 1.9 0 010-2.6l3.1-3.2c.7-.6 2-1.6 2.8-.7a1 1 0 101.5-1.5C8.6 4.8 6.3 5.1 4.3 7l-3.1 3.2a4 4 0 000 5.6 4 4 0 005.6 0l1-.8a1 1 0 10-1.6-1.5zm9.6-12.2c-1.6-1.6-4-1.7-5.4-.2L9.3 2a1 1 0 101.5 1.5l1-1c.8-.8 1.9-.5 2.5.2a1.9 1.9 0 010 2.6L11 8.8c-1.6 1.5-2.3.8-2.6.5a1 1 0 00-1.5 1.5c.7.7 1.5 1 2.4 1 1 0 2.1-.5 3.1-1.5l3.4-3.4a4 4 0 000-5.6z" fill="currentColor" fill-rule="nonzero"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nr ni r i u">
+<a href="/blogs/better-news/you-can-use-these-brain-hacks-to-stop-mind-wandering-but-should-you">Prev Article</a>
+<a href="/blogs/better-news/getting-your-protein-from-plants-may-help-you-live-longer">Next Article</a>
+</div>
+</div>
+</main><section class="g" data-footer="">
+<div class="c">
+<div class="_">
+<ul class="q">
+<li>
+<a href="/" title="">Shop</a>
+<ul class="z">
+<li><a href="/collections/supplements" title="">Supplements</a></li>
+<li><a href="/collections/skincare" title="">Skincare</a></li>
+<li><a href="/collections/radical-relief" title="">Pain Relief</a></li>
+<li><a href="/collections/apparel" title="">Apparel</a></li>
+<li><a href="/collections/systems" title="">Systems</a></li>
+</ul>
+</li></ul>
+<ul class="q">
+<li>
+<a href="/" title="">Learn</a>
+<ul class="z">
+<li><a href="/blogs/betterment-project" title="">Betterment Project</a></li>
+<li><a href="/blogs/asysteam" title="">asysTEAM</a></li>
+<li><a href="/pages/about-us" title="">About Us</a></li>
+<li><a href="/pages/faq" title="">FAQ</a></li>
+</ul>
+</li></ul>
+<ul class="q">
+<li>
+<a href="/" title="">More</a>
+<ul class="z">
+<li><a href="/pages/contact-us" title="">Contact Us</a></li>
+<li><a href="/pages/careers" title="">Careers</a></li>
+<li><a href="https://dovetale.com/apply/ix_2PDgMBTI" title="">Affiliates</a></li>
+<li><a href="/pages/privacy" title="">Privacy Policy</a></li>
+<li><a href="/pages/terms-and-conditions" title="">Terms &amp; Conditions</a></li>
+</ul>
+</li></ul>
+<div class="j">
+<ul class="q">
+<li>
+<a href="mailto:info@asystem.com" title="">Questions / Help</a>
+<ul class="z">
+<li><a href="mailto:info@asystem.com" title="">info@asystem.com</a></li>
+</ul>
+</li></ul>
+</div>
+</div>
+<div class="te">
+<ul class="footer__mobileNav">
+<li class="">
+<span>
+<a href="mailto:info@asystem.com" title="">Questions / Help</a>
+</span>
+</li><li class="">
+<span>
+<a href="mailto:press@asystem.com" title="">Press</a>
+</span>
+</li><li class=" tt " on="tap:sidebar0.toggleVisibility" role="" tabindex="">
+<span data-accordion="">
+<a href="/" title="">Shop</a>
+<svg data-wf_height="16.0791015625" data-wf_width="23.66534423828125" height="16.0791015625" viewbox="0 0 13 22" width="23.66534423828125" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 20.9l9.9-9.9L1 1.1" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></path>
+</svg>
+</span>
+<ul class="tn" hidden="" id="sidebar0">
+<li><a href="/products/total-body-system" title="">TotalBody</a></li>
+<li><a href="/products/radical-relief" title="">Radical Relief</a></li>
+</ul>
+</li><li class=" tt " on="tap:sidebar1.toggleVisibility" role="" tabindex="">
+<span data-accordion="">
+<a href="/" title="">Learn</a>
+<svg data-wf_height="16.0791015625" data-wf_width="23.66534423828125" height="16.0791015625" viewbox="0 0 13 22" width="23.66534423828125" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 20.9l9.9-9.9L1 1.1" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></path>
+</svg>
+</span>
+<ul class="tn" hidden="" id="sidebar1">
+<li><a href="/blogs/betterment-project" title="">Betterment Project</a></li>
+<li><a href="/blogs/asysteam" title="">asysTEAM</a></li>
+<li><a href="/pages/about-us" title="">About Us</a></li>
+</ul>
+</li><li class="">
+<span>
+<a href="/account/login" title="">Login</a>
+</span>
+</li><li class="">
+<span>
+<a href="/pages/faq" title="">FAQ</a>
+</span>
+</li><li class="">
+<span>
+<a href="/pages/tos" title="">Legal</a>
+</span>
+</li></ul>
+</div>
+<div class="tr">
+<svg data-wf_height="26" data-wf_width="26" height="26" viewbox="0 0 26 26" width="26" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.4 0L0 12.1V26h4.7v-9.5h16.6V26H26V12.1L17.6 0H8.4zm2.8 4h4.6l5.2 8H6l5.2-8z" fill="#FFF" fill-rule="evenodd"></path>
+</svg>
+<p>© 2020 ASYSTEM. All right reserved.</p>
+</div>
+</div>
+</section>
+<div class="modal-contents" data-modal-contents=""></div>
+<div class="n " data-overlay=""></div>
+<div class="tw" data-timedpopup="" id="timedpopup">
+<i data-removeclass="html:s--timedPopup-active">
+<svg data-wf_height="0" data-wf_width="0" height="0" viewbox="0 0 96 120" width="0" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 13.1L82.9 8 48 42.9 13.1 8 8 13.1 42.9 48 8 82.9l5.1 5.1L48 53.1 82.9 88l5.1-5.1L53.1 48z" fill="currentColor"></path>
+</svg>
+</i>
+<div class="tx">
+<form action-xhr="https://webfast-proxy.ngrok.io/api" data-newsletter-subscribe="" method="POST" target="_top"><input id="wf_submit_url" type="hidden" value="https://asystem.com/https://manage.kmail-lists.com/subscriptions/subscribe?a=KYCVnf&amp;g=T9CbVM"/>
+<h4>The Betterment Project</h4>
+<p>Life hacks and secrets to success from today’s most dynamic creatives and entrepreneurs, professional athletes, global CEOs, and many more. Digital PDF available for a limited time.</p>
+<div class="l">
+<input name="g" type="hidden" value="T9CbVM"/>
+<input name="email" placeholder="Enter email address" required="" type="email"/>
+<button type="submit">Unlock</button>
+</div>
+</form>
+<div class="t">
+<p>Thanks. Click <a href="https://cdn.shopify.com/s/files/1/0085/4061/8815/files/ASYSTEM_BettermentProject.pdf?v=1586965610" title="https://cdn.shopify.com/s/files/1/0085/4061/8815/files/ASYSTEM_BettermentProject.pdf?v=1586965610"><u>here</u></a> to download your copy of The Betterment Project. </p>
+</div>
+</div>
+</div>
+<!-- Gorgias Chat Widget Start -->
+<div id="gorgias-chat">
+</div>
+<!-- Gorgias Chat Widget End -->
+<!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+<!-- Start of Littledata - Fix Google Analytics Script-->
+<!-- End of Littledata - Fix Google Analytics Script -->
+<!-- Shogun -->
+<!-- /Shogun -->
+</body></html>
