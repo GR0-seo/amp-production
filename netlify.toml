@@ -1,0 +1,8 @@
+[[headers]]
+    for = "/.well-known/amphtml/apikey.pub"
+    [headers.values]
+        Content-Type = "text/plain"
+
+[[redirects]]
+    from = "/*"
+    to = "https://drbrite.com/:splat"
