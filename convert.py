@@ -14,7 +14,7 @@ def main():
 
     os.system('mkdir ' + args.client)  # make client directory
     os.system(r'scp -i ' + args.i + ' ' + args.user + '@34.73.69.180:/var/www/html/' + args.client + r'/\*.html ' + dest_folder)  # pull all files from server
-
+    return
     ignore_files = [
         '_0.1.pre.html',
         '_1.pre.html',
