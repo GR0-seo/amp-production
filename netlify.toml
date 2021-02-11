@@ -1,4 +1,142 @@
 [[redirects]]
+    from = "https://amp.ekster.com/*"
+    to = "https://ekster.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.wthn.com/*"
+    to = "https://wthn.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.bizcounsel.com/*"
+    to = "https://bizcounsel.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.imperiacaviar.com/*"
+    to = "https://imperiacaviar.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.drbrite.com/*"
+    to = "https://drbrite.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.jackmasonbrand.com/*"
+    to = "https://jackmasonbrand.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.kenzzi.com/*"
+    to = "https://kenzzi.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.qulcbd.com/*"
+    to = "https://qulcbd.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.miraclebrand.co/*"
+    to = "https://miraclebrand.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.shinearmor.com/*"
+    to = "https://shinearmor.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.asystem.com/*"
+    to = "https://asystem.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.newhair.com/*"
+    to = "https://newhair.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.rellery.com/*"
+    to = "https://rellery.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.hydrow.com/*"
+    to = "https://hydrow.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.thistle.co/*"
+    to = "https://thistle.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.diathrive.com/*"
+    to = "https://diathrive.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.gainful.com/*"
+    to = "https://gainful.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.m13.co/*"
+    to = "https://m13.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.greengoo.com/*"
+    to = "https://greengoo.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.lookoptic.com/*"
+    to = "https://lookoptic.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://amp.sukiskincare.com/*"
+    to = "https://sukiskincare.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.whomhome.com/*"
+    to = "https://whomhome.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.ties.com/*"
+    to = "https://ties.gr0.app/:splat"
+    status = 200
+    force = truehttps://www.venusetfleur.com/
+
+[[redirects]]
     from = "https://amp.venusetfleur.com/*"
     to = "https://venusetfleur.gr0.app/:splat"
     status = 200
