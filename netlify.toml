@@ -1,4 +1,16 @@
 [[redirects]]
+    from = "https://amp.venusetfleur.com/*"
+    to = "https://venusetfleur.gr0.app/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "https://amp.bodyfx.com/*"
+    to = "https://bodyfx.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "/thistle-co/*"
     to = "https://thistle.co/:splat"
 
