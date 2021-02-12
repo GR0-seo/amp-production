@@ -134,7 +134,7 @@
     from = "https://amp.ties.com/*"
     to = "https://ties.gr0.app/:splat"
     status = 200
-    force = truehttps://www.venusetfleur.com/
+    force = true
 
 [[redirects]]
     from = "https://amp.venusetfleur.com/*"
