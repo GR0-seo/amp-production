@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+
+<html amp=""><head><meta content="googleanalytics" name="amp-google-client-id-api"/><meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
+<link as="script" href="https://cdn.ampproject.org/v0.js" rel="preload"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="preload" type="text/css"/>
+<link href="https://www.121ecommerce.com/" rel="canonical"/><meta content="121eCommerce | Magento Development Agency" name="description"/><meta charset="utf-8"/><script async="" src="https://cdn.ampproject.org/v0.js"></script>
+<script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async="" custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async="" custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async="" custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect dns-prefetch"/>
+<script async="" custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<style amp-custom="">/*! CSS Used from: https://www.121ecommerce.com/wp-content/themes/121ecommerce/style.css?ver=1574308433 ; media=all */
+@media all{
+#menu>ul>li.menu-item-has-children>a:after,#menu>ul>li.menu-item-has-children>.dropdown-toggle:after,.socialicons ul li a:before{font-family:fontello;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:normal;}
+img,legend{border:0;}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{margin:0;}
+footer,header,main,nav{display:block;}
+a{background-color:transparent;}
+strong{font-weight:bolder;}
+button,input,select,textarea{color:inherit;font:inherit;margin:0;}
+select{text-transform:none;}
+button{overflow:visible;}
+button,input,select,textarea{max-width:100%;}
+button,input[type=submit]{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+fieldset{border:1px solid #d1d1d1;margin:0 0 1.75em;padding:.875em;}
+fieldset>:last-child{margin-bottom:0;}
+legend{padding:0;}
+textarea{overflow:auto;vertical-align:top;}
+.screen-reader-text{clip:rect(1px,1px,1px,1px);height:1px;overflow:hidden;position:absolute;width:1px;word-wrap:normal;}
+body,html{min-width:320px;}
+img{max-width:100%;height:auto;}
+.container{display:block;width:1040px;max-width:100%;min-width:320px;margin:0 auto;padding:0 20px;box-sizing:border-box;}
+body{font-size:18px;line-height:1.6;color:#151f26;background:#fff;word-wrap:break-word;font-family:Montserrat,sans-serif;}
+@media screen and (max-width:767px){
+body{font-size:16px;}
+}
+.alignleft{float:left;display:inline;margin:5px 40px 1em 0;max-width:50%;max-width:calc(50% - 20px);}
+.aligncenter{display:block;margin:40px auto;}
+.alignnone{display:block;margin:40px 0;}
+@media screen and (max-width:479px){
+.alignleft{float:none;display:block;max-width:100%;margin:40px auto;}
+}
+a{text-decoration:none;-webkit-transition:color 0.3s;transition:color 0.3s;color:#3197D3;font-weight:500;}
+a:hover,a:active{text-decoration:underline;color:#1979ad;}
+span.btns-wrap{display:block;margin:40px 0;}
+span.btns-wrap .btns-wrap-a{display:block;margin-left:-20px;margin-bottom:-20px;}
+span.btns-wrap a.btn{margin-left:20px;margin-bottom:20px;}
+@media screen and (max-width:767px){
+span.btns-wrap{text-align:center;}
+}
+a.btn{display:inline-block;text-align:center;text-decoration:none;background:#3197d3;color:#fff;font-size:18px;line-height:24px;padding:24px 30px;font-weight:bold;border-radius:4px;-webkit-transition:background 0.3s;transition:background 0.3s;}
+.bodysection-blue a.btn{background:#151F26;}
+a.btn:hover,a.btn:active{background:#1979ad;}
+@media screen and (max-width:767px){
+a.btn{font-size:16px;line-height:22px;padding:19px 25px;}
+}
+p{margin-top:0;margin-bottom:1em;}
+ul{margin:1em 0;padding:0 0 0 1.6em;}
+ul ul{margin-top:0;margin-bottom:0;}
+li{margin:0 0 8px 0;padding:0 0 0 5px;}
+.narrow{width:640px;max-width:100%;margin:0 auto;}
+h2{font-size:32px;line-height:40px;font-weight:800;margin:40px 0 20px 0;}
+h2.wide{margin:60px 0 40px 0;text-align:center;}
+h3{font-size:28px;line-height:36px;font-weight:800;margin:40px 0 20px 0;}
+h3.tiny{font-size:16px;line-height:22px;text-transform:uppercase;font-weight:bold;margin:0 0 10px 0;text-align:center;}
+@media screen and (max-width:767px){
+h3.tiny{font-size:14px;line-height:20px;}
+}
+h2 + *,h3 + *{margin-top:0;}
+h2 span.label{display:block;font-weight:bold;font-size:16px;line-height:22px;margin-bottom:8px;text-transform:uppercase;}
+@media screen and (max-width:767px){
+h2{font-size:28px;line-height:36px;margin:40px 0 30px 0;text-align:center;}
+h2.wide{margin:40px 0 30px 0;}
+h3{font-size:24px;line-height:30px;text-align:center;}
+}
+blockquote{margin:40px 0;padding:0 0 0 40px;border-left:1px solid #b3b3b3;font-size:16px;}
+blockquote footer cite{font-size:14px;font-style:normal;display:block;}
+blockquote.plain{padding-left:0;border:none;font-size:inherit;}
+blockquote.plain footer cite{font-size:14px;}
+blockquote footer cite strong{text-transform:uppercase;}
+@media screen and (max-width:767px){
+blockquote{font-size:14px;padding-left:20px;}
+blockquote footer cite{font-size:12px;}
+blockquote.plain{padding-left:0;font-size:16px;}
+blockquote.plain footer cite{font-size:14px;}
+}
+#header{height:97px;padding:30px 0;}
+#logo{width:90px;float:left;display:inline;}
+#logo img{display:block;width:100%;}
+#logo a{display:block;}
+@media screen and (max-width:767px){
+#header{height:40px;padding:20px 0;}
+#logo{width:44px;min-height:40px;}
+}
+#menu{font-size:16px;line-height:20px;font-weight:bold;}
+#menu a{color:inherit;text-decoration:none;font-weight:inherit;}
+#menu a:hover,#menu a:active{color:#3197D3;}
+#menu>ul{margin:0;padding:0;list-style:none;}
+#menu>ul>li{margin:0;padding:0;position:relative;}
+#menu>ul>li>a{display:block;padding:10px 0;}
+#menu>ul>li .dropdown-toggle{display:none;}
+#menu>ul>li>.submenu{display:none;}
+#menu>ul>li>.submenu>ul{margin:0;padding:0;list-style:none;background:#fff;}
+#menu>ul>li>.submenu>ul>li{margin:0;padding:0;}
+#menu>ul>li>.submenu>ul>li>a{display:block;padding:10px 0;}
+button.togglemenu,button.closemenu{display:none;}
+@media screen and (min-width:1024px){
+#menu{text-align:right;display:block;padding:20px 0;}
+#menu>ul>li{display:inline-block;vertical-align:top;text-align:left;}
+#menu>ul>li>a{padding-left:25px;padding-right:25px;}
+#menu>ul>li.menu-item-has-children>a:after{content:"\e82c";font-size:8px;margin-left:5px;vertical-align:top;}
+#menu>ul>li.menu-item-has-children:before{visibility:hidden;opacity:0;content:"";display:block;border-style:solid;border-width:0 9px 10px 9px;border-color:transparent transparent #151f26;position:absolute;top:40px;right:21px;z-index:10001;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;}
+#menu>ul>li.menu-item-has-children:after{visibility:hidden;content:"";display:block;border-style:solid;border-width:0 8px 9px 8px;border-color:transparent transparent #fff;position:absolute;top:43px;right:22px;z-index:10001;}
+#menu>ul>li>.submenu{display:block;visibility:hidden;opacity:0;position:absolute;top:40px;left:0;padding-top:10px;z-index:10000;min-width:100%;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;}
+#menu>ul>li>.submenu>ul{white-space:nowrap;border:2px solid #151f26;padding:14px 23px;}
+}
+@media screen and (max-width:1023px){
+#toggles{padding-top:20px;}
+#menu>ul{padding:12px 0;}
+#menu>ul>li.menu-item-has-children>.dropdown-toggle{display:block;position:absolute;top:0;right:-10px;width:40px;height:40px;border:none;border-radius:0;margin:0;padding:0;background:none;font-size:15px;-webkit-transition:color 0.3s;transition:color 0.3s;}
+#menu>ul>li.menu-item-has-children>.dropdown-toggle:after{content:"\e80d";display:block;width:24px;margin:0 auto;-webkit-transition:-webkit-transform 0.3s;transition:-webkit-transform 0.3s;transition:transform 0.3s;transition:transform 0.3s, -webkit-transform 0.3s;}
+#menu>ul>li.menu-item-has-children>.dropdown-toggle:hover{color:#3197D3;}
+#menu>ul>li.menu-item-has-children>a{margin-right:30px;}
+#menu>ul>li>.submenu{left:auto;}
+#menu>ul>li>.submenu>ul{margin-left:20px;}
+button.togglemenu{display:block;background:transparent;border:none;border-radius:0;margin:0 0 0 auto;padding:0;max-width:none;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:40px;width:40px;-webkit-transition:background-color 0.3s;transition:background-color 0.3s;position:relative;right:-4px;}
+button.togglemenu>span.icon{width:32px;display:block;position:absolute;top:50%;left:50%;margin-left:-16px;height:4px;margin-top:-2px;background:#151f26;font-size:0;-webkit-transition:background-color 0.3s;transition:background-color 0.3s;}
+button.togglemenu>span.icon:before,button.togglemenu>span.icon:after{position:absolute;left:0;width:100%;height:100%;background:#151f26;content:'';-webkit-transition:-webkit-transform 0.3s;transition:-webkit-transform 0.3s;-webkit-transition:background-color 0.3s, -webkit-transform 0.3s;transition:background-color 0.3s, -webkit-transform 0.3s;transition:transform 0.3s, background-color 0.3s;transition:transform 0.3s, background-color 0.3s, -webkit-transform 0.3s;}
+button.togglemenu>span.icon:before{-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);}
+button.togglemenu>span.icon:after{-webkit-transform:translateY(250%);-ms-transform:translateY(250%);transform:translateY(250%);}
+button.togglemenu:hover>span.icon,button.togglemenu:hover>span.icon:before,button.togglemenu:hover>span.icon:after{background:#3197D3;}
+button.closebtn{display:block;background:transparent;border:none;border-radius:0;margin:-6px -6px -6px auto;padding:0;max-width:none;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:32px;width:32px;-webkit-transition:background-color 0.3s;transition:background-color 0.3s;position:relative;}
+button.closebtn>span.icon{width:20px;display:block;position:absolute;top:50%;left:50%;margin-left:-10px;height:3px;margin-top:-1px;font-size:0;}
+button.closebtn>span.icon:before,button.closebtn>span.icon:after{position:absolute;left:0;width:100%;height:100%;background:#151f26;content:'';-webkit-transition:-webkit-transform 0.3s;transition:-webkit-transform 0.3s;-webkit-transition:background-color 0.3s, -webkit-transform 0.3s;transition:background-color 0.3s, -webkit-transform 0.3s;transition:transform 0.3s, background-color 0.3s;transition:transform 0.3s, background-color 0.3s, -webkit-transform 0.3s;}
+button.closebtn>span.icon:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+button.closebtn>span.icon:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}
+button.closebtn:hover>span.icon:before,button.closebtn:hover>span.icon:after{background:#3197D3;}
+#menubar{position:fixed;top:0;right:-320px;width:320px;height:100%;z-index:10000002;overflow-y:auto;-webkit-transition:right 0.5s;transition:right 0.5s;box-sizing:border-box;padding:20px;background:#fff;}
+}
+@media screen and (max-width:767px){
+#toggles{padding-top:0;}
+}
+.banner{position:relative;background:#151f26;}
+.banner .bannerimage{position:absolute;top:0;left:50%;width:100%;height:100%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+.banner .bannerimage img{display:block;width:100%;-o-object-fit:cover;object-fit:cover;height:100%;}
+.banner .narrowcheck{display:none;}
+@media screen and (max-width:767px){
+.banner .narrowcheck{display:block;}
+}
+.banner .banner-overlay{display:table;width:100%;color:#fff;table-layout:fixed;height:600px;position:relative;}
+.banner .banner-overlay-a{display:table-cell;vertical-align:bottom;}
+.banner .banner-overlay-b{padding:80px 0;background:-webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);background:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);}
+.banner .banner-overlay-c{width:660px;max-width:100%;}
+.banner .banner-overlay .pagetitle{font-size:36px;line-height:44px;margin:0;font-weight:800;text-shadow:0 0 10px rgba(0,0,0,0.5);}
+.banner .banner-overlay .pagesubtitle{font-size:28px;line-height:36px;margin:10px 0 0 0;font-weight:500;text-shadow:0 0 8px rgba(0,0,0,0.5);}
+@media screen and (max-width:767px){
+.banner .banner-overlay{height:360px;}
+.banner .banner-overlay-b{padding:40px 0;}
+.banner .banner-overlay .pagetitle{font-size:24px;line-height:30px;}
+.banner .banner-overlay .pagesubtitle{font-size:20px;line-height:26px;}
+}
+.bodysection{padding:80px 0;}
+@media screen and (max-width:767px){
+.bodysection{padding:40px 0;}
+}
+.bodysection-grey{background:#f8f9fa;}
+.bodysection-blue{background:#3197d3;}
+.bodysection-black{background:#151f26;}
+.bodysection-blue a{color:inherit;text-decoration:underline;}
+.bodysection-dark{color:#fff;}
+.bodysection-bg{background-size:cover;}
+.twocols{margin:80px 0;}
+.twocols .twocols-a{margin-left:-40px;}
+.twocols .twocols-b{display:table;width:100%;table-layout:fixed;}
+.twocols .col{display:table-cell;vertical-align:top;width:50%;direction:ltr;}
+.twocols .col-center{vertical-align:middle;}
+.twocols .col .col-a{margin-left:40px;}
+@media screen and (max-width:1023px){
+.twocols .twocols-a{margin-left:0;}
+.twocols .twocols-b{display:block;}
+.twocols .col{display:block;width:auto;}
+.twocols .col .col-a{margin-left:0;}
+}
+@media screen and (max-width:767px){
+.twocols{margin:40px auto;}
+}
+.imagecols{margin:80px 0;}
+.imagecols .imagecols-a{margin-left:-80px;}
+.imagecols .imagecols-b{display:table;width:100%;table-layout:fixed;}
+.imagecols-right .imagecols-b{direction:rtl;}
+.imagecols .col{display:table-cell;vertical-align:top;direction:ltr;}
+.imagecols .col-center{vertical-align:middle;}
+.imagecols .col .col-a{margin-left:80px;}
+.imagecols .textcol{width:66.666666666666666666666666666667%;}
+.imagecols .imagecol{width:33.333333333333333333333333333333%;}
+@media screen and (max-width:1023px){
+.imagecols .imagecols-a{margin-left:0;}
+.imagecols .imagecols-b{display:block;}
+.imagecols .imagecol{margin-bottom:40px;text-align:center;}
+.imagecols .imagecol img{display:block;margin:0 auto;}
+.imagecols .col{display:block;width:auto;}
+.imagecols .col .col-a{margin-left:0;}
+}
+@media screen and (max-width:767px){
+.imagecols{margin:40px auto;}
+}
+.bloggrid{margin:80px auto;}
+.bloggrid ul{margin:0 0 0 -20px;margin-bottom:-20px;padding:0;list-style:none;}
+.bloggrid ul li{margin:0;margin-bottom:20px;padding:0;display:inline-block;vertical-align:top;width:50%;}
+.bloggrid ul li .li-a{margin-left:20px;position:relative;box-shadow:0 1px 1px 1px rgba(1,2,2,0.2);background:#fff;}
+.bloggrid ul li a{display:block;color:inherit;text-decoration:none;padding:40px;}
+.bloggrid ul li .blog-image{margin-bottom:30px;overflow:hidden;position:relative;height:0;padding-bottom:66.666666666666666%;}
+.bloggrid ul li .blog-image img{display:block;width:100%;position:absolute;top:0;left:0;-webkit-transition:-webkit-transform 0.5s ease;transition:-webkit-transform 0.5s ease;transition:transform 0.5s ease;transition:transform 0.5s ease, -webkit-transform 0.5s ease;}
+.bloggrid ul li .blog-date{font-size:14px;line-height:18px;text-transform:uppercase;margin-bottom:10px;font-weight:500;}
+.bloggrid ul li .blog-title{font-size:28px;line-height:36px;font-weight:800;-webkit-transition:color 0.3s;transition:color 0.3s;color:#3197d3;}
+.bloggrid ul li a:hover .blog-title,.bloggrid ul li a:active .blog-title{color:#1979ad;}
+.bloggrid-small ul li{width:33.333333333333333%;}
+.bloggrid-small ul li a{padding:20px;}
+.bloggrid-small ul li .blog-image{margin-bottom:20px;}
+.bloggrid-small ul li .blog-title{font-size:18px;line-height:24px;font-weight:normal;}
+@media screen and (max-width:1023px){
+.bloggrid{width:640px;max-width:100%;}
+.bloggrid ul li{width:100%;}
+.bloggrid-small ul li a{padding:40px;}
+.bloggrid-small ul li .blog-title{font-size:28px;line-height:36px;font-weight:800;}
+}
+@media screen and (max-width:767px){
+.bloggrid{margin-top:40px;margin-bottom:40px;}
+.bloggrid ul li a{padding:20px;}
+.bloggrid ul li .blog-title{font-size:24px;line-height:30px;}
+.bloggrid ul li .blog-image{margin-bottom:20px;}
+}
+.getstarted{display:inline-block;vertical-align:top;position:relative;padding-top:132px;margin:40px 0;}
+.getstarted:before{content:"";display:block;position:absolute;top:0;left:50%;margin-left:-48px;width:96px;height:92px;background:url(https://www.121ecommerce.com/wp-content/themes/121ecommerce/images/right-arrow.svg) top left no-repeat;background-size:100%;}
+.getstarted h2{margin:0 0 10px 0;}
+.getstarted p{font-size:28px;line-height:36px;margin:0;font-weight:500;}
+.getstarted a{text-decoration:none;}
+.getstarted a:hover,.getstarted a:active{text-decoration:underline;}
+@media screen and (max-width:1023px){
+.getstarted{display:block;padding-top:0;}
+.getstarted:before{display:none;}
+}
+@media screen and (max-width:767px){
+.getstarted p{font-size:20px;line-height:26px;text-align:center;}
+}
+.praiseheading{display:inline-block;vertical-align:top;text-align:center;margin:40px 0;}
+.praiseheading h2{margin-top:-66px;margin-bottom:0;padding-bottom:26px;}
+.praiseheading img{display:block;margin:0 auto;}
+@media screen and (max-width:767px){
+.praiseheading h2{margin-top:-64px;padding-bottom:28px;}
+}
+.extendedimage{width:480px;max-width:100%;margin:40px auto;}
+@media screen and (min-width:1024px){
+.extendedimage{margin-top:-60px;margin-bottom:-60px;}
+}
+@media screen and (max-width:1023px){
+.extendedimage{width:640px;}
+.extendedimage .extendedimage-a{margin-right:0;}
+}
+.statcols{margin:80px auto;text-align:center;font-size:16px;line-height:22px;}
+.statcols ul{margin:0 0 0 -40px;margin-bottom:-40px;padding:0;list-style:none;}
+.statcols ul li{margin:0 0 0 40px;margin-bottom:40px;padding:0;display:inline-block;vertical-align:top;width:200px;}
+@media screen and (max-width:767px){
+.statcols{width:640px;max-width:100%;font-size:14px;line-height:20px;margin:40px auto;}
+.statcols ul{margin-left:0;margin-bottom:-30px;}
+.statcols ul li{margin-left:0;width:auto;display:block;margin-bottom:30px;}
+}
+.icongrid{margin:80px auto;}
+h2 + .icongrid{margin-top:60px;}
+.icongrid ul{margin:0 0 0 -110px;margin-bottom:-60px;padding:0;list-style:none;}
+.icongrid ul li{margin:0;margin-bottom:60px;padding:0;display:inline-block;vertical-align:top;width:33.333333333333333%;}
+.icongrid ul li a{color:inherit;text-decoration:none;display:block;}
+.icongrid ul li a:hover,.icongrid ul li a:active{color:#3197D3;}
+.icongrid ul li .li-a{margin-left:110px;}
+.icongrid ul li .ig-title{text-align:center;margin:0;}
+.icongrid ul li .ig-title-icon{display:block;margin-bottom:20px;}
+.icongrid ul li .ig-title-icon-a{display:table;table-layout:fixed;width:100%;height:100%;}
+.icongrid ul li .ig-title-icon-b{display:table-cell;vertical-align:bottom;}
+.icongrid ul li .ig-title-icon img{display:block;margin:0 auto;}
+.icongrid ul li .ig-title-text{display:block;font-size:24px;line-height:30px;text-transform:uppercase;font-weight:500;}
+@media screen and (max-width:1023px){
+.icongrid{width:640px;max-width:100%;}
+.icongrid ul{margin-left:-80px;}
+.icongrid ul li .li-a{margin-left:80px;}
+.icongrid ul li{width:50%;}
+}
+@media screen and (max-width:767px){
+.icongrid{margin:40px auto;}
+h2 + .icongrid{margin-top:40px;}
+.icongrid ul{margin-bottom:-40px;}
+.icongrid ul li{width:100%;margin-bottom:40px;}
+.icongrid ul li .ig-title-text{font-size:20px;line-height:26px;}
+}
+.hs-form-wrap{margin:40px 0;padding-top:1px;}
+.hs-form{font-size:16px;line-height:1.5;}
+@media screen and (max-width:767px){
+.hs-form{font-size:14px;}
+}
+.hs-form fieldset{border:none;margin:0 0 20px 0;padding:0;}
+.hs-form input[type="text"],.hs-form input[type="email"],.hs-form input[type="tel"],.hs-form textarea,.hs-form select{border:1px solid #979797;background:#fff;color:#151f26;margin:0;font-size:inherit;line-height:24px;padding:11px 20px;border-radius:4px;display:block;width:100%;box-sizing:border-box;}
+.hs-form textarea{height:168px;}
+.bodysection-dark .hs-form input[type="text"],.bodysection-dark .hs-form input[type="email"],.bodysection-dark .hs-form input[type="tel"],.bodysection-dark .hs-form textarea,.bodysection-dark .hs-form select{border-color:#fff;}
+.hs-form select{height:48px;}
+.hs-form .hs-form-field > label{margin-bottom:8px;display:block;}
+.hs-form .hs-form-field > label > span:empty{display:block;margin-top:-8px;}
+.hs-form .hs-form-field > label > span:empty + .hs-form-required{display:none;}
+.hs-form fieldset.form-columns-2{margin-left:-20px;margin-bottom:0;font-size:0;}
+.hs-form fieldset.form-columns-2 .hs-form-field{font-size:16px;display:inline-block;vertical-align:top;width:50%;padding-left:20px;box-sizing:border-box;margin-bottom:20px;}
+@media screen and (max-width:767px){
+.hs-form fieldset.form-columns-2 .hs-form-field{font-size:14px;}
+}
+@media screen and (max-width:479px){
+.hs-form fieldset.form-columns-2 .hs-form-field{width:100%;margin-bottom:20px;}
+}
+.hs-form .hs-button{background:#3197d3;border:none;border-radius:4px;color:#fff;font-weight:bold;font-size:16px;line-height:24px;padding:12px 20px;-webkit-transition:background 0.3s;transition:background 0.3s;}
+@media screen and (max-width:767px){
+.hs-form .hs-button{font-size:14px;}
+}
+.bodysection-blue .hs-form .hs-button{background:#151f26;}
+.hs-form .hs-button:hover{background:#1979ad;}
+.hs-form .hs-field-desc{font-size:14px;line-height:20px;margin-bottom:10px;}
+@media screen and (max-width:767px){
+.hs-form .hs-field-desc{font-size:12px;line-height:18px;}
+}
+.hs-form span.hs-form-required{color:#CE2029;}
+.bodysection-dark .hs-form span.hs-form-required{color:#fff;}
+.hs-form span.hs-form-required:before{content:"\00a0";}
+#footer{background:#151f26;padding:60px 0;color:#eee;font-weight:500;font-size:16px;}
+@media screen and (max-width:767px){
+#footer{font-size:14px;}
+}
+#footer a{color:inherit;text-decoration:none;}
+#footer a:hover,#footer a:active{color:#3197d3;}
+#footer .ftcols{margin-left:-40px;margin-bottom:40px;}
+#footer .ftcols .ftcols-a{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:start;-webkit-align-items:flex-start;align-items:flex-start;margin-bottom:-10px;}
+#footer .ftcols .ftcol{margin-left:40px;margin-bottom:10px;}
+#footer .ftfade{color:#B3B3B3;}
+#footer .ftmenu ul{margin:0 0 0 -20px;padding:0;list-style:none;}
+#footer .ftmenu ul li{margin:0 0 0 20px;padding:0;display:inline-block;vertical-align:top;}
+.sociallinks{text-align:center;margin:40px 0;}
+.sociallinks ul{margin:0 0 0 -30px;margin-bottom:-15px;padding:0;list-style:none;}
+.sociallinks ul li{margin:0 0 0 30px;margin-bottom:15px;padding:0;display:inline-block;vertical-align:top;}
+.sociallinks ul li a{display:block;font-size:20px;margin:0 -12px;line-height:32px;text-decoration:none;color:inherit;font-weight:inherit;}
+.sociallinks ul li a:hover,.sociallinks ul li a:active{color:#3197d3;}
+.sociallinks ul li a:before{display:block;padding:0 12px;}
+.socialicons ul li a:before{content:"\e812";}
+.socialicons ul li a[href*="linkedin.com"]:before{content:"\e809";}
+#fullwrap .notop>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .nobot>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+@media screen and (min-width:1024px){
+#fullwrap .notop1024>:first-child{margin-top:0;}
+#fullwrap .notop1024>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop1024>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop1024>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .notop1024>:first-child>:first-child>:first-child>:first-child>:first-child{margin-top:0;}
+#fullwrap .nobot1024>:last-child{margin-bottom:0;}
+#fullwrap .nobot1024>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot1024>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot1024>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+#fullwrap .nobot1024>:last-child>:last-child>:last-child>:last-child>:last-child{margin-bottom:0;}
+}
+.bodysection{overflow:hidden;}
+}
+/*! CSS Used from: Embedded */
+img#wpstats{display:none;}
+/*! CSS Used from: Embedded */
+.container{margin:0 auto;}
+#b2b-cta{position:fixed;right:25px;top:40%;z-index:3;transform:rotate(-90deg);background:#3197d3;padding:12px 25px;transform-origin:right;border-radius:4px 4px 0 0;}
+#b2b-cta a{color:#fff;font-size:15px;font-weight:bold;letter-spacing:0.5px;text-decoration:none;}
+#b2b-cta:hover{background:#111;}
+#body + .bodysection,header,footer{z-index:5;position:relative;}
+#header{z-index:6;}
+@media (max-width:539px){
+#b2b-cta a{font-size:12px;}
+#b2b-cta{display:none;}
+}
+.text-center{text-align:center;}
+.bloggrid ul + .text-center > a{margin-top:20px;padding-top:15px;padding-bottom:15px;}
+.ftmenu,.sociallinks{display:inline-block;vertical-align:middle;}
+.sociallinks{margin-left:30px;margin-top:0;}
+body{overflow-x:hidden;}
+@media (max-width:767px){
+#header{height:auto;padding:20px 0 5px;}
+}
+.left_cs_stats{position:relative;display:flex;align-items:center;padding:20px;box-sizing:border-box;}
+.left_cs_stats .background-img{position:absolute;width:100%;height:100%;top:0;left:0;background-repeat:none;background-position:center;background-size:cover;}
+.left_cs_stats .background-img:after{content:' ';position:absolute;top:0;left:0;background:rgba(49,151,211,0.8);width:100%;height:100%;}
+.left_cs_stats h3{position:relative;z-index:4;margin:0;color:#fff;overflow-wrap:break-word;min-width:0;font-size:18px;line-height:1.4em;text-align:left;}
+.cs_stats_wrap{display:flex;margin-bottom:20px;padding-left:10px;padding-right:10px;min-width:310px;flex-basis:33%;-ms-flex:auto;position:relative;box-sizing:border-box;}
+.cs_stats_wrap > *{width:50%;}
+.right_cs_stats{background:#151F26;color:#fff;padding:16px;box-sizing:border-box;}
+.bignumber{font-size:26px;display:block;text-align:center;}
+.bignumber span{font-size:42px;}
+.numberdescription{font-size:10px;font-weight:bold;letter-spacing:0.75px;line-height:16px;text-transform:uppercase;border-top:1px solid #676767;padding-top:6px;text-align:center;}
+.row_flex{display:flex;flex-flow:row wrap;justify-content:flex-start;}
+@media (max-width:439px){
+span.numerical{font-size:33px;}
+.cs_stats_wrap{min-width:290px;}
+.bignumber{font-size:20px;letter-spacing:0.05em;}
+}
+@media (max-width:1024px){
+.cs_stats_wrap{flex-basis:50%;}
+}
+@media (max-width:676px){
+.cs_stats_wrap{flex-basis:100%;}
+.bignumber{font-size:22px;}
+}
+.adobe-summit-banner{height:44px;width:100%;background:#000;margin:-30px 0 16px;z-index:11111111;}
+.adobe-summit-banner-inner{background:url(https://www.121ecommerce.com/wp-content/uploads/2020/03/background-image.jpg) no-repeat left center;background-size:auto 100%;height:44px;display:flex;justify-content:space-between;}
+.summit-banner img{max-height:100%;}
+.summit-banner{height:100%;}
+.headline-summit{font-family:"Source Sans Pro", sans-serif;color:#fff;display:flex;align-items:center;line-height:1em;font-weight:bold;letter-spacing:.5px;}
+header > a:hover .headline-summit{text-decoration:none;}
+@media (max-width:539px){
+.adobe-summit-banner{margin-top:-20px;margin-left:-8px;}
+.headline-summit{font-size:12px;}
+.summit-banner img{max-width:initial;}
+}
+/*! CSS Used from: Embedded */
+div#hs-eu-cookie-confirmation{background:#fff;height:auto;left:0;position:absolute;top:0;width:100%;z-index:100000000;border-bottom:1px solid #cbd6e2;border-top:1px solid #cbd6e2;box-shadow:0 1px 5px #eaf0f6;color:#33475b;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;font-size:12px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:18px;}
+div#hs-eu-cookie-confirmation *{box-sizing:border-box;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner{background:#fff;margin:0 auto;max-width:1000px;padding:20px;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a{background:none;border:none;box-shadow:none;color:#0091ae;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;text-decoration:none;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a:hover{background:none;border:none;box-shadow:none;color:#0091ae;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;text-decoration:underline;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en-cookie-confirmation-buttons-area{margin:10px 0 0;text-align:right;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button,div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-decline-button{border-radius:3px;display:inline-block;padding:10px 16px;text-decoration:none;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button{background-color:#f2547d;border:1px solid #f2547d;margin-right:12px;color:#fff;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-decline-button{border:1px solid #f2547d;color:#f2547d;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p{margin:0 0 12px;color:#33475b;font-family:inherit;font-size:inherit;font-weight:normal;line-height:inherit;text-align:left;text-shadow:none;}
+@media print{
+div#hs-eu-cookie-confirmation{display:none;}
+}
+@media screen and (max-width: 480px){
+div#hs-eu-cookie-confirmation{font-size:12px;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner{padding:8px 14px 14px;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a{font-size:12px;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button{font-size:12px;}
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p{font-size:12px;margin-bottom:12px;line-height:15px;}
+}
+@media only screen and (min-width: 960px){
+div#hs-eu-cookie-confirmation{position:fixed;}
+div#hs-eu-cookie-confirmation.hs-cookie-notification-position-bottom{border-bottom:0;bottom:0;top:auto;box-shadow:0 -1px 3px #eaf0f6;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'fontello';src:url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.eot?5');src:url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.eot?5#iefix') format('embedded-opentype'),        url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.woff2?5') format('woff2'),        url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.woff?5') format('woff'),        url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.ttf?5') format('truetype'),        url('https://www.121ecommerce.com/wp-content/themes/121ecommerce/fontello/font/fontello.svg?5#fontello') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gTD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3g3D_vx3rCubqg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gbD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gfD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;src:local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_vx3rCs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gTD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3g3D_vx3rCubqg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gbD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gTD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3g3D_vx3rCubqg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gbD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gfD_vx3rCubqg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;src:local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_vx3rCs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+</head><body class="home page-template-default page page-id-88 wpb-js-composer js-comp-ver-5.6 vc_responsive"><div class="hs-cookie-notification-position-bottom can-use-gradients" data-nosnippet="" id="hs-eu-cookie-confirmation" style="display: none;"><div id="hs-eu-cookie-confirmation-inner"><p style="">This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media. To find out more about the cookies we use, see our Privacy Policy.</p><p id="hs-eu-cookie-disclaimer">If you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked.</p><div id="hs-en-cookie-confirmation-buttons-area"><a href="#" id="hs-eu-confirmation-button">Accept</a><a href="#" id="hs-eu-decline-button">Decline</a></div></div></div>
+<div id="fullwrap">
+<header id="header">
+<a href="http://apps.enterprise.adobe.com/go/7011O000003JuTZQA0" target="_blank">
+<div class="adobe-summit-banner">
+<div class="container">
+<div class="adobe-summit-banner-inner">
+<div class="headline-summit">Proud Sponsor of Adobe Summit</div>
+<div class="summit-banner">
+<amp-img height="44" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2020/03/summit.png" width="257"></amp-img>
+</div>
+</div>
+</div>
+</div>
+</a>
+<div id="header-a">
+<div class="container">
+<div id="logo"><a href="https://www.121ecommerce.com"><amp-img alt="121eCommerce" height="38" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/themes/121ecommerce/images/121ecommerce.svg" width="44"></amp-img></a></div>
+<div id="toggles">
+<button class="togglemenu"><span class="screen-reader-text">Menu</span><span class="icon"></span></button>
+</div>
+<div id="menubar">
+<button class="closebtn closemenu"><span class="screen-reader-text">Close Menu</span><span class="icon"></span></button>
+<nav id="menu">
+<ul class="menu" id="menu-header-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98" id="menu-item-98"><a href="https://www.121ecommerce.com/services/">Services</a><div class="submenu"><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-730" id="menu-item-730"><a href="https://www.121ecommerce.com/services/magento-website-development/">Website Development</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731" id="menu-item-731"><a href="https://www.121ecommerce.com/services/project-rescues/">Magento Project Recovery</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-727" id="menu-item-727"><a href="https://www.121ecommerce.com/services/magento-2-migration/">Magento 2 Migration</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-729" id="menu-item-729"><a href="https://www.121ecommerce.com/services/magento-support-maintenance/">Magento Maintenance &amp; Support</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728" id="menu-item-728"><a href="https://www.121ecommerce.com/services/api-integrations/">Magento Order API Integrations</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726" id="menu-item-726"><a href="https://www.121ecommerce.com/services/extensions/">Extensions</a></li></ul></div><button class="dropdown-toggle"><span class="screen-reader-text">Toggle submenu</span></button></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105" id="menu-item-105"><a href="https://www.121ecommerce.com/why-choose-us/">Why Choose Us</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91" id="menu-item-91"><a href="https://www.121ecommerce.com/about/">About</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-94" id="menu-item-94"><a href="https://www.121ecommerce.com/resources/">Resources</a><div class="submenu"><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95" id="menu-item-95"><a href="https://www.121ecommerce.com/resources/blog/">Blog</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96" id="menu-item-96"><a href="https://www.121ecommerce.com/resources/case-studies/">Case Studies</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97" id="menu-item-97"><a href="https://www.121ecommerce.com/resources/whitepapers/">Whitepapers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92" id="menu-item-92"><a href="https://www.121ecommerce.com/resources/partners/">Partners</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2099" id="menu-item-2099"><a href="https://www.121ecommerce.com/resources/events/">Events</a></li></ul></div><button class="dropdown-toggle"><span class="screen-reader-text">Toggle submenu</span></button></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93" id="menu-item-93"><a href="https://www.121ecommerce.com/contact/">Contact</a></li></ul> </nav>
+</div>
+<div id="menuoverlay"></div>
+</div>
+</div>
+</header>
+<main id="main">
+<header class="banner">
+<div class="bannerimage" data-width="1600"><amp-img alt="" class="attachment-banner size-banner" height="360" layout="intrinsic" sizes="(max-width: 1600px) 960px, 100vw" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-1600x600.jpg" srcset="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-1600x600.jpg  1600w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-300x113.jpg  300w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-768x288.jpg  768w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-1024x384.jpg  1024w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-960x360.jpg  960w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth-1920x720.jpg  1920w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-ecommerce-growth.jpg  3200w" width="375"></amp-img></div>
+<div class="banner-overlay">
+<div class="banner-overlay-a">
+<div class="banner-overlay-b">
+<div class="container">
+<div class="banner-overlay-c">
+<h1 class="pagetitle">The only Magento agency you need to drive eCommerce growth.</h1>
+<p class="pagesubtitle">Efficient. Transparent. Proven track record.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="narrowcheck"></div>
+</header>
+<div id="body">
+<div class="bodysection bodysection-white">
+<div class="container notop nobot">
+<div class="imagecols imagecols-right">
+<div class="imagecols-a">
+<div class="imagecols-b">
+<div class="col imagecol col-center">
+<div class="col-a notop nobot">
+<div class="narrow">
+<p><amp-img alt="" class="alignnone size-full wp-image-295" height="307" layout="intrinsic" role="img" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/eCommerce.svg" width="283"></amp-img></p> </div>
+</div>
+</div><div class="col textcol">
+<div class="col-a notop nobot">
+<div class="narrow">
+<h2>We live and breathe eCommerce</h2>
+<p>Building you an easy-to-use, easy-to-manage, conversion-focused website is just the beginning.</p>
+<p>Our goal is to fuel your online growth with <a href="https://www.121ecommerce.com/services/" rel="noopener noreferrer" target="_blank">comprehensive Magento services</a>, constant communication, and sound eCommerce advice.</p>
+<p><amp-img alt="" class="alignleft size-full wp-image-316" height="58" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-inside.png" style="margin: 0 20px 0 0; float: left;" width="63"></amp-img> How do we do it? With Magento – the “Intel inside” that drives our success and fuels your online growth.</p> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="imagecols">
+<div class="imagecols-a">
+<div class="imagecols-b">
+<div class="col imagecol col-center">
+<div class="col-a notop nobot">
+<div class="narrow">
+<p><amp-img alt="" class="alignnone size-full wp-image-296" height="201" layout="intrinsic" role="img" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/communication-1.svg" width="221"></amp-img></p> </div>
+</div>
+</div><div class="col textcol">
+<div class="col-a notop nobot">
+<div class="narrow">
+<h2>Communication is at our core</h2>
+<p>Quick replies to your emails. Weekly reports and updates. A dedicated client advocate. It’s all part of our commitment to open, responsive communication. We’re passionate about communication. We’d have it no other way. Heck! A real person even answers our phone.</p>
+<p><span class="btns-wrap"><span class="btns-wrap-a"><a class="btn" href="tel:+12165866656">Try calling us!</a></span></span></p> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="bodysection bodysection-grey"><div class="container notop nobot"><h2 class="wide">Client Success Stories</h2><div class="row_flex">
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/12/pichelm.jpg);"></div><h3>Chrysler</h3></div><div class="right_cs_stats"><span class="bignumber">+<span class="numerical">85</span>%</span><div class="numberdescription">Gross Sales</div></div></div>
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/12/piclights.jpg);"></div><h3>Lights Online</h3></div><div class="right_cs_stats"><span class="bignumber">+<span class="numerical">16</span>%</span><div class="numberdescription">Conversion Rate</div></div></div>
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2020/01/nutramedix-banner.jpg);"></div><h3>NutraMedix</h3></div><div class="right_cs_stats"><span class="bignumber">+<span class="numerical">150</span>%</span><div class="numberdescription">Online Revenue</div></div></div>
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/12/piclifeguard.jpg);"></div><h3>The Lifeguard Store</h3></div><div class="right_cs_stats"><span class="bignumber">+<span class="numerical">500</span>%</span><div class="numberdescription">Faster Site Speed</div></div></div>
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/12/picbearpaw.jpg);"></div><h3>BEARPAW</h3></div><div class="right_cs_stats"><span class="bignumber">+<span class="numerical">30</span>%</span><div class="numberdescription">Cyber Monday Sales ('19 vs '18)</div></div></div>
+<div class="cs_stats_wrap"><div class="left_cs_stats"><div class="background-img" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/12/piccessna.jpg);"></div><h3>Cessna</h3></div><div class="right_cs_stats"><span class="bignumber"><span class="numerical">28</span></span><div class="numberdescription">days to launch</div></div></div>
+<p></p></div><div>
+<p style="text-align: center;"><span class="btns-wrap"><span class="btns-wrap-a"><a class="btn" href="https://www.121ecommerce.com/resources/case-studies/">View case studies</a></span></span></p>
+</div></div></div><div class="bodysection bodysection-white"><div class="container notop nobot"><div class="narrow">
+<p><amp-img alt="Magento" class="aligncenter size-full wp-image-379" height="140" layout="intrinsic" role="img" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento.svg" width="121"></amp-img></p>
+</div><h2 class="wide" style="margin-top: 0;">A full stack of Magento services</h2><div class="icongrid">
+<ul><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/magento-website-development/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="114" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/launches.svg" width="126"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Website Development</span>
+</a>
+</div>
+</div></li><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/project-rescues/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="108" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/project-rescues.svg" width="127"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Magento Project Recovery</span>
+</a>
+</div>
+</div></li><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/magento-2-migration/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="105" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-2-migration.svg" width="127"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Magento 2 Migration</span>
+</a>
+</div>
+</div></li><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/magento-support-maintenance/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="92" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/support-maintenance.svg" width="127"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Magento Maintenance &amp; Support</span>
+</a>
+</div>
+</div></li><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/api-integrations/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="95" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/api-integrations.svg" width="127"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Magento Order API Integrations</span>
+</a>
+</div>
+</div></li><li><div class="li-a">
+<div class="ig-title" style="">
+<a href="https://www.121ecommerce.com/services/extensions/">
+<span class="ig-title-icon" style="">
+<span class="ig-title-icon-a">
+<span class="ig-title-icon-b">
+<amp-img alt="" class="attachment-full size-full" height="92" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/extensions.svg" width="133"></amp-img></span>
+</span>
+</span>
+<span class="ig-title-text">Extensions</span>
+</a>
+</div>
+</div></li> </ul></div></div></div><div class="bodysection bodysection-black bodysection-dark bodysection-bg" style="background-image:url(https://www.121ecommerce.com/wp-content/uploads/2019/01/launch@2x.jpg)"><div class="container notop nobot"><h2 class="wide">Over 55 Magento 2 sites launched to date</h2><div class="statcols"><ul><li class="nobot"><h3 class="tiny">On Time</h3><p> 90-day average time to launch</p>
+</li><li class="nobot"><h3 class="tiny">On Budget</h3><p> Most projects completed under budget</p>
+</li><li class="nobot"><h3 class="tiny">On Scope</h3><p> Transparent pricing and reporting</p>
+</li></ul></div></div></div><div class="bodysection bodysection-blue bodysection-dark"><div class="container notop nobot"> <div class="twocols">
+<div class="twocols-a">
+<div class="twocols-b">
+<div class="col">
+<div class="col-a notop1024 nobot1024">
+<div class="narrow">
+<h2>A B2B eCommerce platform that’s built to perform</h2>
+<p>Expand your business with a solid B2B platform that’s got it all. Custom catalogs and pricing. Bulk orders and custom quotes. Manage order and inventory across multiple channels.</p>
+<p><span class="btns-wrap"><span class="btns-wrap-a"><a class="btn" href="https://www.121ecommerce.com/b2b-ecommerce/">Discover B2B eCommerce</a></span></span></p> </div>
+</div>
+</div><div class="col col-center">
+<div class="col-a notop1024 nobot1024">
+<div class="narrow">
+<div class="extendedimage">
+<div class="extendedimage-a" style="margin-right:-33.333333333333%">
+<p><amp-img alt="Magento B2B Catalog" class="aligncenter size-large wp-image-949" height="460" layout="responsive" sizes="(max-width: 680px) calc(100vw - 40px), 640px" src="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-640x460.png" srcset="https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-640x460.png  640w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-320x230.png  320w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-480x345.png  480w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-768x552.png  768w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-1000x719.png  1000w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1-1280x920.png  1280w,https://www.121ecommerce.com/wp-content/uploads/2019/01/magento-b2b-catalog-1.png  1720w" width="640"></amp-img></p> </div>
+</div> </div>
+</div>
+</div> </div>
+</div>
+</div>
+</div></div><div class="bodysection bodysection-grey"><div class="container notop nobot"> <div class="twocols">
+<div class="twocols-a">
+<div class="twocols-b">
+<div class="col">
+<div class="col-a notop1024 nobot1024">
+<div class="narrow">
+<h2><span class="label">Certified</span> Magento Experts</h2>
+<p>Whether you’re a startup, migrating platforms or in need of a rescue, our team of Magento certified developers can create a fully-responsive, conversion-focused site that drives sales.</p>
+<p><span class="btns-wrap"><span class="btns-wrap-a"><a class="btn" href="https://www.121ecommerce.com/why-choose-us/">Why choose us</a></span></span></p> </div>
+</div>
+</div><div class="col col-center">
+<div class="col-a notop1024 nobot1024">
+<div class="narrow">
+<p> </p>
+<p><amp-img alt="" class="size-full wp-image-3177 aligncenter" height="259" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/uploads/2020/03/magento-experts.png" width="250"></amp-img></p>
+<p> </p> </div>
+</div>
+</div> </div>
+</div>
+</div>
+</div></div><div class="bodysection bodysection-black bodysection-dark"><div class="container notop nobot"> <div class="imagecols">
+<div class="imagecols-a">
+<div class="imagecols-b">
+<div class="col imagecol">
+<div class="col-a notop nobot">
+<div class="praiseheading">
+<amp-img alt="" height="200" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/themes/121ecommerce/images/praise.svg" width="182"></amp-img><h2>Client Praise</h2>
+</div>
+</div>
+</div><div class="col textcol col-center">
+<div class="col-a notop nobot">
+<div class="narrow">
+<blockquote class="plain">
+<p>“The team at 121 took on a multi-site, complex project with a very short timeline and nailed it. They came highly recommended from Magento and we were extremely pleased with their high level of expertise, project organization, and detailed reporting. They brought solutions to the table to configure a shared shopping cart across seven sites and were able to integrate Magento with our home-grown OMS. They went the extra mile and beyond to launch all seven sites on time and we couldn’t be happier with the results.”</p> <footer><cite><strong>Joe Spada</strong>, Director of Marketing, Helm</cite></footer></blockquote> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="bodysection bodysection-grey"><div class="container notop nobot"><h2 class="wide">eCommerce and Magento News</h2> <div class="bloggrid bloggrid-small">
+<ul><li><div class="li-a"><a href="https://www.121ecommerce.com/resources/blog/adobe-summit-2020-the-digital-experience/" style="">
+<div class="blog-image"><amp-img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="273" layout="responsive" sizes="(max-width: 680px) calc(100vw - 80px), (max-width: 1023px) 560px, 280px" src="https://www.121ecommerce.com/wp-content/uploads/2020/03/Adobe-Summit-Banner-2-410x273.jpg" width="410"></amp-img></div>
+<div class="blog-date">March 30, 2020</div>
+<div class="blog-title">Adobe Summit 2020 – The Digital Experience</div></a>
+</div></li><li><div class="li-a"><a href="https://www.121ecommerce.com/resources/blog/content-marketing-ecommerce-a-match-made-in-heaven/" style="">
+<div class="blog-image"><amp-img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="273" layout="responsive" sizes="(max-width: 680px) calc(100vw - 80px), (max-width: 1023px) 560px, 280px" src="https://www.121ecommerce.com/wp-content/uploads/2020/03/118-Content-Marketing-and-eCommerce-A-Match-Made-In-Heaven-410x273.jpg" width="410"></amp-img></div>
+<div class="blog-date">March 26, 2020</div>
+<div class="blog-title">Content Marketing &amp; eCommerce – A Match Made In Heaven!</div></a>
+</div></li><li><div class="li-a"><a href="https://www.121ecommerce.com/resources/blog/coronavirus-and-ecommerce-5-steps-to-take-during-this-trying-time/" style="">
+<div class="blog-image"><amp-img alt="prepare for coronavirus" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="273" layout="responsive" sizes="(max-width: 680px) calc(100vw - 80px), (max-width: 1023px) 560px, 280px" src="https://www.121ecommerce.com/wp-content/uploads/2020/03/119-Steps-eCommerce-Stores-Can-Take-To-Deal-With-The-Coronavirus-Crisis-410x273.jpg" width="410"></amp-img></div>
+<div class="blog-date">March 17, 2020</div>
+<div class="blog-title">Coronavirus COVID-19 and eCommerce: 5 Steps to Take During this Trying Time</div></a>
+</div></li> </ul><div class="text-center">
+<a class="btn" href="https://www.121ecommerce.com/resources/blog/" style="">View More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bodysection bodysection-blue bodysection-dark">
+<div class="container notop nobot">
+<div class="twocols">
+<div class="twocols-a">
+<div class="twocols-b">
+<div class="col">
+<div class="col-a notop1024 nobot1024">
+<div class="getstarted">
+<h2>Let's get started</h2>
+<p>Call <a href="tel:+12165866656">216.586.6656</a></p>
+</div>
+</div>
+</div><div class="col">
+<div class="col-a notop1024 nobot1024">
+<div class="hs-form-wrap">
+<!--[if lte IE 8]>
+			
+			<![endif]-->
+<div class="hbspt-form" id="hbspt-form-1585770272363-6380984905"><a class="hs-form stacked hs-form-private hsForm_4f683f0e-cae7-4e94-8ed8-fe1eeabce458 hs-form-4f683f0e-cae7-4e94-8ed8-fe1eeabce458 hs-form-4f683f0e-cae7-4e94-8ed8-fe1eeabce458_bb5fb798-09ec-4e7f-be1a-161eafc527fd" data-form-id="4f683f0e-cae7-4e94-8ed8-fe1eeabce458" data-portal-id="560742" data-reactid=".hbspt-forms-0" enctype="multipart/form-data" href="https://www.121ecommerce.com/#hbspt-form-1585770272363-6380984905" id="hsForm_4f683f0e-cae7-4e94-8ed8-fe1eeabce458" method="POST" novalidate="" target="target_iframe_4f683f0e-cae7-4e94-8ed8-fe1eeabce458"><fieldset class="form-columns-2" data-reactid=".hbspt-forms-0.1:$0"><div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.1:$0.1:$firstname"><label class="" data-reactid=".hbspt-forms-0.1:$0.1:$firstname.0" for="firstname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-firstname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your "><span data-reactid=".hbspt-forms-0.1:$0.1:$firstname.0.0"></span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$0.1:$firstname.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$0.1:$firstname.$firstname"><input autocomplete="given-name" class="hs-input" data-reactid=".hbspt-forms-0.1:$0.1:$firstname.$firstname.0" id="firstname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="firstname" placeholder="First Name*" type="text" value=""/></div></div><div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.1:$0.1:$lastname"><label class="" data-reactid=".hbspt-forms-0.1:$0.1:$lastname.0" for="lastname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-lastname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your "><span data-reactid=".hbspt-forms-0.1:$0.1:$lastname.0.0"></span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$0.1:$lastname.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$0.1:$lastname.$lastname"><input autocomplete="family-name" class="hs-input" data-reactid=".hbspt-forms-0.1:$0.1:$lastname.$lastname.0" id="lastname-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="lastname" placeholder="Last Name*" type="text" value=""/></div></div></fieldset><fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.1:$1"><div class="hs_email hs-email hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.1:$1.1:$email"><label class="" data-reactid=".hbspt-forms-0.1:$1.1:$email.0" for="email-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-email-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your "><span data-reactid=".hbspt-forms-0.1:$1.1:$email.0.0"></span><span class="hs-form-required" data-reactid=".hbspt-forms-0.1:$1.1:$email.0.1">*</span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$1.1:$email.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$1.1:$email.$email"><input autocomplete="email" class="hs-input" data-reactid=".hbspt-forms-0.1:$1.1:$email.$email.0" id="email-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="email" placeholder="Email Address*" required="" type="email" value=""/></div></div></fieldset><fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.1:$2"><div class="hs_phone hs-phone hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.1:$2.1:$phone"><label class="" data-reactid=".hbspt-forms-0.1:$2.1:$phone.0" for="phone-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-phone-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your "><span data-reactid=".hbspt-forms-0.1:$2.1:$phone.0.0"></span><span class="hs-form-required" data-reactid=".hbspt-forms-0.1:$2.1:$phone.0.1">*</span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$2.1:$phone.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$2.1:$phone.$phone"><input autocomplete="tel" class="hs-input" data-reactid=".hbspt-forms-0.1:$2.1:$phone.$phone.0" id="phone-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="phone" placeholder="Phone Number*" required="" type="tel" value=""/></div></div></fieldset><fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.1:$3"><div class="hs_how_did_you_hear_about_us_ hs-how_did_you_hear_about_us_ hs-fieldtype-select field hs-form-field" data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_"><label class="" data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.0" for="how_did_you_hear_about_us_-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-how_did_you_hear_about_us_-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your How did you hear about us?"><span data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.0.0">How did you hear about us?</span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_"><select class="hs-input" data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0" id="how_did_you_hear_about_us_-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="how_did_you_hear_about_us_"><option data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0.0" disabled="" selected="" value="">Please Select</option><option data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0.1:$Google search" value="Google search">Google search</option><option data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0.1:$Magento referral" value="Magento referral">Magento referral</option><option data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0.1:$Tradeshow" value="Tradeshow">Tradeshow</option><option data-reactid=".hbspt-forms-0.1:$3.1:$how_did_you_hear_about_us_.$how_did_you_hear_about_us_.0.1:$Other" value="Other">Other</option></select></div></div></fieldset><fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.1:$4"><div class="hs_message hs-message hs-fieldtype-textarea field hs-form-field" data-reactid=".hbspt-forms-0.1:$4.1:$message"><label class="" data-reactid=".hbspt-forms-0.1:$4.1:$message.0" for="message-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" id="label-message-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" placeholder="Enter your "><span data-reactid=".hbspt-forms-0.1:$4.1:$message.0.0"></span><span class="hs-form-required" data-reactid=".hbspt-forms-0.1:$4.1:$message.0.1">*</span></label><legend class="hs-field-desc" data-reactid=".hbspt-forms-0.1:$4.1:$message.1" style="display:none;"></legend><div class="input" data-reactid=".hbspt-forms-0.1:$4.1:$message.$message"><textarea class="hs-input" data-reactid=".hbspt-forms-0.1:$4.1:$message.$message.0" id="message-4f683f0e-cae7-4e94-8ed8-fe1eeabce458" name="message" placeholder="Message" required=""></textarea></div></div></fieldset><noscript data-reactid=".hbspt-forms-0.2"></noscript><div class="hs_submit hs-submit" data-reactid=".hbspt-forms-0.5"><div class="hs-field-desc" data-reactid=".hbspt-forms-0.5.0" style="display:none;"></div><div class="actions" data-reactid=".hbspt-forms-0.5.1"><input class="hs-button primary large" data-reactid=".hbspt-forms-0.5.1.0" type="submit" value="Send"/></div></div><noscript data-reactid=".hbspt-forms-0.6"></noscript><input data-reactid=".hbspt-forms-0.7" name="hs_context" type="hidden" value='{"rumScriptExecuteTime":2210.5200000005425,"rumServiceResponseTime":3590.234999999666,"rumFormRenderTime":0.7349999996222323,"rumTotalRenderTime":3592.595000000074,"rumTotalRequestTime":1377.7949999994235,"embedAtTimestamp":"1585770273491","formDefinitionUpdatedAt":"1551306729546","pageUrl":"https://www.121ecommerce.com/","pageTitle":"121eCommerce | Magento Development Agency","source":"FormsNext-static-3.476","timestamp":1585770273493,"userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","originalEmbedContext":{"portalId":"560742","formId":"4f683f0e-cae7-4e94-8ed8-fe1eeabce458","target":"#hbspt-form-1585770272363-6380984905"},"formTarget":"#hbspt-form-1585770272363-6380984905","correlationId":"a4f538fd-c2df-4bb6-82ee-f28a8127fc5e","hutk":"2096d548e588eb8fa5ebc089e39cd6fb"}'/></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="b2b-cta">
+<a href="/b2b-ecommerce">Explore B2B eCommerce	</a>
+</div>
+</main>
+<footer id="footer">
+<div class="container notop nobot">
+<div class="ftcols">
+<div class="ftcols-a">
+<div class="ftcol notop nobot">
+<p>121eCommerce<br/>
+				2940 Noble Rd<br/>
+				Cleveland Heights, OH 44121</p>
+</div>
+<div class="ftcol notop nobot">
+<a href="https://www.121ecommerce.com/resources/blog/121ecommerce-wins-best-tech-services-company-at-ohtechs-best-of-tech-awards/"><amp-img alt="Best Tech Services Company" height="64" layout="intrinsic" src="https://www.121ecommerce.com/wp-content/themes/121ecommerce/images/award.svg" width="290"></amp-img></a>
+</div>
+</div>
+</div>
+<div class="ftcols ftfade">
+<div class="ftcols-a">
+<div class="ftcol notop nobot">
+				© 2020 121eCommerce LLC
+			</div>
+<div class="ftcol notop nobot">
+<div class="ftmenu"><ul class="menu" id="menu-footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111" id="menu-item-111"><a href="https://www.121ecommerce.com/privacy-policy/">Privacy Policy</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518" id="menu-item-1518"><a href="https://www.121ecommerce.com/terms-and-conditions/">Terms &amp; Conditions</a></li></ul></div> <div class="sociallinks socialicons"><ul class="menu" id="menu-social-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108" id="menu-item-108"><a href="https://www.linkedin.com/in/benchafetz/"><span class="screen-reader-text">LinkedIn</span></a></li></ul></div> </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- Start of HubSpot Embed Code -->
+<!-- End of HubSpot Embed Code -->
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+
+Served from: www.121ecommerce.com @ 2020-04-01 14:17:24 by W3 Total Cache
+--><amp-img alt=":)" height="0" id="wpstats" layout="nodisplay" src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A7.9.1&amp;blog=158596413&amp;post=88&amp;tz=-4&amp;srv=www.121ecommerce.com&amp;host=www.121ecommerce.com&amp;ref=&amp;fcp=2325&amp;rand=0.008882081567002986" width="6"></amp-img></body></html>
