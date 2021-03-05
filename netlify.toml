@@ -1,4 +1,10 @@
 [[redirects]]
+    from = "https://amp.goodstuffapparel.com/*"
+    to = "https://goodstuffapparel.gr0.app/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
     from = "https://amp.willycalifornia.com/*"
     to = "https://willycalifornia.gr0.app/:splat"
     status = 200
