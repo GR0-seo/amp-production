@@ -4,6 +4,10 @@
         Content-Type = "text/plain"
 
 [[redirects]]
+    from = "/amp/index.html"
+    to = "https://diathrive.com/"
+
+[[redirects]]
     from = "/amp/*"
     to = "https://diathrive.com/:splat"
     
