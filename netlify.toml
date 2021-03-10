@@ -4,5 +4,9 @@
         Content-Type = "text/plain"
 
 [[redirects]]
+    from = "/amp/*"
+    to = "https://diathrive.com/:splat"
+    
+[[redirects]]
     from = "/*"
     to = "https://diathrive.com/:splat"
